@@ -1,0 +1,6304 @@
+{
+  "id": 1379070561595367431,
+  "conversation_id": "1377533527776841731",
+  "created_at": "2021-04-05 16:56:58 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:56:58",
+  "timezone": "+0300",
+  "user_id": 1138220407151050753,
+  "username": "yoxd55672405",
+  "name": "Yo XD",
+  "place": "",
+  "tweet": "@VanishingTacos @bunnygirl0w0 @thecodemiko @BarackObama @this_vid",
+  "language": "und",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/YoXD55672405/status/1379070561595367431",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "VanishingTacos",
+      "name": "VanishingTacos",
+      "id": "717536514293403648"
+    },
+    {
+      "screen_name": "bunnygirl0w0",
+      "name": "bunnykoo🍊🍊",
+      "id": "924941693853384705"
+    },
+    {
+      "screen_name": "thecodemiko",
+      "name": "Miko",
+      "id": "1239724701062254592"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379070529261330434,
+  "conversation_id": "1277609254455779328",
+  "created_at": "2021-04-05 16:56:50 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:56:50",
+  "timezone": "+0300",
+  "user_id": 1341655590704058373,
+  "username": "amirulandmama",
+  "name": "Amirulandmama",
+  "place": "",
+  "tweet": "@Indianandabori1 @HKrassenstein @realDonaldTrump @nytimes @FoxNews @MohamedBinZayed @jokowi @mohmahfudmd @RTErdogan @jack @Pontifex @fadlizon @edo751945 @SadhguruJV @Likud_Party @GOP @Mike_Pence @narendramodi @BarackObama @GenFlynn @GiuseppeConteIT @body2177 @tbutterflygirl @SpeakerPelosi @HillaryClinton @IlhanMN @lsarsour @RepRashida @BillGates @tomhanks @BillClinton @SecPompeo @ladygaga @TheBlueHouseENG @KarbofosnyjDyh @GretaThunberg @YoanaAline @ProfKlausSchwab @George_Friedman @NatRothschild1 @mama Luhut : bersahabat dengan Yesus ya ma ... , Mama : rumah kan dekat ....",
+  "language": "in",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/amirulandmama/status/1379070529261330434",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "Indianandabori1",
+      "name": "Indianandaborigin1",
+      "id": "1230782925358002176"
+    },
+    {
+      "screen_name": "HKrassenstein",
+      "name": "Heidi",
+      "id": "963790885937995777"
+    },
+    {
+      "screen_name": "realDonaldTrump",
+      "name": "Donald J. Trump",
+      "id": "25073877"
+    },
+    {
+      "screen_name": "nytimes",
+      "name": "The New York Times",
+      "id": "807095"
+    },
+    {
+      "screen_name": "FoxNews",
+      "name": "Fox News",
+      "id": "1367531"
+    },
+    {
+      "screen_name": "MohamedBinZayed",
+      "name": "محمد بن زايد",
+      "id": "471010707"
+    },
+    {
+      "screen_name": "jokowi",
+      "name": "Joko Widodo",
+      "id": "366987179"
+    },
+    {
+      "screen_name": "mohmahfudmd",
+      "name": "Mahfud MD",
+      "id": "282006208"
+    },
+    {
+      "screen_name": "RTErdogan",
+      "name": "Recep Tayyip Erdoğan",
+      "id": "68034431"
+    },
+    {
+      "screen_name": "jack",
+      "name": "jack",
+      "id": "12"
+    },
+    {
+      "screen_name": "Pontifex",
+      "name": "Pope Francis",
+      "id": "500704345"
+    },
+    {
+      "screen_name": "fadlizon",
+      "name": "FADLI ZON (Youtube: Fadli Zon Official)",
+      "id": "79139422"
+    },
+    {
+      "screen_name": "edo751945",
+      "name": "AM. Hendropriyono",
+      "id": "705987485797470209"
+    },
+    {
+      "screen_name": "SadhguruJV",
+      "name": "Sadhguru",
+      "id": "67611162"
+    },
+    {
+      "screen_name": "Likud_Party",
+      "name": "הליכוד",
+      "id": "23580789"
+    },
+    {
+      "screen_name": "GOP",
+      "name": "GOP",
+      "id": "11134252"
+    },
+    {
+      "screen_name": "Mike_Pence",
+      "name": "Mike Pence",
+      "id": "22203756"
+    },
+    {
+      "screen_name": "narendramodi",
+      "name": "Narendra Modi",
+      "id": "18839785"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "GenFlynn",
+      "name": "General Flynn",
+      "id": "240454812"
+    },
+    {
+      "screen_name": "GiuseppeConteIT",
+      "name": "Giuseppe Conte",
+      "id": "999578121123848192"
+    },
+    {
+      "screen_name": "body2177",
+      "name": "Vladimir",
+      "id": "823425599389794305"
+    },
+    {
+      "screen_name": "tbutterflygirl",
+      "name": "🦋Butterflygirl O S H U N🦋",
+      "id": "493572462"
+    },
+    {
+      "screen_name": "SpeakerPelosi",
+      "name": "Nancy Pelosi",
+      "id": "15764644"
+    },
+    {
+      "screen_name": "HillaryClinton",
+      "name": "Hillary Clinton",
+      "id": "1339835893"
+    },
+    {
+      "screen_name": "IlhanMN",
+      "name": "Ilhan Omar",
+      "id": "783792992"
+    },
+    {
+      "screen_name": "lsarsour",
+      "name": "Linda Sarsour",
+      "id": "27187343"
+    },
+    {
+      "screen_name": "RepRashida",
+      "name": "Congresswoman Rashida Tlaib",
+      "id": "1079769536730140672"
+    },
+    {
+      "screen_name": "BillGates",
+      "name": "Bill Gates",
+      "id": "50393960"
+    },
+    {
+      "screen_name": "tomhanks",
+      "name": "Tom Hanks",
+      "id": "50374439"
+    },
+    {
+      "screen_name": "BillClinton",
+      "name": "Bill Clinton",
+      "id": "1330457336"
+    },
+    {
+      "screen_name": "SecPompeo",
+      "name": "Secretary Pompeo",
+      "id": "988573326376427520"
+    },
+    {
+      "screen_name": "ladygaga",
+      "name": "Lady Gaga",
+      "id": "14230524"
+    },
+    {
+      "screen_name": "TheBlueHouseENG",
+      "name": "The Office of President Moon Jae-in",
+      "id": "1009306516514488321"
+    },
+    {
+      "screen_name": "KarbofosnyjDyh",
+      "name": "🇷🇺♂♀☦ВаларМоргулис☦♀♂ 🇷🇺",
+      "id": "822665704663089153"
+    },
+    {
+      "screen_name": "GretaThunberg",
+      "name": "Greta Thunberg",
+      "id": "1006419421244678144"
+    },
+    {
+      "screen_name": "YoanaAline",
+      "name": "Aline Yoana Tan (佩林)",
+      "id": "1344811770993549313"
+    },
+    {
+      "screen_name": "ProfKlausSchwab",
+      "name": "Klaus Schwab",
+      "id": "1329019426365169664"
+    },
+    {
+      "screen_name": "George_Friedman",
+      "name": "George Friedman",
+      "id": "3418156992"
+    },
+    {
+      "screen_name": "NatRothschild1",
+      "name": "Nat Rothschild",
+      "id": "705244917"
+    },
+    {
+      "screen_name": "mama",
+      "name": "MAMA",
+      "id": "330785786"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379070495459581953,
+  "conversation_id": "1379018763606106119",
+  "created_at": "2021-04-05 16:56:42 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:56:42",
+  "timezone": "+0300",
+  "user_id": 29605320,
+  "username": "tufftruth",
+  "name": "Tuff Truth",
+  "place": "",
+  "tweet": "@TheTexasSky Oh let me play... #WhitePrivilege = Donald Trump The American Dream = Barack Obama",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [
+    "whiteprivilege"
+  ],
+  "cashtags": [],
+  "link": "https://twitter.com/Tufftruth/status/1379070495459581953",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "TheTexasSky",
+      "name": "Sky",
+      "id": "1315652294931894272"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379070431777394698,
+  "conversation_id": "1378331478380142593",
+  "created_at": "2021-04-05 16:56:27 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:56:27",
+  "timezone": "+0300",
+  "user_id": 1155627737157132288,
+  "username": "scotts60930465",
+  "name": "Scott Simmons",
+  "place": "",
+  "tweet": "@BarackObama @MLB MLB just lost of shitload of fans. Voting without I.D. is unconstitutional. Furthermore, it is racist to think that minorities cannot obtain proper I.D.. What's wrong with them? Why is it that they are incapable?",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/ScottS60930465/status/1379070431777394698",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "MLB",
+      "name": "MLB",
+      "id": "18479513"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379070402882863104,
+  "conversation_id": "1379068040025899014",
+  "created_at": "2021-04-05 16:56:20 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:56:20",
+  "timezone": "+0300",
+  "user_id": 1325797641867898882,
+  "username": "adoresusieq",
+  "name": "Susanne Quansah",
+  "place": "",
+  "tweet": "@KingJames @StephenCurry30 @Beyonce @rihanna  @BarackObama @MichelleObama @ciara",
+  "language": "und",
+  "mentions": [
+    {
+      "screen_name": "stephencurry30",
+      "name": "stephen curry",
+      "id": "42562446"
+    },
+    {
+      "screen_name": "beyonce",
+      "name": "beyoncé",
+      "id": "31239408"
+    },
+    {
+      "screen_name": "rihanna",
+      "name": "rihanna",
+      "id": "79293791"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "michelleobama",
+      "name": "michelle obama",
+      "id": "409486555"
+    },
+    {
+      "screen_name": "ciara",
+      "name": "ciara",
+      "id": "28897926"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/adoresusieq/status/1379070402882863104",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379070326567473152,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:56:02 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:56:02",
+  "timezone": "+0300",
+  "user_id": 1373322882990891012,
+  "username": "flakkylake",
+  "name": "flakkylake",
+  "place": "",
+  "tweet": "@Enoch68029533 @BarackObama You’ve lost your mind. Because you go judging other people check yourself first.",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/flakkylake/status/1379070326567473152",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "Enoch68029533",
+      "name": "Mr Enoch 🦅🦅🇬🇧",
+      "id": "1258103898985947137"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379070319898591233,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:56:00 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:56:00",
+  "timezone": "+0300",
+  "user_id": 3037659009,
+  "username": "lasnpatterson",
+  "name": "LNP Estate",
+  "place": "",
+  "tweet": "@BroadwayMan123 @steveosaz @ghosties804 @BarackObama Yup. Genuine Christian values w/ this Trump dude - mudslinging, disparaging, and lying - all delivered in an Easter basket. 🤭🤡",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/lasnpatterson/status/1379070319898591233",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BroadwayMan123",
+      "name": "Tim 🇺🇸",
+      "id": "3248659733"
+    },
+    {
+      "screen_name": "steveosaz",
+      "name": "𝕾𝖙𝖊𝖛𝖊 𝕺𝖘𝖆𝖟",
+      "id": "474766562"
+    },
+    {
+      "screen_name": "ghosties804",
+      "name": "KK",
+      "id": "1372088941134942213"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379070279419236352,
+  "conversation_id": "1277609254455779328",
+  "created_at": "2021-04-05 16:55:51 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:55:51",
+  "timezone": "+0300",
+  "user_id": 1341655590704058373,
+  "username": "amirulandmama",
+  "name": "Amirulandmama",
+  "place": "",
+  "tweet": "@Indianandabori1 @HKrassenstein @realDonaldTrump @nytimes @FoxNews @MohamedBinZayed @jokowi @mohmahfudmd @RTErdogan @jack @Pontifex @fadlizon @edo751945 @SadhguruJV @Likud_Party @GOP @Mike_Pence @narendramodi @BarackObama @GenFlynn @GiuseppeConteIT @body2177 @tbutterflygirl @SpeakerPelosi @HillaryClinton @IlhanMN @lsarsour @RepRashida @BillGates @tomhanks @BillClinton @SecPompeo @ladygaga @TheBlueHouseENG @KarbofosnyjDyh @GretaThunberg @YoanaAline @ProfKlausSchwab @George_Friedman @NatRothschild1 @mama Mama : ..... , Jibril : ....",
+  "language": "in",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/amirulandmama/status/1379070279419236352",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "Indianandabori1",
+      "name": "Indianandaborigin1",
+      "id": "1230782925358002176"
+    },
+    {
+      "screen_name": "HKrassenstein",
+      "name": "Heidi",
+      "id": "963790885937995777"
+    },
+    {
+      "screen_name": "realDonaldTrump",
+      "name": "Donald J. Trump",
+      "id": "25073877"
+    },
+    {
+      "screen_name": "nytimes",
+      "name": "The New York Times",
+      "id": "807095"
+    },
+    {
+      "screen_name": "FoxNews",
+      "name": "Fox News",
+      "id": "1367531"
+    },
+    {
+      "screen_name": "MohamedBinZayed",
+      "name": "محمد بن زايد",
+      "id": "471010707"
+    },
+    {
+      "screen_name": "jokowi",
+      "name": "Joko Widodo",
+      "id": "366987179"
+    },
+    {
+      "screen_name": "mohmahfudmd",
+      "name": "Mahfud MD",
+      "id": "282006208"
+    },
+    {
+      "screen_name": "RTErdogan",
+      "name": "Recep Tayyip Erdoğan",
+      "id": "68034431"
+    },
+    {
+      "screen_name": "jack",
+      "name": "jack",
+      "id": "12"
+    },
+    {
+      "screen_name": "Pontifex",
+      "name": "Pope Francis",
+      "id": "500704345"
+    },
+    {
+      "screen_name": "fadlizon",
+      "name": "FADLI ZON (Youtube: Fadli Zon Official)",
+      "id": "79139422"
+    },
+    {
+      "screen_name": "edo751945",
+      "name": "AM. Hendropriyono",
+      "id": "705987485797470209"
+    },
+    {
+      "screen_name": "SadhguruJV",
+      "name": "Sadhguru",
+      "id": "67611162"
+    },
+    {
+      "screen_name": "Likud_Party",
+      "name": "הליכוד",
+      "id": "23580789"
+    },
+    {
+      "screen_name": "GOP",
+      "name": "GOP",
+      "id": "11134252"
+    },
+    {
+      "screen_name": "Mike_Pence",
+      "name": "Mike Pence",
+      "id": "22203756"
+    },
+    {
+      "screen_name": "narendramodi",
+      "name": "Narendra Modi",
+      "id": "18839785"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "GenFlynn",
+      "name": "General Flynn",
+      "id": "240454812"
+    },
+    {
+      "screen_name": "GiuseppeConteIT",
+      "name": "Giuseppe Conte",
+      "id": "999578121123848192"
+    },
+    {
+      "screen_name": "body2177",
+      "name": "Vladimir",
+      "id": "823425599389794305"
+    },
+    {
+      "screen_name": "tbutterflygirl",
+      "name": "🦋Butterflygirl O S H U N🦋",
+      "id": "493572462"
+    },
+    {
+      "screen_name": "SpeakerPelosi",
+      "name": "Nancy Pelosi",
+      "id": "15764644"
+    },
+    {
+      "screen_name": "HillaryClinton",
+      "name": "Hillary Clinton",
+      "id": "1339835893"
+    },
+    {
+      "screen_name": "IlhanMN",
+      "name": "Ilhan Omar",
+      "id": "783792992"
+    },
+    {
+      "screen_name": "lsarsour",
+      "name": "Linda Sarsour",
+      "id": "27187343"
+    },
+    {
+      "screen_name": "RepRashida",
+      "name": "Congresswoman Rashida Tlaib",
+      "id": "1079769536730140672"
+    },
+    {
+      "screen_name": "BillGates",
+      "name": "Bill Gates",
+      "id": "50393960"
+    },
+    {
+      "screen_name": "tomhanks",
+      "name": "Tom Hanks",
+      "id": "50374439"
+    },
+    {
+      "screen_name": "BillClinton",
+      "name": "Bill Clinton",
+      "id": "1330457336"
+    },
+    {
+      "screen_name": "SecPompeo",
+      "name": "Secretary Pompeo",
+      "id": "988573326376427520"
+    },
+    {
+      "screen_name": "ladygaga",
+      "name": "Lady Gaga",
+      "id": "14230524"
+    },
+    {
+      "screen_name": "TheBlueHouseENG",
+      "name": "The Office of President Moon Jae-in",
+      "id": "1009306516514488321"
+    },
+    {
+      "screen_name": "KarbofosnyjDyh",
+      "name": "🇷🇺♂♀☦ВаларМоргулис☦♀♂ 🇷🇺",
+      "id": "822665704663089153"
+    },
+    {
+      "screen_name": "GretaThunberg",
+      "name": "Greta Thunberg",
+      "id": "1006419421244678144"
+    },
+    {
+      "screen_name": "YoanaAline",
+      "name": "Aline Yoana Tan (佩林)",
+      "id": "1344811770993549313"
+    },
+    {
+      "screen_name": "ProfKlausSchwab",
+      "name": "Klaus Schwab",
+      "id": "1329019426365169664"
+    },
+    {
+      "screen_name": "George_Friedman",
+      "name": "George Friedman",
+      "id": "3418156992"
+    },
+    {
+      "screen_name": "NatRothschild1",
+      "name": "Nat Rothschild",
+      "id": "705244917"
+    },
+    {
+      "screen_name": "mama",
+      "name": "MAMA",
+      "id": "330785786"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069958500585472,
+  "conversation_id": "1378349414289350661",
+  "created_at": "2021-04-05 16:54:34 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:54:34",
+  "timezone": "+0300",
+  "user_id": 134951172,
+  "username": "thehellcurve",
+  "name": "THE HELL CURVE",
+  "place": "",
+  "tweet": "@Jewtastic \"I'm the Joo Barack Obama warned you about.\"  What does this mean, Ronald?",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/TheHellCurve/status/1379069958500585472",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "Jewtastic",
+      "name": "Ron M.",
+      "id": "215749355"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069937717817344,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:54:29 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:54:29",
+  "timezone": "+0300",
+  "user_id": 24691034,
+  "username": "swansystemhome",
+  "name": "Ford Financial Management",
+  "place": "",
+  "tweet": "@BarackObama What a wonderful picture! Happy Easter!",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/swansystemhome/status/1379069937717817344",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069901336408069,
+  "conversation_id": "1376528504490196993",
+  "created_at": "2021-04-05 16:54:21 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:54:21",
+  "timezone": "+0300",
+  "user_id": 1286635156053413889,
+  "username": "landrosa1",
+  "name": "Landrosa",
+  "place": "",
+  "tweet": "@BarackObama Condolences Mr. President",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/Landrosa1/status/1379069901336408069",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069874312523779,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:54:14 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:54:14",
+  "timezone": "+0300",
+  "user_id": 1356081930819821569,
+  "username": "abagooka",
+  "name": "Amwine Akim Bagooka",
+  "place": "",
+  "tweet": "@BarackObama @RepRoKhanna God blessed your family, keep the smile",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/ABagooka/status/1379069874312523779",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "RepRoKhanna",
+      "name": "Rep. Ro Khanna",
+      "id": "816298918468259841"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069852317536256,
+  "conversation_id": "1378331478380142593",
+  "created_at": "2021-04-05 16:54:09 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:54:09",
+  "timezone": "+0300",
+  "user_id": 267397988,
+  "username": "ratsmilk",
+  "name": "Gabe M.",
+  "place": "",
+  "tweet": "@IamPapi312 @JackPosobiec @BarackObama @MLB  https://t.co/frOF7HYsND",
+  "language": "und",
+  "mentions": [],
+  "urls": [],
+  "photos": [
+    "https://pbs.twimg.com/media/EyNwuO1WEAQCteT.jpg"
+  ],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/ratsmilk/status/1379069852317536256",
+  "retweet": false,
+  "quote_url": "",
+  "video": 1,
+  "thumbnail": "https://pbs.twimg.com/media/EyNwuO1WEAQCteT.jpg",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "IamPapi312",
+      "name": "Papi",
+      "id": "27458931"
+    },
+    {
+      "screen_name": "JackPosobiec",
+      "name": "Jack Posobiec",
+      "id": "592730371"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069769735753731,
+  "conversation_id": "1277609254455779328",
+  "created_at": "2021-04-05 16:53:49 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:53:49",
+  "timezone": "+0300",
+  "user_id": 1341655590704058373,
+  "username": "amirulandmama",
+  "name": "Amirulandmama",
+  "place": "",
+  "tweet": "@Indianandabori1 @HKrassenstein @realDonaldTrump @nytimes @FoxNews @MohamedBinZayed @jokowi @mohmahfudmd @RTErdogan @jack @Pontifex @fadlizon @edo751945 @SadhguruJV @Likud_Party @GOP @Mike_Pence @narendramodi @BarackObama @GenFlynn @GiuseppeConteIT @body2177 @tbutterflygirl @SpeakerPelosi @HillaryClinton @IlhanMN @lsarsour @RepRashida @BillGates @tomhanks @BillClinton @SecPompeo @ladygaga @TheBlueHouseENG @KarbofosnyjDyh @GretaThunberg @YoanaAline @ProfKlausSchwab @George_Friedman @NatRothschild1 @mama Luhut : cuma ngak sombong takabur , wartawan tanya kok bisa terbang ??? Malah dijawab dengan merendah ... , Itu salah kameramen yang lagi liput saya ..... , Mama : aslinya umat udah kagum ....",
+  "language": "in",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/amirulandmama/status/1379069769735753731",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "Indianandabori1",
+      "name": "Indianandaborigin1",
+      "id": "1230782925358002176"
+    },
+    {
+      "screen_name": "HKrassenstein",
+      "name": "Heidi",
+      "id": "963790885937995777"
+    },
+    {
+      "screen_name": "realDonaldTrump",
+      "name": "Donald J. Trump",
+      "id": "25073877"
+    },
+    {
+      "screen_name": "nytimes",
+      "name": "The New York Times",
+      "id": "807095"
+    },
+    {
+      "screen_name": "FoxNews",
+      "name": "Fox News",
+      "id": "1367531"
+    },
+    {
+      "screen_name": "MohamedBinZayed",
+      "name": "محمد بن زايد",
+      "id": "471010707"
+    },
+    {
+      "screen_name": "jokowi",
+      "name": "Joko Widodo",
+      "id": "366987179"
+    },
+    {
+      "screen_name": "mohmahfudmd",
+      "name": "Mahfud MD",
+      "id": "282006208"
+    },
+    {
+      "screen_name": "RTErdogan",
+      "name": "Recep Tayyip Erdoğan",
+      "id": "68034431"
+    },
+    {
+      "screen_name": "jack",
+      "name": "jack",
+      "id": "12"
+    },
+    {
+      "screen_name": "Pontifex",
+      "name": "Pope Francis",
+      "id": "500704345"
+    },
+    {
+      "screen_name": "fadlizon",
+      "name": "FADLI ZON (Youtube: Fadli Zon Official)",
+      "id": "79139422"
+    },
+    {
+      "screen_name": "edo751945",
+      "name": "AM. Hendropriyono",
+      "id": "705987485797470209"
+    },
+    {
+      "screen_name": "SadhguruJV",
+      "name": "Sadhguru",
+      "id": "67611162"
+    },
+    {
+      "screen_name": "Likud_Party",
+      "name": "הליכוד",
+      "id": "23580789"
+    },
+    {
+      "screen_name": "GOP",
+      "name": "GOP",
+      "id": "11134252"
+    },
+    {
+      "screen_name": "Mike_Pence",
+      "name": "Mike Pence",
+      "id": "22203756"
+    },
+    {
+      "screen_name": "narendramodi",
+      "name": "Narendra Modi",
+      "id": "18839785"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "GenFlynn",
+      "name": "General Flynn",
+      "id": "240454812"
+    },
+    {
+      "screen_name": "GiuseppeConteIT",
+      "name": "Giuseppe Conte",
+      "id": "999578121123848192"
+    },
+    {
+      "screen_name": "body2177",
+      "name": "Vladimir",
+      "id": "823425599389794305"
+    },
+    {
+      "screen_name": "tbutterflygirl",
+      "name": "🦋Butterflygirl O S H U N🦋",
+      "id": "493572462"
+    },
+    {
+      "screen_name": "SpeakerPelosi",
+      "name": "Nancy Pelosi",
+      "id": "15764644"
+    },
+    {
+      "screen_name": "HillaryClinton",
+      "name": "Hillary Clinton",
+      "id": "1339835893"
+    },
+    {
+      "screen_name": "IlhanMN",
+      "name": "Ilhan Omar",
+      "id": "783792992"
+    },
+    {
+      "screen_name": "lsarsour",
+      "name": "Linda Sarsour",
+      "id": "27187343"
+    },
+    {
+      "screen_name": "RepRashida",
+      "name": "Congresswoman Rashida Tlaib",
+      "id": "1079769536730140672"
+    },
+    {
+      "screen_name": "BillGates",
+      "name": "Bill Gates",
+      "id": "50393960"
+    },
+    {
+      "screen_name": "tomhanks",
+      "name": "Tom Hanks",
+      "id": "50374439"
+    },
+    {
+      "screen_name": "BillClinton",
+      "name": "Bill Clinton",
+      "id": "1330457336"
+    },
+    {
+      "screen_name": "SecPompeo",
+      "name": "Secretary Pompeo",
+      "id": "988573326376427520"
+    },
+    {
+      "screen_name": "ladygaga",
+      "name": "Lady Gaga",
+      "id": "14230524"
+    },
+    {
+      "screen_name": "TheBlueHouseENG",
+      "name": "The Office of President Moon Jae-in",
+      "id": "1009306516514488321"
+    },
+    {
+      "screen_name": "KarbofosnyjDyh",
+      "name": "🇷🇺♂♀☦ВаларМоргулис☦♀♂ 🇷🇺",
+      "id": "822665704663089153"
+    },
+    {
+      "screen_name": "GretaThunberg",
+      "name": "Greta Thunberg",
+      "id": "1006419421244678144"
+    },
+    {
+      "screen_name": "YoanaAline",
+      "name": "Aline Yoana Tan (佩林)",
+      "id": "1344811770993549313"
+    },
+    {
+      "screen_name": "ProfKlausSchwab",
+      "name": "Klaus Schwab",
+      "id": "1329019426365169664"
+    },
+    {
+      "screen_name": "George_Friedman",
+      "name": "George Friedman",
+      "id": "3418156992"
+    },
+    {
+      "screen_name": "NatRothschild1",
+      "name": "Nat Rothschild",
+      "id": "705244917"
+    },
+    {
+      "screen_name": "mama",
+      "name": "MAMA",
+      "id": "330785786"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069662902816768,
+  "conversation_id": "1379044670332866560",
+  "created_at": "2021-04-05 16:53:24 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:53:24",
+  "timezone": "+0300",
+  "user_id": 330085801,
+  "username": "adlgator86",
+  "name": "DrewL 😷Wear A Mask!😷",
+  "place": "",
+  "tweet": "@Freyja1987 Several years ago, a poll showed that 42% of Louisiana Republicans blamed Barack Obama for the government’s poor response to Hurricane Katrina, even though the hurricane hit over three years *before* he was elected president the first time. Facts are optional with this crowd. 🤷🏼‍♂️",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/adlgator86/status/1379069662902816768",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "Freyja1987",
+      "name": "Valkyrie87",
+      "id": "2859515297"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069550285705216,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:52:57 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:52:57",
+  "timezone": "+0300",
+  "user_id": 1299085228355596289,
+  "username": "launchbackmcqu1",
+  "name": "Launchbackmcquack",
+  "place": "",
+  "tweet": "@conbar51 @WayneSisk1 @BarackObama he wasn't the best as it's clear with his military attacks to the middle east n' shit but comparing him to Tr*mp... He seemed like a blessing",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/Launchbackmcqu1/status/1379069550285705216",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "conbar51",
+      "name": "con bar🐟❤️🐬🇺🇸🐋💗🌊",
+      "id": "817827189265670146"
+    },
+    {
+      "screen_name": "WayneSisk1",
+      "name": "Wayne Sisk 📚 🇺🇸",
+      "id": "312971371"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069475086077952,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:52:39 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:52:39",
+  "timezone": "+0300",
+  "user_id": 3239761613,
+  "username": "prosselizabeth",
+  "name": "Mary-Elizabeth Pross",
+  "place": "",
+  "tweet": "@BarackObama @liquid82 I’m so glad to see this.  I love this family.  Thank you.",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/ProssElizabeth/status/1379069475086077952",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "liquid82",
+      "name": "LEGEND Blue WAVE 🌊✊🏾🌪",
+      "id": "19897407"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069454705889281,
+  "conversation_id": "1379069454705889281",
+  "created_at": "2021-04-05 16:52:34 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:52:34",
+  "timezone": "+0300",
+  "user_id": 1282866179900571650,
+  "username": "jamesj1775",
+  "name": "🇺🇸Jamesj1775🇺🇸",
+  "place": "",
+  "tweet": "@BarackObama is an idiot to think his words are not documented for the world to recall is just priceless. #Hypocrisy",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [
+    "hypocrisy"
+  ],
+  "cashtags": [],
+  "link": "https://twitter.com/jamesj1775/status/1379069454705889281",
+  "retweet": false,
+  "quote_url": "https://twitter.com/crrja5/status/1379067638610071554",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069411303170049,
+  "conversation_id": "1277609254455779328",
+  "created_at": "2021-04-05 16:52:24 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:52:24",
+  "timezone": "+0300",
+  "user_id": 1341655590704058373,
+  "username": "amirulandmama",
+  "name": "Amirulandmama",
+  "place": "",
+  "tweet": "@Indianandabori1 @HKrassenstein @realDonaldTrump @nytimes @FoxNews @MohamedBinZayed @jokowi @mohmahfudmd @RTErdogan @jack @Pontifex @fadlizon @edo751945 @SadhguruJV @Likud_Party @GOP @Mike_Pence @narendramodi @BarackObama @GenFlynn @GiuseppeConteIT @body2177 @tbutterflygirl @SpeakerPelosi @HillaryClinton @IlhanMN @lsarsour @RepRashida @BillGates @tomhanks @BillClinton @SecPompeo @ladygaga @TheBlueHouseENG @KarbofosnyjDyh @GretaThunberg @YoanaAline @ProfKlausSchwab @George_Friedman @NatRothschild1 @mama Luhut : terbang ... , Tubuh ringan seperti tanpa jasad ragawi .... , Ini ciri khas malakh jibril ...... , Sakti karomah mujijat ....",
+  "language": "in",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/amirulandmama/status/1379069411303170049",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "Indianandabori1",
+      "name": "Indianandaborigin1",
+      "id": "1230782925358002176"
+    },
+    {
+      "screen_name": "HKrassenstein",
+      "name": "Heidi",
+      "id": "963790885937995777"
+    },
+    {
+      "screen_name": "realDonaldTrump",
+      "name": "Donald J. Trump",
+      "id": "25073877"
+    },
+    {
+      "screen_name": "nytimes",
+      "name": "The New York Times",
+      "id": "807095"
+    },
+    {
+      "screen_name": "FoxNews",
+      "name": "Fox News",
+      "id": "1367531"
+    },
+    {
+      "screen_name": "MohamedBinZayed",
+      "name": "محمد بن زايد",
+      "id": "471010707"
+    },
+    {
+      "screen_name": "jokowi",
+      "name": "Joko Widodo",
+      "id": "366987179"
+    },
+    {
+      "screen_name": "mohmahfudmd",
+      "name": "Mahfud MD",
+      "id": "282006208"
+    },
+    {
+      "screen_name": "RTErdogan",
+      "name": "Recep Tayyip Erdoğan",
+      "id": "68034431"
+    },
+    {
+      "screen_name": "jack",
+      "name": "jack",
+      "id": "12"
+    },
+    {
+      "screen_name": "Pontifex",
+      "name": "Pope Francis",
+      "id": "500704345"
+    },
+    {
+      "screen_name": "fadlizon",
+      "name": "FADLI ZON (Youtube: Fadli Zon Official)",
+      "id": "79139422"
+    },
+    {
+      "screen_name": "edo751945",
+      "name": "AM. Hendropriyono",
+      "id": "705987485797470209"
+    },
+    {
+      "screen_name": "SadhguruJV",
+      "name": "Sadhguru",
+      "id": "67611162"
+    },
+    {
+      "screen_name": "Likud_Party",
+      "name": "הליכוד",
+      "id": "23580789"
+    },
+    {
+      "screen_name": "GOP",
+      "name": "GOP",
+      "id": "11134252"
+    },
+    {
+      "screen_name": "Mike_Pence",
+      "name": "Mike Pence",
+      "id": "22203756"
+    },
+    {
+      "screen_name": "narendramodi",
+      "name": "Narendra Modi",
+      "id": "18839785"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "GenFlynn",
+      "name": "General Flynn",
+      "id": "240454812"
+    },
+    {
+      "screen_name": "GiuseppeConteIT",
+      "name": "Giuseppe Conte",
+      "id": "999578121123848192"
+    },
+    {
+      "screen_name": "body2177",
+      "name": "Vladimir",
+      "id": "823425599389794305"
+    },
+    {
+      "screen_name": "tbutterflygirl",
+      "name": "🦋Butterflygirl O S H U N🦋",
+      "id": "493572462"
+    },
+    {
+      "screen_name": "SpeakerPelosi",
+      "name": "Nancy Pelosi",
+      "id": "15764644"
+    },
+    {
+      "screen_name": "HillaryClinton",
+      "name": "Hillary Clinton",
+      "id": "1339835893"
+    },
+    {
+      "screen_name": "IlhanMN",
+      "name": "Ilhan Omar",
+      "id": "783792992"
+    },
+    {
+      "screen_name": "lsarsour",
+      "name": "Linda Sarsour",
+      "id": "27187343"
+    },
+    {
+      "screen_name": "RepRashida",
+      "name": "Congresswoman Rashida Tlaib",
+      "id": "1079769536730140672"
+    },
+    {
+      "screen_name": "BillGates",
+      "name": "Bill Gates",
+      "id": "50393960"
+    },
+    {
+      "screen_name": "tomhanks",
+      "name": "Tom Hanks",
+      "id": "50374439"
+    },
+    {
+      "screen_name": "BillClinton",
+      "name": "Bill Clinton",
+      "id": "1330457336"
+    },
+    {
+      "screen_name": "SecPompeo",
+      "name": "Secretary Pompeo",
+      "id": "988573326376427520"
+    },
+    {
+      "screen_name": "ladygaga",
+      "name": "Lady Gaga",
+      "id": "14230524"
+    },
+    {
+      "screen_name": "TheBlueHouseENG",
+      "name": "The Office of President Moon Jae-in",
+      "id": "1009306516514488321"
+    },
+    {
+      "screen_name": "KarbofosnyjDyh",
+      "name": "🇷🇺♂♀☦ВаларМоргулис☦♀♂ 🇷🇺",
+      "id": "822665704663089153"
+    },
+    {
+      "screen_name": "GretaThunberg",
+      "name": "Greta Thunberg",
+      "id": "1006419421244678144"
+    },
+    {
+      "screen_name": "YoanaAline",
+      "name": "Aline Yoana Tan (佩林)",
+      "id": "1344811770993549313"
+    },
+    {
+      "screen_name": "ProfKlausSchwab",
+      "name": "Klaus Schwab",
+      "id": "1329019426365169664"
+    },
+    {
+      "screen_name": "George_Friedman",
+      "name": "George Friedman",
+      "id": "3418156992"
+    },
+    {
+      "screen_name": "NatRothschild1",
+      "name": "Nat Rothschild",
+      "id": "705244917"
+    },
+    {
+      "screen_name": "mama",
+      "name": "MAMA",
+      "id": "330785786"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069334111318024,
+  "conversation_id": "1379069334111318024",
+  "created_at": "2021-04-05 16:52:05 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:52:05",
+  "timezone": "+0300",
+  "user_id": 1279569139061993473,
+  "username": "media_byron",
+  "name": "⁶",
+  "place": "",
+  "tweet": "Barack Obama",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/media_byron/status/1379069334111318024",
+  "retweet": false,
+  "quote_url": "https://twitter.com/celestiaigyu/status/1378174744323891209",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069330122440707,
+  "conversation_id": "1379069330122440707",
+  "created_at": "2021-04-05 16:52:04 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:52:04",
+  "timezone": "+0300",
+  "user_id": 1013921889150906369,
+  "username": "antifashyst",
+  "name": "Daphne -Vote Blue- Shepherd",
+  "place": "",
+  "tweet": "You \"conservative\" folks are so transparent.  Barack Obama: tan suit - OUTRAGEOUS! Michelle Obama: sleeveless - OUTRAGEOUS! Melania: nude photos - What nude photos? Melania: nipples showing - Classy! Dr. Jill: \"fishnets\" - OUTRAGEOUS!  Go crawl back under your rocks, hypocrites.",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/antifashyst/status/1379069330122440707",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069282357669892,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:51:53 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:51:53",
+  "timezone": "+0300",
+  "user_id": 1279717979647668226,
+  "username": "sankarvasugi",
+  "name": "S Vasugi Sankar",
+  "place": "",
+  "tweet": "@BarackObama  https://t.co/IA5zBzVB7B",
+  "language": "und",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/SankarVasugi/status/1379069282357669892",
+  "retweet": false,
+  "quote_url": "",
+  "video": 1,
+  "thumbnail": "https://pbs.twimg.com/ext_tw_video_thumb/1379068448207032322/pu/img/-sNt3BpeCs4Q24wO.jpg",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069210916134912,
+  "conversation_id": "1379069210916134912",
+  "created_at": "2021-04-05 16:51:36 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:51:36",
+  "timezone": "+0300",
+  "user_id": 1372465929691394048,
+  "username": "chuong1305",
+  "name": "HuyChuong1305",
+  "place": "",
+  "tweet": "Good project @Yunix_Protocol @TNHA91926646 @lethanhnha1305 @BarackObama",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "yunix_protocol",
+      "name": "yunix protocol",
+      "id": "1343250808079482881"
+    },
+    {
+      "screen_name": "tnha91926646",
+      "name": "tnha",
+      "id": "1250798319179194368"
+    },
+    {
+      "screen_name": "lethanhnha1305",
+      "name": "lethanhnha",
+      "id": "743051295276208133"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/chuong1305/status/1379069210916134912",
+  "retweet": false,
+  "quote_url": "https://twitter.com/Yunix_Protocol/status/1378929702107148295",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069183670038528,
+  "conversation_id": "1379069183670038528",
+  "created_at": "2021-04-05 16:51:29 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:51:29",
+  "timezone": "+0300",
+  "user_id": 406434502,
+  "username": "danadamspgh",
+  "name": "Dan Adams",
+  "place": "",
+  "tweet": "...@BarackObama  https://t.co/VDfjHv24uJ",
+  "language": "und",
+  "mentions": [
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    }
+  ],
+  "urls": [],
+  "photos": [
+    "https://pbs.twimg.com/media/EyNwGuRXAAIho2P.jpg"
+  ],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/DanAdamsPGH/status/1379069183670038528",
+  "retweet": false,
+  "quote_url": "",
+  "video": 1,
+  "thumbnail": "https://pbs.twimg.com/media/EyNwGuRXAAIho2P.jpg",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069178980655107,
+  "conversation_id": "1379069178980655107",
+  "created_at": "2021-04-05 16:51:28 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:51:28",
+  "timezone": "+0300",
+  "user_id": 38839140,
+  "username": "sorbing",
+  "name": "Kibs",
+  "place": "",
+  "tweet": "@BarackObama please watch this documentary  https://t.co/lbCk116hf9",
+  "language": "en",
+  "mentions": [],
+  "urls": [
+    "https://www.netflix.com/title/81014008?s=i&trkid=13747225"
+  ],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/SorBing/status/1379069178980655107",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069137901654018,
+  "conversation_id": "1379065541990748164",
+  "created_at": "2021-04-05 16:51:18 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:51:18",
+  "timezone": "+0300",
+  "user_id": 1109253000374247424,
+  "username": "barbarawinsock",
+  "name": "Trump2020",
+  "place": "",
+  "tweet": "@TrinaSolis17 @SaifeHamid @BarackObama @POTUS That was never true. He'd make a good used car salesman",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/BarbaraWinsock/status/1379069137901654018",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "TrinaSolis17",
+      "name": "Trina Solis",
+      "id": "1320424215309250560"
+    },
+    {
+      "screen_name": "SaifeHamid",
+      "name": "Hamid saif.🗺",
+      "id": "1240943069878538241"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "POTUS",
+      "name": "President Biden",
+      "id": "1349149096909668363"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069131543117829,
+  "conversation_id": "1378331478380142593",
+  "created_at": "2021-04-05 16:51:17 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:51:17",
+  "timezone": "+0300",
+  "user_id": 906198168991277056,
+  "username": "kbr150",
+  "name": "Vick K",
+  "place": "",
+  "tweet": "@BarackObama @MLB Amazing how a former President can get away with lies but hey he is half black so it's fine to do so!",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/kbr150/status/1379069131543117829",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "MLB",
+      "name": "MLB",
+      "id": "18479513"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069064186712068,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:51:01 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:51:01",
+  "timezone": "+0300",
+  "user_id": 1325336915231453184,
+  "username": "ramnivas389",
+  "name": "Ramnivas389",
+  "place": "",
+  "tweet": "@BarackObama I am Indian love 😍",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/ramnivas389/status/1379069064186712068",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069062144274438,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:51:00 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:51:00",
+  "timezone": "+0300",
+  "user_id": 1299085228355596289,
+  "username": "launchbackmcqu1",
+  "name": "Launchbackmcquack",
+  "place": "",
+  "tweet": "@40_Ronda @BarackObama They are commiting fucking war crimes and claiming it as Patriotism,KILLING CHILDREN IN THE MIDDLE EAST WON'T \"CURE\" THE DAMAGE 9/11 HAS DONE FOR FUCKS SAKE",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/Launchbackmcqu1/status/1379069062144274438",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "40_Ronda",
+      "name": "°• Ronda",
+      "id": "790681628179857408"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069039167860739,
+  "conversation_id": "1379049769029537793",
+  "created_at": "2021-04-05 16:50:55 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:50:55",
+  "timezone": "+0300",
+  "user_id": 971172634116452357,
+  "username": "marouane_euw",
+  "name": "Marouane 🦈",
+  "place": "",
+  "tweet": "@NennoLoL @hajime_isayama @mappa @AoTWiki @BarackObama @jairbolsonaro @LilNasX love u",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/Marouane_EUW/status/1379069039167860739",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "NennoLoL",
+      "name": "no avi warrior",
+      "id": "605740037"
+    },
+    {
+      "screen_name": "hajime_isayama",
+      "name": "Hajime Isayama",
+      "id": "1490174888"
+    },
+    {
+      "screen_name": "mappa",
+      "name": "Matt",
+      "id": "86152864"
+    },
+    {
+      "screen_name": "AoTWiki",
+      "name": "Attack on Titan Wiki",
+      "id": "3119117773"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "jairbolsonaro",
+      "name": "Jair M. Bolsonaro",
+      "id": "128372940"
+    },
+    {
+      "screen_name": "LilNasX",
+      "name": "nope 🏹",
+      "id": "754006735468261376"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379069009447034886,
+  "conversation_id": "1379069009447034886",
+  "created_at": "2021-04-05 16:50:48 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:50:48",
+  "timezone": "+0300",
+  "user_id": 720318439,
+  "username": "sharklady57",
+  "name": "Sharklady 🦈",
+  "place": "",
+  "tweet": "@BarackObama @LoriLightfoot Comment?  🤨",
+  "language": "fr",
+  "mentions": [
+    {
+      "screen_name": "lorilightfoot",
+      "name": "lori lightfoot",
+      "id": "991509181109817344"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/Sharklady57/status/1379069009447034886",
+  "retweet": false,
+  "quote_url": "https://twitter.com/breaking911/status/1378969794020577282",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068959811506178,
+  "conversation_id": "1277609254455779328",
+  "created_at": "2021-04-05 16:50:36 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:50:36",
+  "timezone": "+0300",
+  "user_id": 1341655590704058373,
+  "username": "amirulandmama",
+  "name": "Amirulandmama",
+  "place": "",
+  "tweet": "@Indianandabori1 @HKrassenstein @realDonaldTrump @nytimes @FoxNews @MohamedBinZayed @jokowi @mohmahfudmd @RTErdogan @jack @Pontifex @fadlizon @edo751945 @SadhguruJV @Likud_Party @GOP @Mike_Pence @narendramodi @BarackObama @GenFlynn @GiuseppeConteIT @body2177 @tbutterflygirl @SpeakerPelosi @HillaryClinton @IlhanMN @lsarsour @RepRashida @BillGates @tomhanks @BillClinton @SecPompeo @ladygaga @TheBlueHouseENG @KarbofosnyjDyh @GretaThunberg @YoanaAline @ProfKlausSchwab @George_Friedman @NatRothschild1 @mama .....",
+  "language": "und",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/amirulandmama/status/1379068959811506178",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "Indianandabori1",
+      "name": "Indianandaborigin1",
+      "id": "1230782925358002176"
+    },
+    {
+      "screen_name": "HKrassenstein",
+      "name": "Heidi",
+      "id": "963790885937995777"
+    },
+    {
+      "screen_name": "realDonaldTrump",
+      "name": "Donald J. Trump",
+      "id": "25073877"
+    },
+    {
+      "screen_name": "nytimes",
+      "name": "The New York Times",
+      "id": "807095"
+    },
+    {
+      "screen_name": "FoxNews",
+      "name": "Fox News",
+      "id": "1367531"
+    },
+    {
+      "screen_name": "MohamedBinZayed",
+      "name": "محمد بن زايد",
+      "id": "471010707"
+    },
+    {
+      "screen_name": "jokowi",
+      "name": "Joko Widodo",
+      "id": "366987179"
+    },
+    {
+      "screen_name": "mohmahfudmd",
+      "name": "Mahfud MD",
+      "id": "282006208"
+    },
+    {
+      "screen_name": "RTErdogan",
+      "name": "Recep Tayyip Erdoğan",
+      "id": "68034431"
+    },
+    {
+      "screen_name": "jack",
+      "name": "jack",
+      "id": "12"
+    },
+    {
+      "screen_name": "Pontifex",
+      "name": "Pope Francis",
+      "id": "500704345"
+    },
+    {
+      "screen_name": "fadlizon",
+      "name": "FADLI ZON (Youtube: Fadli Zon Official)",
+      "id": "79139422"
+    },
+    {
+      "screen_name": "edo751945",
+      "name": "AM. Hendropriyono",
+      "id": "705987485797470209"
+    },
+    {
+      "screen_name": "SadhguruJV",
+      "name": "Sadhguru",
+      "id": "67611162"
+    },
+    {
+      "screen_name": "Likud_Party",
+      "name": "הליכוד",
+      "id": "23580789"
+    },
+    {
+      "screen_name": "GOP",
+      "name": "GOP",
+      "id": "11134252"
+    },
+    {
+      "screen_name": "Mike_Pence",
+      "name": "Mike Pence",
+      "id": "22203756"
+    },
+    {
+      "screen_name": "narendramodi",
+      "name": "Narendra Modi",
+      "id": "18839785"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "GenFlynn",
+      "name": "General Flynn",
+      "id": "240454812"
+    },
+    {
+      "screen_name": "GiuseppeConteIT",
+      "name": "Giuseppe Conte",
+      "id": "999578121123848192"
+    },
+    {
+      "screen_name": "body2177",
+      "name": "Vladimir",
+      "id": "823425599389794305"
+    },
+    {
+      "screen_name": "tbutterflygirl",
+      "name": "🦋Butterflygirl O S H U N🦋",
+      "id": "493572462"
+    },
+    {
+      "screen_name": "SpeakerPelosi",
+      "name": "Nancy Pelosi",
+      "id": "15764644"
+    },
+    {
+      "screen_name": "HillaryClinton",
+      "name": "Hillary Clinton",
+      "id": "1339835893"
+    },
+    {
+      "screen_name": "IlhanMN",
+      "name": "Ilhan Omar",
+      "id": "783792992"
+    },
+    {
+      "screen_name": "lsarsour",
+      "name": "Linda Sarsour",
+      "id": "27187343"
+    },
+    {
+      "screen_name": "RepRashida",
+      "name": "Congresswoman Rashida Tlaib",
+      "id": "1079769536730140672"
+    },
+    {
+      "screen_name": "BillGates",
+      "name": "Bill Gates",
+      "id": "50393960"
+    },
+    {
+      "screen_name": "tomhanks",
+      "name": "Tom Hanks",
+      "id": "50374439"
+    },
+    {
+      "screen_name": "BillClinton",
+      "name": "Bill Clinton",
+      "id": "1330457336"
+    },
+    {
+      "screen_name": "SecPompeo",
+      "name": "Secretary Pompeo",
+      "id": "988573326376427520"
+    },
+    {
+      "screen_name": "ladygaga",
+      "name": "Lady Gaga",
+      "id": "14230524"
+    },
+    {
+      "screen_name": "TheBlueHouseENG",
+      "name": "The Office of President Moon Jae-in",
+      "id": "1009306516514488321"
+    },
+    {
+      "screen_name": "KarbofosnyjDyh",
+      "name": "🇷🇺♂♀☦ВаларМоргулис☦♀♂ 🇷🇺",
+      "id": "822665704663089153"
+    },
+    {
+      "screen_name": "GretaThunberg",
+      "name": "Greta Thunberg",
+      "id": "1006419421244678144"
+    },
+    {
+      "screen_name": "YoanaAline",
+      "name": "Aline Yoana Tan (佩林)",
+      "id": "1344811770993549313"
+    },
+    {
+      "screen_name": "ProfKlausSchwab",
+      "name": "Klaus Schwab",
+      "id": "1329019426365169664"
+    },
+    {
+      "screen_name": "George_Friedman",
+      "name": "George Friedman",
+      "id": "3418156992"
+    },
+    {
+      "screen_name": "NatRothschild1",
+      "name": "Nat Rothschild",
+      "id": "705244917"
+    },
+    {
+      "screen_name": "mama",
+      "name": "MAMA",
+      "id": "330785786"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068956678365185,
+  "conversation_id": "1379068956678365185",
+  "created_at": "2021-04-05 16:50:35 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:50:35",
+  "timezone": "+0300",
+  "user_id": 34583060,
+  "username": "niceday00",
+  "name": "W. AKA W.",
+  "place": "",
+  "tweet": "Please free John @officialmcafee !!!  @POTUS @VP   CC : @BarackObama",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "officialmcafee",
+      "name": "john mcafee",
+      "id": "961445378"
+    },
+    {
+      "screen_name": "potus",
+      "name": "president biden",
+      "id": "1349149096909668363"
+    },
+    {
+      "screen_name": "vp",
+      "name": "vice president kamala harris",
+      "id": "803694179079458816"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/niceday00/status/1379068956678365185",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068937854406661,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:50:31 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:50:31",
+  "timezone": "+0300",
+  "user_id": 1166321079301869568,
+  "username": "gregorio12061",
+  "name": "gregorio1206",
+  "place": "",
+  "tweet": "@BarackObama God bless you Family!",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/gregorio12061/status/1379068937854406661",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068926110400518,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:50:28 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:50:28",
+  "timezone": "+0300",
+  "user_id": 1295361924851470337,
+  "username": "magdale40860209",
+  "name": "Magdalena Grotkowska",
+  "place": "",
+  "tweet": "@BarackObama LOVE!!!",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/Magdale40860209/status/1379068926110400518",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068816563392512,
+  "conversation_id": "1379068816563392512",
+  "created_at": "2021-04-05 16:50:02 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:50:02",
+  "timezone": "+0300",
+  "user_id": 1103526561024696322,
+  "username": "1025loveis0630",
+  "name": "大西達雄「今を生きる」",
+  "place": "",
+  "tweet": "@e_kaspersky @e_kaspersky_ru @jessicaalba  @BillGates @DalaiLama @Pontifex_ln  @GretaThunberg @BarackObama   One year = indoor temperature = keep at 20 degrees  My answer  For \"nature\" and \"environment\" Work on It's a natural idea 💖  https://t.co/0DLyuyRAym",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "e_kaspersky_ru",
+      "name": "евгений касперский",
+      "id": "342109294"
+    },
+    {
+      "screen_name": "jessicaalba",
+      "name": "jessica alba",
+      "id": "92367751"
+    },
+    {
+      "screen_name": "billgates",
+      "name": "bill gates",
+      "id": "50393960"
+    },
+    {
+      "screen_name": "dalailama",
+      "name": "dalai lama",
+      "id": "20609518"
+    },
+    {
+      "screen_name": "pontifex_ln",
+      "name": "papa franciscus",
+      "id": "965704518"
+    },
+    {
+      "screen_name": "gretathunberg",
+      "name": "greta thunberg",
+      "id": "1006419421244678144"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    }
+  ],
+  "urls": [],
+  "photos": [
+    "https://pbs.twimg.com/media/EyNvwm6UYAM3UiH.jpg"
+  ],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/1025LOVEis0630/status/1379068816563392512",
+  "retweet": false,
+  "quote_url": "",
+  "video": 1,
+  "thumbnail": "https://pbs.twimg.com/media/EyNvwm6UYAM3UiH.jpg",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068762830336005,
+  "conversation_id": "1378862279039594499",
+  "created_at": "2021-04-05 16:49:49 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:49:49",
+  "timezone": "+0300",
+  "user_id": 718223889478914049,
+  "username": "chrisiousity",
+  "name": "Chrisi",
+  "place": "",
+  "tweet": "@rico_rants The \"joo Barack Obama warned us against\" wants to tell me that I think about race too much? Okey-doke.",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/chrisiousity/status/1379068762830336005",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "rico_rants",
+      "name": "Di'Rico L. Baker",
+      "id": "814252346972770304"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068747114233859,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:49:45 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:49:45",
+  "timezone": "+0300",
+  "user_id": 1299085228355596289,
+  "username": "launchbackmcqu1",
+  "name": "Launchbackmcquack",
+  "place": "",
+  "tweet": "@imranulumar @BarackObama This is just sad,the americans are trying to win a battle that doesn't even exist,killing children in the middle east won't \"cure\" 9/11",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/Launchbackmcqu1/status/1379068747114233859",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "imranulumar",
+      "name": "عمران العمر",
+      "id": "376113624"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068543262670855,
+  "conversation_id": "1378813056407470081",
+  "created_at": "2021-04-05 16:48:57 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:48:57",
+  "timezone": "+0300",
+  "user_id": 1024558004514041856,
+  "username": "andrewidot",
+  "name": "Andrew",
+  "place": "",
+  "tweet": "@xJacobRL @rl_Beez @CreamsterRL @DO0ZYY_RL My homies @JoeBiden @BarackObama",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "joebiden",
+      "name": "joe biden",
+      "id": "939091"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/andrewidot/status/1379068543262670855",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "xJacobRL",
+      "name": "Jacob",
+      "id": "1286038414861774849"
+    },
+    {
+      "screen_name": "rl_Beez",
+      "name": "JB",
+      "id": "1347563332576763908"
+    },
+    {
+      "screen_name": "CreamsterRL",
+      "name": "Creamster",
+      "id": "1363701399121403907"
+    },
+    {
+      "screen_name": "DO0ZYY_RL",
+      "name": "FLu DO0ZYY",
+      "id": "1279016015951794176"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068522056228865,
+  "conversation_id": "1376913644873736199",
+  "created_at": "2021-04-05 16:48:52 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:48:52",
+  "timezone": "+0300",
+  "user_id": 812312494110806016,
+  "username": "johngriggsjr",
+  "name": "John Griggs Jr",
+  "place": "",
+  "tweet": "@BarackObama @Spotify Surely Mike Cox and Jim from Walmart aren't getting Dems to do shit for them. They are both little white Trump supporters and Mike actually attended an Independent Fundamental Baptist Church.",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/johngriggsjr/status/1379068522056228865",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "Spotify",
+      "name": "Spotify",
+      "id": "17230018"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068461561872384,
+  "conversation_id": "1378885002805534721",
+  "created_at": "2021-04-05 16:48:37 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:48:37",
+  "timezone": "+0300",
+  "user_id": 1361724555958566921,
+  "username": "dimensionsummon",
+  "name": "Diva",
+  "place": "",
+  "tweet": "@JoestarSan60 @JudaiSlifer @screwmustang @ParodyStarfish @BarackObama No",
+  "language": "und",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 2,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/DimensionSummon/status/1379068461561872384",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "JoestarSan60",
+      "name": "Joseph \"Joey\" Joestar",
+      "id": "834607099401400320"
+    },
+    {
+      "screen_name": "JudaiSlifer",
+      "name": "Jaden Yuki",
+      "id": "1264052820296245248"
+    },
+    {
+      "screen_name": "screwmustang",
+      "name": "Edward Elric",
+      "id": "1116082674765053952"
+    },
+    {
+      "screen_name": "ParodyStarfish",
+      "name": "Patrick star",
+      "id": "1272999128700608512"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068381849083906,
+  "conversation_id": "1378885002805534721",
+  "created_at": "2021-04-05 16:48:18 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:48:18",
+  "timezone": "+0300",
+  "user_id": 1264052820296245248,
+  "username": "judaislifer",
+  "name": "Jaden Yuki",
+  "place": "",
+  "tweet": "@JoestarSan60 @DimensionSummon @screwmustang @ParodyStarfish @BarackObama I'm out of here",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/JudaiSlifer/status/1379068381849083906",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "JoestarSan60",
+      "name": "Joseph \"Joey\" Joestar",
+      "id": "834607099401400320"
+    },
+    {
+      "screen_name": "DimensionSummon",
+      "name": "Diva",
+      "id": "1361724555958566921"
+    },
+    {
+      "screen_name": "screwmustang",
+      "name": "Edward Elric",
+      "id": "1116082674765053952"
+    },
+    {
+      "screen_name": "ParodyStarfish",
+      "name": "Patrick star",
+      "id": "1272999128700608512"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068213334511624,
+  "conversation_id": "1378331478380142593",
+  "created_at": "2021-04-05 16:47:38 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:47:38",
+  "timezone": "+0300",
+  "user_id": 1306233092932358150,
+  "username": "ali_syedah",
+  "name": "Syedah Bushrah Ali",
+  "place": "",
+  "tweet": "@BarackObama @MLB ♥️",
+  "language": "und",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/ali_syedah/status/1379068213334511624",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "MLB",
+      "name": "MLB",
+      "id": "18479513"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068098460934147,
+  "conversation_id": "1379068098460934147",
+  "created_at": "2021-04-05 16:47:11 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:47:11",
+  "timezone": "+0300",
+  "user_id": 995532316830261248,
+  "username": "lion_paw339",
+  "name": "The People’s Champ 45",
+  "place": "",
+  "tweet": "Democrats: Stupid Or Liars? by Derek Hunter Cc: ⁦@JoeBiden @KingJames⁩ ⁦@MichaelJordaan⁩ ⁦@MagicJohnson⁩ ⁦@BarackObama⁩. So called civil rights activities using PSEUDO events to proclaim their own self righteousness! #Shameful   https://t.co/BG8UMQKRDq",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "joebiden",
+      "name": "joe biden",
+      "id": "939091"
+    },
+    {
+      "screen_name": "kingjames",
+      "name": "lebron james",
+      "id": "23083404"
+    },
+    {
+      "screen_name": "michaeljordaan",
+      "name": "michael jordaan",
+      "id": "60867983"
+    },
+    {
+      "screen_name": "magicjohnson",
+      "name": "earvin magic johnson",
+      "id": "248900032"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    }
+  ],
+  "urls": [
+    "https://townhall.com/columnists/derekhunter/2021/04/04/democrats-stupid-or-liars-n2587370"
+  ],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [
+    "shameful"
+  ],
+  "cashtags": [],
+  "link": "https://twitter.com/Lion_Paw339/status/1379068098460934147",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068088650502145,
+  "conversation_id": "1379049769029537793",
+  "created_at": "2021-04-05 16:47:08 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:47:08",
+  "timezone": "+0300",
+  "user_id": 605740037,
+  "username": "nennolol",
+  "name": "no avi warrior",
+  "place": "",
+  "tweet": "@Marouane_EUW @hajime_isayama @mappa @AoTWiki @BarackObama @jairbolsonaro @LilNasX ill make some calls",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 2,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/NennoLoL/status/1379068088650502145",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "Marouane_EUW",
+      "name": "Marouane 🦈",
+      "id": "971172634116452357"
+    },
+    {
+      "screen_name": "hajime_isayama",
+      "name": "Hajime Isayama",
+      "id": "1490174888"
+    },
+    {
+      "screen_name": "mappa",
+      "name": "Matt",
+      "id": "86152864"
+    },
+    {
+      "screen_name": "AoTWiki",
+      "name": "Attack on Titan Wiki",
+      "id": "3119117773"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "jairbolsonaro",
+      "name": "Jair M. Bolsonaro",
+      "id": "128372940"
+    },
+    {
+      "screen_name": "LilNasX",
+      "name": "nope 🏹",
+      "id": "754006735468261376"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068054202630146,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:47:00 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:47:00",
+  "timezone": "+0300",
+  "user_id": 1259613303116115969,
+  "username": "russsimp",
+  "name": "Russsimp",
+  "place": "",
+  "tweet": "@ghosties804 @BarackObama Fake news",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/russsimp/status/1379068054202630146",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "ghosties804",
+      "name": "KK",
+      "id": "1372088941134942213"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379068010187665413,
+  "conversation_id": "1378774421662498821",
+  "created_at": "2021-04-05 16:46:50 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:46:50",
+  "timezone": "+0300",
+  "user_id": 2832127183,
+  "username": "ljenkins314",
+  "name": "Stonk Expert Tsukkomi",
+  "place": "",
+  "tweet": "@sweenprs @HotepJesus @Imaconsumer I think the fact that the Democratic Party of Andrew Jackson being indistinguishable from the one of Barack Obama is pretty relevant to the OP. Like I said elsewhere, there are plenty of faults with the modern party. Focus on those.",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/ljenkins314/status/1379068010187665413",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "sweenprs",
+      "name": "Sween",
+      "id": "3102225231"
+    },
+    {
+      "screen_name": "HotepJesus",
+      "name": "Hotep Jesus",
+      "id": "21822997"
+    },
+    {
+      "screen_name": "Imaconsumer",
+      "name": "I am consumer",
+      "id": "2841652475"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067852590735368,
+  "conversation_id": "1379067852590735368",
+  "created_at": "2021-04-05 16:46:12 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:46:12",
+  "timezone": "+0300",
+  "user_id": 195271137,
+  "username": "larryelder",
+  "name": "Larry Elder",
+  "place": "",
+  "tweet": "\"And if I had known that the President had posed smilingly with (Farrakhan) when he was a senator, I would not have campaigned for Barack Obama.\" -@AlanDersh 1/27/18  Blacks are 2-3x more likely to be antisemitic than non black gentiles.  #BlackAntisemitism #WeveGotACountryToSave  https://t.co/daQAy96wi3",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "alandersh",
+      "name": "alan dershowitz",
+      "id": "372372537"
+    }
+  ],
+  "urls": [],
+  "photos": [
+    "https://pbs.twimg.com/media/EyNu5pEU4AEn95y.jpg"
+  ],
+  "replies_count": 6,
+  "retweets_count": 49,
+  "likes_count": 134,
+  "hashtags": [
+    "blackantisemitism",
+    "wevegotacountrytosave"
+  ],
+  "cashtags": [],
+  "link": "https://twitter.com/larryelder/status/1379067852590735368",
+  "retweet": false,
+  "quote_url": "",
+  "video": 1,
+  "thumbnail": "https://pbs.twimg.com/media/EyNu5pEU4AEn95y.jpg",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067851949101056,
+  "conversation_id": "1378885002805534721",
+  "created_at": "2021-04-05 16:46:12 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:46:12",
+  "timezone": "+0300",
+  "user_id": 834607099401400320,
+  "username": "joestarsan60",
+  "name": "Joseph \"Joey\" Joestar",
+  "place": "",
+  "tweet": "@JudaiSlifer @DimensionSummon @screwmustang @ParodyStarfish @BarackObama  https://t.co/TbYd1jSypv",
+  "language": "und",
+  "mentions": [],
+  "urls": [],
+  "photos": [
+    "https://pbs.twimg.com/tweet_video_thumb/EyNu5l6WUAk9hab.jpg"
+  ],
+  "replies_count": 2,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/JoestarSan60/status/1379067851949101056",
+  "retweet": false,
+  "quote_url": "",
+  "video": 1,
+  "thumbnail": "https://pbs.twimg.com/tweet_video_thumb/EyNu5l6WUAk9hab.jpg",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "JudaiSlifer",
+      "name": "Jaden Yuki",
+      "id": "1264052820296245248"
+    },
+    {
+      "screen_name": "DimensionSummon",
+      "name": "Diva",
+      "id": "1361724555958566921"
+    },
+    {
+      "screen_name": "screwmustang",
+      "name": "Edward Elric",
+      "id": "1116082674765053952"
+    },
+    {
+      "screen_name": "ParodyStarfish",
+      "name": "Patrick star",
+      "id": "1272999128700608512"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067830704934913,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:46:07 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:46:07",
+  "timezone": "+0300",
+  "user_id": 846704088435900416,
+  "username": "willyprotz",
+  "name": "willy pm",
+  "place": "",
+  "tweet": "@BarackObama And u to",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/willyprotz/status/1379067830704934913",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067815823605760,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:46:03 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:46:03",
+  "timezone": "+0300",
+  "user_id": 2278203696,
+  "username": "smokeoutofwater",
+  "name": "SmokeoutofWater",
+  "place": "",
+  "tweet": "@BarackObama What? No updated photos? Wondering why?",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/smokeoutofwater/status/1379067815823605760",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067812182949889,
+  "conversation_id": "1379067812182949889",
+  "created_at": "2021-04-05 16:46:02 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:46:02",
+  "timezone": "+0300",
+  "user_id": 363103293,
+  "username": "heathdwatts",
+  "name": "Heath D. Watts, PhD 🏴 ✊🏿 🏳️‍🌈 ☮️ BLM ♀️",
+  "place": "",
+  "tweet": "\"The worst thing in the whole world is deficits when Barack Obama was the president,” he said. “Then Donald Trump became president, and we’re a lot less interested as a party.” -Trump Chief of Staff Mulvaney Pass Biden's plan! @JoeBiden @SpeakerPelosi @LeaderMcConnell @SenSchumer",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "joebiden",
+      "name": "joe biden",
+      "id": "939091"
+    },
+    {
+      "screen_name": "speakerpelosi",
+      "name": "nancy pelosi",
+      "id": "15764644"
+    },
+    {
+      "screen_name": "leadermcconnell",
+      "name": "leader mcconnell",
+      "id": "1249982359"
+    },
+    {
+      "screen_name": "senschumer",
+      "name": "chuck schumer",
+      "id": "17494010"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/heathdwatts/status/1379067812182949889",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067682121732102,
+  "conversation_id": "1378885002805534721",
+  "created_at": "2021-04-05 16:45:31 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:45:31",
+  "timezone": "+0300",
+  "user_id": 1264052820296245248,
+  "username": "judaislifer",
+  "name": "Jaden Yuki",
+  "place": "",
+  "tweet": "@DimensionSummon @screwmustang @ParodyStarfish @BarackObama He's Obama, he's Obama, you're Obama, I'M OBAMA, IS THERE ANY OTHER OBAMA I MUST KNOW OF?!?!  https://t.co/q0A2dJEgxt",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [
+    "https://pbs.twimg.com/media/EyNuqUHWgAgl8WH.jpg"
+  ],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/JudaiSlifer/status/1379067682121732102",
+  "retweet": false,
+  "quote_url": "",
+  "video": 1,
+  "thumbnail": "https://pbs.twimg.com/media/EyNuqUHWgAgl8WH.jpg",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "DimensionSummon",
+      "name": "Diva",
+      "id": "1361724555958566921"
+    },
+    {
+      "screen_name": "screwmustang",
+      "name": "Edward Elric",
+      "id": "1116082674765053952"
+    },
+    {
+      "screen_name": "ParodyStarfish",
+      "name": "Patrick star",
+      "id": "1272999128700608512"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067647921434625,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:45:23 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:45:23",
+  "timezone": "+0300",
+  "user_id": 1252324579596435456,
+  "username": "mohamme78149899",
+  "name": "Mohammed Iqbal",
+  "place": "",
+  "tweet": "@BarackObama Hope the best and happy returns in this holy occasion",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/Mohamme78149899/status/1379067647921434625",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067577863958536,
+  "conversation_id": "1376984440048660485",
+  "created_at": "2021-04-05 16:45:07 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:45:07",
+  "timezone": "+0300",
+  "user_id": 1251578384687206402,
+  "username": "davidsommer963",
+  "name": "DavidSommer",
+  "place": "",
+  "tweet": "@BarackObama 🦅❤  https://t.co/IBvdDnXEJD",
+  "language": "und",
+  "mentions": [],
+  "urls": [],
+  "photos": [
+    "https://pbs.twimg.com/media/EyNum0YXAAYLlth.jpg",
+    "https://pbs.twimg.com/media/EyNunrAXIAEmIfk.jpg",
+    "https://pbs.twimg.com/media/EyNuoxjWgAkyfCO.jpg",
+    "https://pbs.twimg.com/media/EyNupddXEAgRHUu.jpg"
+  ],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/DavidSommer963/status/1379067577863958536",
+  "retweet": false,
+  "quote_url": "",
+  "video": 1,
+  "thumbnail": "https://pbs.twimg.com/media/EyNum0YXAAYLlth.jpg",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067552748429314,
+  "conversation_id": "1378331478380142593",
+  "created_at": "2021-04-05 16:45:01 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:45:01",
+  "timezone": "+0300",
+  "user_id": 1375193934549422083,
+  "username": "vmoutainman",
+  "name": "WVmoutainman",
+  "place": "",
+  "tweet": "@BarackObama @MLB Interesting, Cuba doesn't have voter rights, yet there you are.  https://t.co/LfFHckqdqD",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [
+    "https://pbs.twimg.com/media/EyNuoCVW8AAH-mV.jpg"
+  ],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/vmoutainman/status/1379067552748429314",
+  "retweet": false,
+  "quote_url": "",
+  "video": 1,
+  "thumbnail": "https://pbs.twimg.com/media/EyNuoCVW8AAH-mV.jpg",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "MLB",
+      "name": "MLB",
+      "id": "18479513"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067286846312449,
+  "conversation_id": "1379067286846312449",
+  "created_at": "2021-04-05 16:43:57 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:43:57",
+  "timezone": "+0300",
+  "user_id": 263691561,
+  "username": "merciluv",
+  "name": "MercyI ICONIC!!!! 👑'S🔱☕💸💸🌟♣️🔥🥰",
+  "place": "",
+  "tweet": "My #MCM #Kiddwaya  King Of Premium Contents &gt;&gt;&gt;&gt;&gt;&gt; King Of Highlights &gt;&gt;&gt;&gt;&gt;&gt; King Of Lifestyle &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; King Of Cruise &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;  TERSEER KIDDWAYA Aka Barack Obama Of Benue State 👑💸💸💪💪🔥🔥🥰🥰  https://t.co/ly8PByIdWf",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [
+    "https://pbs.twimg.com/media/EyNuYIdWYAogZ8s.jpg"
+  ],
+  "replies_count": 1,
+  "retweets_count": 1,
+  "likes_count": 3,
+  "hashtags": [
+    "mcm",
+    "kiddwaya"
+  ],
+  "cashtags": [],
+  "link": "https://twitter.com/merciluv/status/1379067286846312449",
+  "retweet": false,
+  "quote_url": "https://twitter.com/SilverbirdTV/status/1379048550177333249",
+  "video": 1,
+  "thumbnail": "https://pbs.twimg.com/media/EyNuYIdWYAogZ8s.jpg",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067196085833732,
+  "conversation_id": "1379067196085833732",
+  "created_at": "2021-04-05 16:43:36 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:43:36",
+  "timezone": "+0300",
+  "user_id": 1377345172086882310,
+  "username": "lescomedy",
+  "name": "🏰✨ Kofta Lacross",
+  "place": "",
+  "tweet": "It’s a very good comedy to add the name april into april 5 mr @jack @POTUS @SwedishPM #realdonald @BarackObama @Axwell",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "jack",
+      "name": "jack",
+      "id": "12"
+    },
+    {
+      "screen_name": "potus",
+      "name": "president biden",
+      "id": "1349149096909668363"
+    },
+    {
+      "screen_name": "swedishpm",
+      "name": "swedishpm",
+      "id": "747426555417198592"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "axwell",
+      "name": "axwell",
+      "id": "20940081"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [
+    "realdonald"
+  ],
+  "cashtags": [],
+  "link": "https://twitter.com/lescomedy/status/1379067196085833732",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067190096261129,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:43:34 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:43:34",
+  "timezone": "+0300",
+  "user_id": 2918621011,
+  "username": "kumar1602966",
+  "name": "kumar.t",
+  "place": "",
+  "tweet": "@BarackObama 🙏👌💟",
+  "language": "und",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/kumar1602966/status/1379067190096261129",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067059179565060,
+  "conversation_id": "1379067059179565060",
+  "created_at": "2021-04-05 16:43:03 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:43:03",
+  "timezone": "+0300",
+  "user_id": 82306946,
+  "username": "usembassyprague",
+  "name": "U.S. Embassy Prague 🇺🇸🇨🇿",
+  "place": "",
+  "tweet": "🇺🇸🇨🇿 V prezidentském úřadu byl Barack Obama jen něco málo přes dva měsíce, když se vydal do Prahy, aby zde 5. dubna 2009 pronesl svůj první zásadní projev týkající se americké zahraniční politiky. Projev si na Hradčanském náměstí vyslechlo více než deset tisíc lidí.  https://t.co/NcCAwJhyXk",
+  "language": "cs",
+  "mentions": [],
+  "urls": [],
+  "photos": [
+    "https://pbs.twimg.com/media/EyNuK0ZXAAs0IIp.jpg",
+    "https://pbs.twimg.com/media/EyNuLMoWQAoDECI.jpg",
+    "https://pbs.twimg.com/media/EyNuLY5WYAQAUGa.jpg"
+  ],
+  "replies_count": 0,
+  "retweets_count": 2,
+  "likes_count": 12,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/USEmbassyPrague/status/1379067059179565060",
+  "retweet": false,
+  "quote_url": "",
+  "video": 1,
+  "thumbnail": "https://pbs.twimg.com/media/EyNuK0ZXAAs0IIp.jpg",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067012673060867,
+  "conversation_id": "1378331478380142593",
+  "created_at": "2021-04-05 16:42:52 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:42:52",
+  "timezone": "+0300",
+  "user_id": 373660276,
+  "username": "stevied1961",
+  "name": "Steven Doletzky",
+  "place": "",
+  "tweet": "@BarackObama @MLB Yeah NO ID is awesome.  Dont blaspheme the great Hank. Voter registration is a must... What a joke",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/stevied1961/status/1379067012673060867",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "MLB",
+      "name": "MLB",
+      "id": "18479513"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379067001415565320,
+  "conversation_id": "1379067001415565320",
+  "created_at": "2021-04-05 16:42:49 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:42:49",
+  "timezone": "+0300",
+  "user_id": 1372314061766074368,
+  "username": "rich_khrisz",
+  "name": "Dr_Rich",
+  "place": "",
+  "tweet": "People I will really want to meet in person @BarackObama  @elonmusk @DonaldTrump @TheRealCocoJ  and I will some day",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "elonmusk",
+      "name": "elon musk",
+      "id": "44196397"
+    },
+    {
+      "screen_name": "donaldtrump",
+      "name": "donald j. trump",
+      "id": "736267842681602048"
+    },
+    {
+      "screen_name": "therealcocoj",
+      "name": "coco jones",
+      "id": "158941108"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/Rich_Khrisz/status/1379067001415565320",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379066986030723075,
+  "conversation_id": "1379066986030723075",
+  "created_at": "2021-04-05 16:42:45 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:42:45",
+  "timezone": "+0300",
+  "user_id": 1286289691407347712,
+  "username": "gorgeyhunss_xx",
+  "name": "zec▽🧷",
+  "place": "",
+  "tweet": "barack obama and mr. bean's son",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/gorgeyhunss_xx/status/1379066986030723075",
+  "retweet": false,
+  "quote_url": "https://twitter.com/MELL0KAI/status/1377540085650980866",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379066799090761735,
+  "conversation_id": "1379066799090761735",
+  "created_at": "2021-04-05 16:42:01 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:42:01",
+  "timezone": "+0300",
+  "user_id": 2891361508,
+  "username": "berettaeustace",
+  "name": "Eustace Beretta",
+  "place": "",
+  "tweet": "@WhiteHouse   When Ai Break Out That Old Deck Of Cards... @BlairUnderwood Ai'ou Know... At Least Johnny Knows @BennieBlades36 Daddy Never Plays With A Fresh Deck... Barack... Barack... Barack... Joe AIN'T BLACK...PERIOD! And Ai'ou @BarackObama Ahh Parent Lee not enough!  https://t.co/zxu8eVm8hI",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "blairunderwood",
+      "name": "blair underwood",
+      "id": "19566101"
+    },
+    {
+      "screen_name": "bennieblades36",
+      "name": "bennie blades",
+      "id": "2878872410"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    }
+  ],
+  "urls": [],
+  "photos": [
+    "https://pbs.twimg.com/media/EyNs9ZLXAAErTXL.jpg"
+  ],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/BerettaEustace/status/1379066799090761735",
+  "retweet": false,
+  "quote_url": "",
+  "video": 1,
+  "thumbnail": "https://pbs.twimg.com/media/EyNs9ZLXAAErTXL.jpg",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379066793776406530,
+  "conversation_id": "1379064512884580352",
+  "created_at": "2021-04-05 16:42:00 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:42:00",
+  "timezone": "+0300",
+  "user_id": 1264132696323702786,
+  "username": "tsukklsupremacy",
+  "name": "jam 🍑 captain gigan's #1 fan",
+  "place": "",
+  "tweet": "@makeitmakecznse @tdrkishto HAHAHAHAHHAHAHHWJAHSBSJSGABHA NATAWA KO SA THOUGHT NA SI BARACK OBAMA TALAGA NAGSULAT AT PINAIR NYA SARILI NIYA KAY KUROO GAGO :(((((( HAHAHAHHAHAHAHAH",
+  "language": "tl",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/TSUKKlSUPREMACY/status/1379066793776406530",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "makeitmakecznse",
+      "name": "cznpai in Ao3",
+      "id": "1287731147045208064"
+    },
+    {
+      "screen_name": "tdrkishto",
+      "name": "v ✨",
+      "id": "1028615276407877632"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379066719990292480,
+  "conversation_id": "1363110445234728962",
+  "created_at": "2021-04-05 16:41:42 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:41:42",
+  "timezone": "+0300",
+  "user_id": 1379050557080408064,
+  "username": "tanatay24858841",
+  "name": "TanaTaylor",
+  "place": "",
+  "tweet": "@BenjaminPDixon Carrying that water for the Dems, aren't you? Get yourself into that house, it's rough out there in the field.  Princeton professor Cornel West calls President Barack Obama “a black mascot of Wall Street oligarchs and a black puppet of corporate plutocrats.\" Ben the Puppet",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/TanaTay24858841/status/1379066719990292480",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BenjaminPDixon",
+      "name": "Benjamin Dixon",
+      "id": "2949261587"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379066584258510852,
+  "conversation_id": "1378885002805534721",
+  "created_at": "2021-04-05 16:41:10 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:41:10",
+  "timezone": "+0300",
+  "user_id": 1361724555958566921,
+  "username": "dimensionsummon",
+  "name": "Diva",
+  "place": "",
+  "tweet": "@JudaiSlifer @screwmustang @ParodyStarfish @BarackObama You are fake, an illusion, a con artist who believes that he's obama, when, in reality, I am Obama. You think one man knocks at my doorstep and proposes me free healthcare? No. I AM the one who knocks.",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/DimensionSummon/status/1379066584258510852",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "JudaiSlifer",
+      "name": "Jaden Yuki",
+      "id": "1264052820296245248"
+    },
+    {
+      "screen_name": "screwmustang",
+      "name": "Edward Elric",
+      "id": "1116082674765053952"
+    },
+    {
+      "screen_name": "ParodyStarfish",
+      "name": "Patrick star",
+      "id": "1272999128700608512"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379066529933852673,
+  "conversation_id": "1379066529933852673",
+  "created_at": "2021-04-05 16:40:57 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:40:57",
+  "timezone": "+0300",
+  "user_id": 1338714410030919680,
+  "username": "kreisel_cole",
+  "name": "Cole Kreisel",
+  "place": "",
+  "tweet": "@BarackObama We know the plans.",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/kreisel_cole/status/1379066529933852673",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379066462116007941,
+  "conversation_id": "1378309508800278528",
+  "created_at": "2021-04-05 16:40:41 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:40:41",
+  "timezone": "+0300",
+  "user_id": 1372704976695296000,
+  "username": "heryant05700985",
+  "name": "Heryanto",
+  "place": "",
+  "tweet": "@cliqdao Good project @UgojiHarry  @CryptoWendyO  @BarackObama",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "ugojiharry",
+      "name": "harry | egoras",
+      "id": "1125088140224532486"
+    },
+    {
+      "screen_name": "cryptowendyo",
+      "name": "wendy o - i will never dm you",
+      "id": "935742315389444096"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/Heryant05700985/status/1379066462116007941",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "cliqdao",
+      "name": "CliqDAO (CLQ)",
+      "id": "1337818454011727877"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379066439458557953,
+  "conversation_id": "1379066439458557953",
+  "created_at": "2021-04-05 16:40:35 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:40:35",
+  "timezone": "+0300",
+  "user_id": 1040421599042691072,
+  "username": "wlsmith991",
+  "name": "Me 🇺🇸 🇵🇹 🎨☕🍩🕳",
+  "place": "",
+  "tweet": "FLASHBACK: Oct 13, 2015 When Hillary Clinton battled Barack Obama - YouTube  https://t.co/BaBbqxxAy8",
+  "language": "en",
+  "mentions": [],
+  "urls": [
+    "https://youtu.be/5Kf4uXO-gDk"
+  ],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/WLSmith991/status/1379066439458557953",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379066197698703361,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:39:37 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:39:37",
+  "timezone": "+0300",
+  "user_id": 1103526561024696322,
+  "username": "1025loveis0630",
+  "name": "大西達雄「今を生きる」",
+  "place": "",
+  "tweet": "@BarackObama Thank you for your concern 💖",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/1025LOVEis0630/status/1379066197698703361",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379066187011735555,
+  "conversation_id": "1379064180725153793",
+  "created_at": "2021-04-05 16:39:35 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:39:35",
+  "timezone": "+0300",
+  "user_id": 820559417984909314,
+  "username": "paulyoungcpa",
+  "name": "Younger1989",
+  "place": "",
+  "tweet": "@TheophanesRex @GasPriceWizard @lamphieryeg @algore @BarackObama Well said as always, Darshan!   @cathmckenna @JonathanWNV will find a way to push their agenda. @GMbutts will be ready with more of his dribble on climate change.    https://t.co/EM7aIQSqOV",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "cathmckenna",
+      "name": "catherine mckenna 🇨🇦",
+      "id": "140252240"
+    },
+    {
+      "screen_name": "jonathanwnv",
+      "name": "jonathan wilkinson 🇨🇦",
+      "id": "2579359027"
+    },
+    {
+      "screen_name": "gmbutts",
+      "name": "gerald butts",
+      "id": "212621119"
+    }
+  ],
+  "urls": [
+    "https://www.slideshare.net/paulyoungcga/protecting-the-environment-through-proper-balance-between-economic-and-economic-policies"
+  ],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/paulyoungcpa/status/1379066187011735555",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "TheophanesRex",
+      "name": "Darshan Maharaja",
+      "id": "1165707784962433024"
+    },
+    {
+      "screen_name": "GasPriceWizard",
+      "name": "Dan McTeague",
+      "id": "2926136996"
+    },
+    {
+      "screen_name": "lamphieryeg",
+      "name": "Gary Lamphier",
+      "id": "38885578"
+    },
+    {
+      "screen_name": "algore",
+      "name": "Al Gore",
+      "id": "17220934"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379066036499189768,
+  "conversation_id": "1379066036499189768",
+  "created_at": "2021-04-05 16:38:59 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:38:59",
+  "timezone": "+0300",
+  "user_id": 989607581130936320,
+  "username": "murphythemoron",
+  "name": "Gov Murphy. #BeatMurphy",
+  "place": "",
+  "tweet": "As usual 'the great one' has a moronic and misinformed tweet for his naive followers. What they also don't realize is that Hank Aaron had a lot of class, and did lead by example. Barack Obama has none and is the furthest thing from a leader.   But thanks for continuing to divide!",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 1,
+  "likes_count": 6,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/Murphythemoron/status/1379066036499189768",
+  "retweet": false,
+  "quote_url": "https://twitter.com/BarackObama/status/1378331478380142593",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379066030320807938,
+  "conversation_id": "1378331478380142593",
+  "created_at": "2021-04-05 16:38:58 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:38:58",
+  "timezone": "+0300",
+  "user_id": 72942653,
+  "username": "jetsonly",
+  "name": "Fran Nashar",
+  "place": "",
+  "tweet": "@vinokevino @SamSasser @BarackObama @DemRedistrict @MLB @Delta @BrianKempGA First off, I worked in aviation for years, curious what you know about air travel? Second, I’m not a Republican but I’m no longer a Democrat either!",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/JetsOnly/status/1379066030320807938",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "vinokevino",
+      "name": "Vino Kevino",
+      "id": "1362502176602353666"
+    },
+    {
+      "screen_name": "SamSasser",
+      "name": "Sam Sasser ❤️🐾",
+      "id": "2780842687"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "DemRedistrict",
+      "name": "NDRC",
+      "id": "794651044450041856"
+    },
+    {
+      "screen_name": "MLB",
+      "name": "MLB",
+      "id": "18479513"
+    },
+    {
+      "screen_name": "Delta",
+      "name": "Delta",
+      "id": "5920532"
+    },
+    {
+      "screen_name": "BrianKempGA",
+      "name": "Brian Kemp",
+      "id": "47437206"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065932568522758,
+  "conversation_id": "1379065932568522758",
+  "created_at": "2021-04-05 16:38:34 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:38:34",
+  "timezone": "+0300",
+  "user_id": 875745827863613441,
+  "username": "noiceij",
+  "name": "b. || kai parker stan acc",
+  "place": "",
+  "tweet": "Um taylor swift, selena gomez, demi lovato, oh no tom holland is british. Is ansel elgort? Oh Barack obama is celebrity.",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/noiceij/status/1379065932568522758",
+  "retweet": false,
+  "quote_url": "https://twitter.com/celestiaIgyu/status/1378172172657590272",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065886502346752,
+  "conversation_id": "1379064512884580352",
+  "created_at": "2021-04-05 16:38:23 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:38:23",
+  "timezone": "+0300",
+  "user_id": 1287731147045208064,
+  "username": "makeitmakecznse",
+  "name": "cznpai in Ao3",
+  "place": "",
+  "tweet": "@TSUKKlSUPREMACY @tdrkishto barack obama writes fics??? omygod",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/makeitmakecznse/status/1379065886502346752",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "TSUKKlSUPREMACY",
+      "name": "jam 🍑 captain gigan's #1 fan",
+      "id": "1264132696323702786"
+    },
+    {
+      "screen_name": "tdrkishto",
+      "name": "v ✨",
+      "id": "1028615276407877632"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065672530071552,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:37:32 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:37:32",
+  "timezone": "+0300",
+  "user_id": 840747007551631360,
+  "username": "eyegramm",
+  "name": "Eileen Leroy",
+  "place": "",
+  "tweet": "@WayneSisk1 @BarackObama Mee too..",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/eyegramm/status/1379065672530071552",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "WayneSisk1",
+      "name": "Wayne Sisk 📚 🇺🇸",
+      "id": "312971371"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065671343083527,
+  "conversation_id": "1379065671343083527",
+  "created_at": "2021-04-05 16:37:32 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:37:32",
+  "timezone": "+0300",
+  "user_id": 714949505720823808,
+  "username": "debrammason1",
+  "name": "Deplorable Neaderthal Deb🌟🌟🌟",
+  "place": "",
+  "tweet": "Im doing my part by refusing to participate in @BarackObama Democrat Party Race Baiting and Socially Engineered Racial Division Plots to divide America and make people hate each other!  #MLK #DemocratsTheEnemyWithin",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [
+    "mlk",
+    "democratstheenemywithin"
+  ],
+  "cashtags": [],
+  "link": "https://twitter.com/DebraMMason1/status/1379065671343083527",
+  "retweet": false,
+  "quote_url": "https://twitter.com/SenatorBennet/status/1378749138486108161",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065662098829318,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:37:30 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:37:30",
+  "timezone": "+0300",
+  "user_id": 1347243572161114119,
+  "username": "brighthamwanja",
+  "name": "Bright Bulelo Hamwanja",
+  "place": "",
+  "tweet": "@BarackObama Hello  How are you",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/BrightHamwanja/status/1379065662098829318",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065600723578882,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:37:15 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:37:15",
+  "timezone": "+0300",
+  "user_id": 3156287792,
+  "username": "thembamnguni20",
+  "name": "Themba Gumede",
+  "place": "",
+  "tweet": "@BarackObama Thank you so much,my hero.We will do,just that.God bless you and,your family.South Africa loves,you.Long live.",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/thembamnguni20/status/1379065600723578882",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065583501721609,
+  "conversation_id": "1379064180725153793",
+  "created_at": "2021-04-05 16:37:11 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:37:11",
+  "timezone": "+0300",
+  "user_id": 1165707784962433024,
+  "username": "theophanesrex",
+  "name": "Darshan Maharaja",
+  "place": "",
+  "tweet": "@paulyoungcpa @GasPriceWizard @lamphieryeg @algore @BarackObama Nor have I. But since the Liberals’ argument is based on per capita emissions, it is necessary to debunk that argument as well.",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/TheophanesRex/status/1379065583501721609",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "paulyoungcpa",
+      "name": "Younger1989",
+      "id": "820559417984909314"
+    },
+    {
+      "screen_name": "GasPriceWizard",
+      "name": "Dan McTeague",
+      "id": "2926136996"
+    },
+    {
+      "screen_name": "lamphieryeg",
+      "name": "Gary Lamphier",
+      "id": "38885578"
+    },
+    {
+      "screen_name": "algore",
+      "name": "Al Gore",
+      "id": "17220934"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065544855392258,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:37:02 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:37:02",
+  "timezone": "+0300",
+  "user_id": 840747007551631360,
+  "username": "eyegramm",
+  "name": "Eileen Leroy",
+  "place": "",
+  "tweet": "@Enoch68029533 @BarackObama Harsh...",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/eyegramm/status/1379065544855392258",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "Enoch68029533",
+      "name": "Mr Enoch 🦅🦅🇬🇧",
+      "id": "1258103898985947137"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065541990748164,
+  "conversation_id": "1379065541990748164",
+  "created_at": "2021-04-05 16:37:01 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:37:01",
+  "timezone": "+0300",
+  "user_id": 1320424215309250560,
+  "username": "trinasolis17",
+  "name": "Trina Solis",
+  "place": "",
+  "tweet": "@BarackObama is running the country. Not this idiot! In looking at the nearly $5T in proposed spending in @POTUS budget, people are asking, “What happened to the Joe Biden who ran for president off his 36-year record as a moderate dealmaker in the Senate?”  https://t.co/r2lkyWlafH",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "potus",
+      "name": "president biden",
+      "id": "1349149096909668363"
+    }
+  ],
+  "urls": [
+    "https://www.nationalreview.com/2021/04/biden-aims-to-outshine-obama-as-a-progressive-reformer"
+  ],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 12,
+  "likes_count": 13,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/TrinaSolis17/status/1379065541990748164",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065360415068161,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:36:18 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:36:18",
+  "timezone": "+0300",
+  "user_id": 840747007551631360,
+  "username": "eyegramm",
+  "name": "Eileen Leroy",
+  "place": "",
+  "tweet": "@JackPBerens @BarackObama Absolutely",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/eyegramm/status/1379065360415068161",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "JackPBerens",
+      "name": "Jack 🐻⬇️",
+      "id": "944678007687581697"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065327640846336,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:36:10 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:36:10",
+  "timezone": "+0300",
+  "user_id": 536093033,
+  "username": "2_sleepyhollow",
+  "name": "Danny Matthews",
+  "place": "",
+  "tweet": "@BarackObama  https://t.co/3IoebG2gUJ",
+  "language": "und",
+  "mentions": [],
+  "urls": [
+    "https://www.patreon.com/user?u=52086067"
+  ],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/2_sleepyhollow/status/1379065327640846336",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065286368886787,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:36:00 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:36:00",
+  "timezone": "+0300",
+  "user_id": 1196539702154792962,
+  "username": "kencoello3",
+  "name": "kencoello💙",
+  "place": "",
+  "tweet": "@BarackObama Gorgeous family. Happy Easter",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/kencoello3/status/1379065286368886787",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065245138874374,
+  "conversation_id": "1378885002805534721",
+  "created_at": "2021-04-05 16:35:50 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:35:50",
+  "timezone": "+0300",
+  "user_id": 1264052820296245248,
+  "username": "judaislifer",
+  "name": "Jaden Yuki",
+  "place": "",
+  "tweet": "@DimensionSummon @screwmustang @ParodyStarfish @BarackObama STOP STOP",
+  "language": "nl",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/JudaiSlifer/status/1379065245138874374",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "DimensionSummon",
+      "name": "Diva",
+      "id": "1361724555958566921"
+    },
+    {
+      "screen_name": "screwmustang",
+      "name": "Edward Elric",
+      "id": "1116082674765053952"
+    },
+    {
+      "screen_name": "ParodyStarfish",
+      "name": "Patrick star",
+      "id": "1272999128700608512"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065244694233095,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:35:50 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:35:50",
+  "timezone": "+0300",
+  "user_id": 1359522434207121414,
+  "username": "gigilamorosa3",
+  "name": "Gigi Lamorosa",
+  "place": "",
+  "tweet": "@Pjay628 @NielsenChrissi @BarackObama My eyesight is great.  Get your head checked",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/GigiLamorosa3/status/1379065244694233095",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "Pjay628",
+      "name": "Pj",
+      "id": "735921457864146944"
+    },
+    {
+      "screen_name": "NielsenChrissi",
+      "name": "Chrissi Nielsen",
+      "id": "1179960921277509632"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065192521293826,
+  "conversation_id": "1379064180725153793",
+  "created_at": "2021-04-05 16:35:38 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:35:38",
+  "timezone": "+0300",
+  "user_id": 820559417984909314,
+  "username": "paulyoungcpa",
+  "name": "Younger1989",
+  "place": "",
+  "tweet": "@TheophanesRex @GasPriceWizard @lamphieryeg I never cared for per capita based on population. The better measurement is based on the size of land as part of absorbing CO2. I have never seen much discussion around net CO2 because @algore @BarackObama cannot push their agenda.    https://t.co/EM7aIQSqOV",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "algore",
+      "name": "al gore",
+      "id": "17220934"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    }
+  ],
+  "urls": [
+    "https://www.slideshare.net/paulyoungcga/protecting-the-environment-through-proper-balance-between-economic-and-economic-policies"
+  ],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/paulyoungcpa/status/1379065192521293826",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "TheophanesRex",
+      "name": "Darshan Maharaja",
+      "id": "1165707784962433024"
+    },
+    {
+      "screen_name": "GasPriceWizard",
+      "name": "Dan McTeague",
+      "id": "2926136996"
+    },
+    {
+      "screen_name": "lamphieryeg",
+      "name": "Gary Lamphier",
+      "id": "38885578"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065158857809921,
+  "conversation_id": "1379065158857809921",
+  "created_at": "2021-04-05 16:35:30 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:35:30",
+  "timezone": "+0300",
+  "user_id": 1370968930014138372,
+  "username": "conn99606477",
+  "name": "conn",
+  "place": "",
+  "tweet": "The democrap fascist mob sided with the terrorists of 9/11 @BarackObama @POTUS @VP @SpeakerPelosi @chuckschumer @MarkRuffalo @StephenKing @CNN @MSNBC @nytimes @washingtonpost",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "potus",
+      "name": "president biden",
+      "id": "1349149096909668363"
+    },
+    {
+      "screen_name": "vp",
+      "name": "vice president kamala harris",
+      "id": "803694179079458816"
+    },
+    {
+      "screen_name": "speakerpelosi",
+      "name": "nancy pelosi",
+      "id": "15764644"
+    },
+    {
+      "screen_name": "chuckschumer",
+      "name": "chuck schumer",
+      "id": "1872999342"
+    },
+    {
+      "screen_name": "markruffalo",
+      "name": "mark ruffalo",
+      "id": "47285504"
+    },
+    {
+      "screen_name": "stephenking",
+      "name": "stephen king",
+      "id": "2233154425"
+    },
+    {
+      "screen_name": "cnn",
+      "name": "cnn",
+      "id": "759251"
+    },
+    {
+      "screen_name": "msnbc",
+      "name": "msnbc",
+      "id": "2836421"
+    },
+    {
+      "screen_name": "nytimes",
+      "name": "the new york times",
+      "id": "807095"
+    },
+    {
+      "screen_name": "washingtonpost",
+      "name": "the washington post",
+      "id": "2467791"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/conn99606477/status/1379065158857809921",
+  "retweet": false,
+  "quote_url": "https://twitter.com/sparkypatriot/status/1378839976436174852",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065045917786113,
+  "conversation_id": "1379056901279846404",
+  "created_at": "2021-04-05 16:35:03 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:35:03",
+  "timezone": "+0300",
+  "user_id": 4859385682,
+  "username": "s_goffer",
+  "name": "gopher tsham’s",
+  "place": "",
+  "tweet": "@wrld_mag Barack Obama 😍, c’était un Bg ma gueule",
+  "language": "fr",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/s_goffer/status/1379065045917786113",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "wrld_mag",
+      "name": "WRLD",
+      "id": "1171726005146464256"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379065043350913027,
+  "conversation_id": "1379065043350913027",
+  "created_at": "2021-04-05 16:35:02 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:35:02",
+  "timezone": "+0300",
+  "user_id": 1371877277961699328,
+  "username": "lynn48567241",
+  "name": "SlideShowLacey4",
+  "place": "",
+  "tweet": "@JoeBiden @POTUS🤢@FLOTUS🤮@KamalaHarris @SpeakerPelosi @SenSchumer @LeaderHoyer @WhipClyburn @MSNBC @NBCNews @ABCPolitics @CBSNews @FoxNews @washingtonpost @nytimes @CNN @BernieSanders @BarackObama @JohnKerry @HillaryClinton @RepAdamSchiff @JohnBrennan @jrpsaki @DNC @DNCWarRoom",
+  "language": "und",
+  "mentions": [
+    {
+      "screen_name": "potus",
+      "name": "president biden",
+      "id": "1349149096909668363"
+    },
+    {
+      "screen_name": "flotus",
+      "name": "jill biden",
+      "id": "1349154719386775552"
+    },
+    {
+      "screen_name": "kamalaharris",
+      "name": "kamala harris",
+      "id": "30354991"
+    },
+    {
+      "screen_name": "speakerpelosi",
+      "name": "nancy pelosi",
+      "id": "15764644"
+    },
+    {
+      "screen_name": "senschumer",
+      "name": "chuck schumer",
+      "id": "17494010"
+    },
+    {
+      "screen_name": "leaderhoyer",
+      "name": "steny (wear a mask) hoyer",
+      "id": "22012091"
+    },
+    {
+      "screen_name": "whipclyburn",
+      "name": "james e. clyburn",
+      "id": "188019606"
+    },
+    {
+      "screen_name": "msnbc",
+      "name": "msnbc",
+      "id": "2836421"
+    },
+    {
+      "screen_name": "nbcnews",
+      "name": "nbc news",
+      "id": "14173315"
+    },
+    {
+      "screen_name": "abcpolitics",
+      "name": "abc news politics",
+      "id": "16815644"
+    },
+    {
+      "screen_name": "cbsnews",
+      "name": "cbs news",
+      "id": "15012486"
+    },
+    {
+      "screen_name": "foxnews",
+      "name": "fox news",
+      "id": "1367531"
+    },
+    {
+      "screen_name": "washingtonpost",
+      "name": "the washington post",
+      "id": "2467791"
+    },
+    {
+      "screen_name": "nytimes",
+      "name": "the new york times",
+      "id": "807095"
+    },
+    {
+      "screen_name": "cnn",
+      "name": "cnn",
+      "id": "759251"
+    },
+    {
+      "screen_name": "berniesanders",
+      "name": "bernie sanders",
+      "id": "216776631"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "johnkerry",
+      "name": "john kerry",
+      "id": "15007149"
+    },
+    {
+      "screen_name": "hillaryclinton",
+      "name": "hillary clinton",
+      "id": "1339835893"
+    },
+    {
+      "screen_name": "repadamschiff",
+      "name": "adam schiff",
+      "id": "29501253"
+    },
+    {
+      "screen_name": "johnbrennan",
+      "name": "john o. brennan",
+      "id": "910492003359760384"
+    },
+    {
+      "screen_name": "jrpsaki",
+      "name": "jen psaki",
+      "id": "388513351"
+    },
+    {
+      "screen_name": "dnc",
+      "name": "democratic party",
+      "id": "722793491059769344"
+    },
+    {
+      "screen_name": "dncwarroom",
+      "name": "dnc war room",
+      "id": "4486093643"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/Lynn48567241/status/1379065043350913027",
+  "retweet": false,
+  "quote_url": "https://twitter.com/LivePDDave1/status/1378877688673370113",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379064992763363328,
+  "conversation_id": "1379062041919520778",
+  "created_at": "2021-04-05 16:34:50 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:34:50",
+  "timezone": "+0300",
+  "user_id": 25864168,
+  "username": "beachwoodreport",
+  "name": "Beachwood Reporter",
+  "place": "",
+  "tweet": "I know I shouldn't waste my time, but let's dissect this. 1) Kass already declared The Chicago Way ran American when an actually Chicagoan named Barack Obama became president. 2) Virtually every subject of an investigation declares their 100% certainty of being cleared ...",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 1,
+  "retweets_count": 0,
+  "likes_count": 2,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/BeachwoodReport/status/1379064992763363328",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379064945829052417,
+  "conversation_id": "1379057002429616133",
+  "created_at": "2021-04-05 16:34:39 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:34:39",
+  "timezone": "+0300",
+  "user_id": 927051875567800320,
+  "username": "parimalrajviswa",
+  "name": "C👀r👁🗣👁 tw😷ts GOD as DOG 🐕",
+  "place": "",
+  "tweet": "@BJP4Karnataka EPS @CMOTamilNadu ?? immigrant? Why fear? Almighty is there in breathe as 👮‍♂️👮‍♀️ @BJP4India @INCIndia these 👨‍👩‍👧‍👦 fight inside 🧠? Will make the breathe🏃‍♂️🏃‍♀️ @WhiteHouse #billgates group @wef @Oprah @BarackObama @_AfricanUnion nepali gurkha 💂‍♂️ @narendramodi @adgpi @OnlyKollywood @WHO",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "cmotamilnadu",
+      "name": "edappadi k palaniswami",
+      "id": "844890761409777664"
+    },
+    {
+      "screen_name": "bjp4india",
+      "name": "bjp",
+      "id": "207809313"
+    },
+    {
+      "screen_name": "incindia",
+      "name": "congress",
+      "id": "1153045459"
+    },
+    {
+      "screen_name": "whitehouse",
+      "name": "the white house",
+      "id": "1323730225067339784"
+    },
+    {
+      "screen_name": "wef",
+      "name": "world economic forum",
+      "id": "5120691"
+    },
+    {
+      "screen_name": "oprah",
+      "name": "oprah winfrey",
+      "id": "19397785"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    },
+    {
+      "screen_name": "_africanunion",
+      "name": "african union",
+      "id": "145935897"
+    },
+    {
+      "screen_name": "narendramodi",
+      "name": "narendra modi",
+      "id": "18839785"
+    },
+    {
+      "screen_name": "adgpi",
+      "name": "adg pi - indian army",
+      "id": "1227253801"
+    },
+    {
+      "screen_name": "onlykollywood",
+      "name": "only kollywood",
+      "id": "532009036"
+    },
+    {
+      "screen_name": "who",
+      "name": "world health organization (who)",
+      "id": "14499829"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [
+    "billgates"
+  ],
+  "cashtags": [],
+  "link": "https://twitter.com/parimalrajviswa/status/1379064945829052417",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BJP4Karnataka",
+      "name": "BJP Karnataka",
+      "id": "25123615"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379064848273711106,
+  "conversation_id": "1378360437587255301",
+  "created_at": "2021-04-05 16:34:16 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:34:16",
+  "timezone": "+0300",
+  "user_id": 1343548166923198464,
+  "username": "thomasvuong1",
+  "name": "Thomas Vuong",
+  "place": "",
+  "tweet": "@SteveKrak @gregkellyusa Barack Obama! You should say the vote cheating rights for the Democratic Party in America",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/ThomasVuong1/status/1379064848273711106",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "SteveKrak",
+      "name": "Steve Krakauer",
+      "id": "14246657"
+    },
+    {
+      "screen_name": "gregkellyusa",
+      "name": "Greg Kelly",
+      "id": "44385628"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379064806003462147,
+  "conversation_id": "1378840909614178309",
+  "created_at": "2021-04-05 16:34:06 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:34:06",
+  "timezone": "+0300",
+  "user_id": 2264498354,
+  "username": "bhagyammac",
+  "name": "Bhagyamma",
+  "place": "",
+  "tweet": "@alexespind @BarackObama Handsome",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/bhagyammac/status/1379064806003462147",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "alexespind",
+      "name": "Alexandra 🇺🇸🇨🇴🇨🇦🇮🇹🇵🇹🇫🇷",
+      "id": "172559532"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379064718711721991,
+  "conversation_id": "1378885002805534721",
+  "created_at": "2021-04-05 16:33:45 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:33:45",
+  "timezone": "+0300",
+  "user_id": 1331341028280905729,
+  "username": "freecesnum0",
+  "name": "Gon Freeces( ゴン゠フリークス)",
+  "place": "",
+  "tweet": "@screwmustang @BarackObama .....its alright edward ..Lets go get ice cream...",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/FreecesNum0/status/1379064718711721991",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "screwmustang",
+      "name": "Edward Elric",
+      "id": "1116082674765053952"
+    },
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379064700030353410,
+  "conversation_id": "1379064700030353410",
+  "created_at": "2021-04-05 16:33:40 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:33:40",
+  "timezone": "+0300",
+  "user_id": 815676647877836801,
+  "username": "saracscurran",
+  "name": "Sara Curran",
+  "place": "",
+  "tweet": "Having watched The Mauritanian last night I am glad that @JoeBiden is planning to close #Guantanamo something @BarackObama wanted to do but was blocked by Congress. Naturally the 🍊signed an executive order to keep the lawless limbo open 😔",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "joebiden",
+      "name": "joe biden",
+      "id": "939091"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [
+    "guantanamo"
+  ],
+  "cashtags": [],
+  "link": "https://twitter.com/saracscurran/status/1379064700030353410",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379064675669733378,
+  "conversation_id": "1378716884732936202",
+  "created_at": "2021-04-05 16:33:35 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:33:35",
+  "timezone": "+0300",
+  "user_id": 936431204416487424,
+  "username": "beatonjune",
+  "name": "June Beaton",
+  "place": "",
+  "tweet": "@BarackObama Happy Easter Mr President!! 🐣",
+  "language": "en",
+  "mentions": [],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 0,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/BeatonJune/status/1379064675669733378",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [
+    {
+      "screen_name": "BarackObama",
+      "name": "Barack Obama",
+      "id": "813286"
+    }
+  ],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}
+{
+  "id": 1379064439341641732,
+  "conversation_id": "1379064439341641732",
+  "created_at": "2021-04-05 16:32:38 Jerusalem Daylight Time",
+  "date": "2021-04-05",
+  "time": "16:32:38",
+  "timezone": "+0300",
+  "user_id": 1103526561024696322,
+  "username": "1025loveis0630",
+  "name": "大西達雄「今を生きる」",
+  "place": "",
+  "tweet": "@e_kaspersky @e_kaspersky_ru @jessicaalba  @BillGates @DalaiLama @Pontifex_ln  @GretaThunberg @BarackObama   One year = indoor temperature = keep at 20 degrees",
+  "language": "en",
+  "mentions": [
+    {
+      "screen_name": "e_kaspersky_ru",
+      "name": "евгений касперский",
+      "id": "342109294"
+    },
+    {
+      "screen_name": "jessicaalba",
+      "name": "jessica alba",
+      "id": "92367751"
+    },
+    {
+      "screen_name": "billgates",
+      "name": "bill gates",
+      "id": "50393960"
+    },
+    {
+      "screen_name": "dalailama",
+      "name": "dalai lama",
+      "id": "20609518"
+    },
+    {
+      "screen_name": "pontifex_ln",
+      "name": "papa franciscus",
+      "id": "965704518"
+    },
+    {
+      "screen_name": "gretathunberg",
+      "name": "greta thunberg",
+      "id": "1006419421244678144"
+    },
+    {
+      "screen_name": "barackobama",
+      "name": "barack obama",
+      "id": "813286"
+    }
+  ],
+  "urls": [],
+  "photos": [],
+  "replies_count": 0,
+  "retweets_count": 0,
+  "likes_count": 1,
+  "hashtags": [],
+  "cashtags": [],
+  "link": "https://twitter.com/1025LOVEis0630/status/1379064439341641732",
+  "retweet": false,
+  "quote_url": "",
+  "video": 0,
+  "thumbnail": "",
+  "near": "",
+  "geo": "",
+  "source": "",
+  "user_rt_id": "",
+  "user_rt": "",
+  "retweet_id": "",
+  "reply_to": [],
+  "retweet_date": "",
+  "translate": "",
+  "trans_src": "",
+  "trans_dest": ""
+}

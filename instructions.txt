@@ -1,0 +1,23 @@
+## Install the environment
+1. Download and install python 3.6 or higher
+2. Open a terminal and run "cd <code directory>"
+3. Create a python virtual environment (Optional)
+    3.1 "python -m venv venv"
+    3.2 to activate environment "venv/Scripts/activate.bat"
+4. Run "pip install -r requirements.txt"
+
+
+## How to run the server
+# option 1 (PyCharm).
+1. open the code using PyCharm
+2. Add new flask run configuration
+3. In the configuration you should set:
+    Target: app.py
+    FLASK_ENV: development
+    Working directory: <where the code in your computer>
+4. run configuration on PyCharm
+
+# option 2 (cmd)
+1. Open terminal and run "cd <code directory>"
+2. Run "set FLASK_APP=app.py"
+3. Run "python.exe -m flask run"
