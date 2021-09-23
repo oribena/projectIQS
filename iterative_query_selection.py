@@ -5,8 +5,15 @@ import string
 import timeit
 from collections import Counter, defaultdict
 from pathlib import Path
-
 import nltk
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+nltk.download('pros_cons')
+nltk.download('reuters')
+nltk.download('maxent_ne_chunker')
+nltk.download('words')
+nltk.download('stopwords')
+nltk.download('universal_tagset')
 from nltk.corpus import wordnet, stopwords
 import numpy as np
 from nltk import pos_tag
@@ -60,6 +67,7 @@ def clean_words_from_stopwords(stopwords, words):
 
 
 def get_tweet_html(tweet):
+    print("get_tweet_html")
     embed_api = 'https://publish.twitter.com/oembed'
     params = {
         'url': f'https://twitter.com/{tweet["username"]}/status/{tweet["id"]}',
@@ -77,12 +85,14 @@ def get_tweet_html(tweet):
 
 
 def clean_content_by_nltk_stopwords(topic_content):
+    print("clean_content_by_nltk_stopwords")
     stopWords = set(stopwords.words('english'))
     topic_content = ' '.join(clean_words_from_stopwords(stopWords, topic_content.split(' ')))
     return topic_content
 
 
 def clean_text(description, remove_stop_words):
+    print("clean_text")
     description = " ".join(description.split())
     description = description.replace('"', '').replace("'", '')
 
@@ -114,6 +124,7 @@ class RelevanceEvaluator:
         self._word_vector_dict = model.wv
 
     def eval_claim_tweets(self, prototype_text, tweets, use_mean=True):
+        print("eval_claim_tweets")  ##ophir added
         prototype_words = clean_text(prototype_text, True).split(' ')
         distances = []
         for tweet in tweets:
@@ -129,6 +140,7 @@ class RelevanceEvaluator:
             return distances
 
     def word_movers_distance(self, claim_description_words, post_words):
+        print("word_movers_distance")  ##ophir added
         claim_words_vectors = self._get_words_vectors(claim_description_words)
         post_words_vectors = self._get_words_vectors(post_words)
         try:
@@ -149,6 +161,7 @@ class TwitterCrawler:
             os.makedirs(self.output_path)
 
     def retrieve_tweets(self, query_str, max_num_tweets=20, hide_output=True):
+        print("in retrieve_tweets")##ophir added
         search_id = uuid.uuid3(uuid.NAMESPACE_DNS, query_str)
         output_file_name = str(self.output_path / f"tweets_{search_id}.json")
 
@@ -167,6 +180,7 @@ class TwitterCrawler:
         return tweets
 
     def _read_json_tweets(self, file_path):
+        print("_read_json_tweets")  ##ophir added
         tweets = []
         with open(file_path, encoding="utf8") as f:
             for line in f:
@@ -175,6 +189,7 @@ class TwitterCrawler:
 
 
 def save_tweets_to_server(fname, tweets):
+    print("save_tweets_to_server")  ##ophir added
     with open(fname, 'w') as f:
         for tweet in tweets:
             f.write(f'{json.dumps(tweet)}\n')
@@ -191,6 +206,7 @@ class IterativeQuerySelection:
         self.twitter_crawler = twitter_crawler
 
     def hill_climbing(self, prototype_text, search_count, iterations, keywords_start_size, output_keywords_count=5, search_wmd_updates=None):
+        print("hill_climbing")  ##ophir added
         final_queries = []
         self._keywords_score_dict = defaultdict()
         start = timeit.default_timer()
@@ -263,6 +279,7 @@ class IterativeQuerySelection:
         return final_queries
 
     def get_topn_queries(self, output_keywords_count):
+        print("get_topn_queries")  ##ophir added
         queries = []
         best_distances = []
         if len(self._walked_keywords) > 0:
@@ -278,6 +295,7 @@ class IterativeQuerySelection:
         return best_distances, queries
 
     def get_claim_words_from_description(self, claim):
+        print("claim   ", claim)
         words = self.get_name_entities(claim.rstrip('.').split())
         words = list([x for x in words if x != ''])
         # words = words + self.get_synonms_for_words(words)
