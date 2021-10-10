@@ -6,14 +6,14 @@ import timeit
 from collections import Counter, defaultdict
 from pathlib import Path
 import nltk
-nltk.download('averaged_perceptron_tagger')
-nltk.download('wordnet')
-nltk.download('pros_cons')
-nltk.download('reuters')
-nltk.download('maxent_ne_chunker')
-nltk.download('words')
-nltk.download('stopwords')
-nltk.download('universal_tagset')
+# nltk.download('averaged_perceptron_tagger')
+# nltk.download('wordnet')
+# nltk.download('pros_cons')
+# nltk.download('reuters')
+# nltk.download('maxent_ne_chunker')
+# nltk.download('words')
+# nltk.download('stopwords')
+# nltk.download('universal_tagset')
 from nltk.corpus import wordnet, stopwords
 import numpy as np
 from nltk import pos_tag
@@ -120,7 +120,7 @@ class RelevanceEvaluator:
         #self._model = model
         #self._word_vector_dict = model.wv
         print('Load word2vec model')
-        model = gensim.models.KeyedVectors.load_word2vec_format('glove-wiki-gigaword-50.txt', datatype=np.float16)
+        model = gensim.models.KeyedVectors.load_word2vec_format('C:\\Users\\user\\Documents\\GitHub\\projectIQS\\glove-wiki-gigaword-50.txt', datatype=np.float16)
         self._word_vector_dict = model.wv
 
     def eval_claim_tweets(self, prototype_text, tweets, use_mean=True):
