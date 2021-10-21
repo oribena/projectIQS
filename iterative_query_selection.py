@@ -6,14 +6,14 @@ import timeit
 from collections import Counter, defaultdict
 from pathlib import Path
 import nltk
-nltk.download('averaged_perceptron_tagger')
-nltk.download('wordnet')
-nltk.download('pros_cons')
-nltk.download('reuters')
-nltk.download('maxent_ne_chunker')
-nltk.download('words')
-nltk.download('stopwords')
-nltk.download('universal_tagset')
+# nltk.download('averaged_perceptron_tagger')
+# nltk.download('wordnet')
+# nltk.download('pros_cons')
+# nltk.download('reuters')
+# nltk.download('maxent_ne_chunker')
+# nltk.download('words')
+# nltk.download('stopwords')
+# nltk.download('universal_tagset')
 from nltk.corpus import wordnet, stopwords
 import numpy as np
 from nltk import pos_tag

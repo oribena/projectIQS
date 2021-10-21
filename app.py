@@ -143,21 +143,20 @@ def get_uuid_for_prototype(prototype):
 def send_js():
     return send_from_directory('js', 'Chart.js')
 
-
 @app.route('/search', methods=['POST'])
 def search():
     global relevance_evaluator
     global twitter_crawler
 
-    print(request.form)
+    # print(request.form)
     # print(request.data)
-    prototype_text = request.form.get('prototype', '')
-    min_tweet_count = int(request.form.get('min_tweet_count', 3))
-    iterations = int(request.form.get('iterations', 15))
-    keywords_start_size = int(request.form.get('keywords_start_size', 3))
-    output_keywords_count = int(request.form.get('output_keywords_count', 3))
-    search_count = int(request.form.get('search_count', 1))
-    max_tweets_per_query = int(request.form.get('max_tweets_per_query', 50))
+    prototype_text = request.json["form"]['text']
+    min_tweet_count = int(request.json["form"]['min_tweet_count'])
+    iterations = int(request.json["form"]['iterations'])
+    keywords_start_size = int(request.json["form"]['keywords_start_size'])
+    output_keywords_count = int(request.json["form"]['output_keywords_count'])
+    search_count = int(request.json["form"]['search_count'])
+    max_tweets_per_query = int(request.json["form"]['max_tweets_per_query'])
 
     if prototype_text != '':
         search_id = request.form.get('search_id')
@@ -179,6 +178,45 @@ def search():
         return 'Done'
     else:
         return 'failed'
+
+
+# @app.route('/search', methods=['POST'])
+# def search():
+#     global relevance_evaluator
+#     global twitter_crawler
+
+#     print(request.form)
+#     # print(request.data)
+#     prototype_text = request.form.get('prototype', '')
+#     min_tweet_count = int(request.form.get('min_tweet_count', 3))
+#     iterations = int(request.form.get('iterations', 15))
+#     keywords_start_size = int(request.form.get('keywords_start_size', 3))
+#     output_keywords_count = int(request.form.get('output_keywords_count', 3))
+#     search_count = int(request.form.get('search_count', 1))
+#     max_tweets_per_query = int(request.form.get('max_tweets_per_query', 50))
+
+#     if prototype_text != '':
+#         search_id = request.form.get('search_id')
+#         args = (
+#             search_id, iterations, keywords_start_size, max_tweets_per_query, min_tweet_count, output_keywords_count,
+#             prototype_text, search_count, twitter_crawler, relevance_evaluator
+#         )
+#         future = executor.submit(run_iqs_search, *args)
+#         threads_dict[search_id] = future
+
+#         # t = threading.Thread(target=run_iqs_search, args=(
+#         #     search_id, iterations, keywords_start_size, max_tweets_per_query, min_tweet_count, output_keywords_count,
+#         #     prototype_text, search_count, twitter_crawler, relevance_evaluator))
+#         # t.start()
+#         # threads_dict[search_id] = t
+
+#         # run_iqs_search(iterations, keywords_start_size, max_tweets_per_query, min_tweet_count, output_keywords_count,
+#         #                prototype_text, relevance_evaluator, search_count, twitter_crawler)
+#         return 'Done'
+#     else:
+#         return 'failed'
+
+# json["form"]['min_tweet_count']
 
 
 def run_iqs_search(search_id, iterations, keywords_start_size, max_tweets_per_query, min_tweet_count,
