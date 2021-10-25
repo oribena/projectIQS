@@ -425,7 +425,7 @@ if __name__ == "__main__":
     iqs = IterativeQuerySelection(relevance_evaluator, twitter_crawler, min_tweet_count=3)
     prototype = "A photograph shows Barack Obama dressed as Lucifer for an 'Illuminati ritual.'"
     res = iqs.hill_climbing(prototype, search_count=1, iterations=15, keywords_start_size=3)
-    print(res)
+    # print(res)
 
     tweets = []
     max_tweets_per_query = 100

@@ -60,8 +60,12 @@ def home_page():
 
 @app.route('/load_results', methods=['POST'])
 def load_results():
-    print(request.data)
-    search_id = json.loads(request.data)['search_id']
+    print("**********")
+    print(request)
+    print("request.data",request.data)
+    # search_id = json.loads(request.data)['search_id']
+    search_id = request.json["search_id"]
+    print("search_id", search_id)
     tweet_gen = tweets_generators.get(search_id)
     try:
         tweet_chunk = next(tweet_gen)
@@ -159,7 +163,8 @@ def search():
     max_tweets_per_query = int(request.json["form"]['max_tweets_per_query'])
 
     if prototype_text != '':
-        search_id = request.form.get('search_id')
+        search_id =  request.json["form"]['search_id']
+        print("searchID", search_id)
         args = (
             search_id, iterations, keywords_start_size, max_tweets_per_query, min_tweet_count, output_keywords_count,
             prototype_text, search_count, twitter_crawler, relevance_evaluator
@@ -221,6 +226,7 @@ def search():
 
 def run_iqs_search(search_id, iterations, keywords_start_size, max_tweets_per_query, min_tweet_count,
                    output_keywords_count, prototype_text, search_count, twitter_crawler, relevance_evaluator):
+    print("run IQS")
     search_wmd_updates = search_wmd_updates_dict[search_id]
     iqs = IterativeQuerySelection(relevance_evaluator, twitter_crawler, min_tweet_count=min_tweet_count)
     res = iqs.hill_climbing(prototype_text, search_count=search_count, iterations=iterations,
