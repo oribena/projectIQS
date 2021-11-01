@@ -6,6 +6,8 @@ import timeit
 from collections import Counter, defaultdict
 from pathlib import Path
 import nltk
+import tweepy
+from dotenv import load_dotenv
 # nltk.download('averaged_perceptron_tagger')
 # nltk.download('wordnet')
 # nltk.download('pros_cons')
@@ -20,7 +22,7 @@ from nltk import pos_tag
 from scipy.spatial.distance import cdist
 from gensim.models import FastText
 import gensim
-import twint
+# import twint
 import uuid
 import json
 from tqdm.auto import tqdm
@@ -156,28 +158,95 @@ class TwitterCrawler:
     def __init__(self, output_path='output/') -> None:
         super().__init__()
         self.output_path = Path(output_path)
+        self.iter = 1
 
         if not os.path.exists(self.output_path):
             os.makedirs(self.output_path)
 
+    # def retrieve_tweets(self, query_str, max_num_tweets=20, hide_output=True):
+    #     print("in retrieve_tweets")##ophir added
+    #     if self.iter == 1:
+    #         self.iter += 1
+    #         return self._read_json_tweets(str(self.output_path /"tweets_039162c6-374a-11ec-b2e1-d07e35c972db.json"))
+    #     else:
+    #         return self._read_json_tweets(str(self.output_path /"tweets_e49ba7c0-3747-11ec-9e6d-d07e35c972db.json"))
+
     def retrieve_tweets(self, query_str, max_num_tweets=20, hide_output=True):
-        print("in retrieve_tweets")##ophir added
+        print("in retrieve_tweets")
         search_id = uuid.uuid3(uuid.NAMESPACE_DNS, query_str)
         output_file_name = str(self.output_path / f"tweets_{search_id}.json")
+        # c = twint.Config()
+        # c.Search = query_str
+        # c.Limit = max_num_tweets
+        # c.Output = output_file_name
+        # c.Store_json = True
+        # c.Hide_output = hide_output
+        # twint.run.Search(c)
+        
 
-        c = twint.Config()
-        c.Search = query_str
-        c.Limit = max_num_tweets
-        c.Output = output_file_name
-        c.Store_json = True
-        c.Hide_output = hide_output
-        twint.run.Search(c)
+        load_dotenv()
+        consumer_key = os.environ.get("consumer_key")
+        print(consumer_key)
+        consumer_secret = os.environ.get("consumer_secret")
+        access_token = os.environ.get("access_token")
+        access_token_secret = os.environ.get("access_token_secret")
+        auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+        auth.set_access_token(access_token, access_token_secret)
+        api = tweepy.API(auth, wait_on_rate_limit=True)
+        text_query = query_str
+        print("query_str",query_str)
+        if not query_str:
+            tweets = []
+            return tweets
+        count = 50
+        # time.sleep(2)
+        try:
+            # Creation of query method using parameters
+            tweets = tweepy.Cursor(api.search_tweets, q=text_query).items(count)
+            # Pulling information from tweets iterable object
+            # tweets_list = [{tweet.created_at, tweet.id, tweet.text} for tweet in tweets]
+            # for tweet in tweets:
+            #     print(tweet)
+
+            tweets_list = [{'id':tweet.id,'username': tweet.user.screen_name,'tweet': tweet.text} for tweet in tweets]
+            with open(output_file_name, 'w') as f:
+                json.dump(tweets_list, f)
+            print("tweets_list")
+            print(tweets_list)
+            # # Creation of dataframe from tweets list
+            # # Add or remove columns as you remove tweet information
+            # tweets_df = pd.DataFrame(tweets_list)
+
+        except BaseException as e:
+            print('failed on_status,', str(e))
         if os.path.exists(output_file_name):
             tweets = self._read_json_tweets(output_file_name)
             os.remove(output_file_name)
         else:
             tweets = []
+        print(tweets)
         return tweets
+
+        # try:
+        #     print("in retrieve_tweets")##ophir added
+        #     search_id = uuid.uuid3(uuid.NAMESPACE_DNS, query_str)
+        #     output_file_name = str(self.output_path / f"tweets_{search_id}.json")
+        
+        #     c = twint.Config()
+        #     c.Search = query_str
+        #     c.Limit = max_num_tweets
+        #     c.Output = output_file_name
+        #     c.Store_json = True
+        #     c.Hide_output = hide_output
+        #     twint.run.Search(c)
+        #     if os.path.exists(output_file_name):
+        #         tweets = self._read_json_tweets(output_file_name)
+        #         os.remove(output_file_name)
+        #     else:
+        #         tweets = []
+        #     return tweets
+        # except:
+            
 
     def _read_json_tweets(self, file_path):
         print("_read_json_tweets")  ##ophir added
@@ -185,7 +254,7 @@ class TwitterCrawler:
         with open(file_path, encoding="utf8") as f:
             for line in f:
                 tweets.append(json.loads(line))
-        return tweets
+        return tweets[0]
 
 
 def save_tweets_to_server(fname, tweets):

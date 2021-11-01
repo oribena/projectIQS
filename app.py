@@ -60,7 +60,7 @@ def home_page():
 
 @app.route('/load_results', methods=['POST'])
 def load_results():
-    print("**********")
+    print("********** load result")
     print(request)
     print("request.data",request.data)
     # search_id = json.loads(request.data)['search_id']
@@ -69,7 +69,9 @@ def load_results():
     tweet_gen = tweets_generators.get(search_id)
     try:
         tweet_chunk = next(tweet_gen)
+        print(tweet_chunk,"    ***********tweet_chunk")
         tweet_htmls = [get_tweet_html(t) for t in tweet_chunk]
+        print(tweet_htmls, "      **********tweet_htmls")
         return jsonify(tweet_htmls)
     except StopIteration as e:
         tweets_generators.pop(search_id)
@@ -233,6 +235,7 @@ def run_iqs_search(search_id, iterations, keywords_start_size, max_tweets_per_qu
                             keywords_start_size=keywords_start_size,
                             output_keywords_count=output_keywords_count, search_wmd_updates=search_wmd_updates)
     print(res)
+    print('*************************************')
     tweets = []
     for output_query in res:
         tweets.extend(
@@ -250,6 +253,7 @@ def run_iqs_search(search_id, iterations, keywords_start_size, max_tweets_per_qu
     del tweets_wmds
     # tweets_generators[str(search_id)] = chunks(sorted_tweets, 4)
     tweets_generators[str(search_id)] = read_chunks(tweet_fname, 4)
+    print(tweets_generators[str(search_id)], "tweets generator in searchIQS")
     search_wmd_updates_dict.pop(search_id)
 
 

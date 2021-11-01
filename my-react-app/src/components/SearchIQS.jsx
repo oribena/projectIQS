@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Button,Form, Row} from 'react-bootstrap'
 import $ from 'jquery';
+import { NivoAreaChart } from "../Charts/NivoAreaChart";
 // import React, {useState, useEffect } from 'react'
 
 class SearchIQS extends Component { 
@@ -9,6 +10,7 @@ class SearchIQS extends Component {
         this.g = this.g.bind(this)
         this.addMoreTweets = this.addMoreTweets.bind(this)
         this.search = this.search.bind(this)
+        this.stopSearchs = this.stopSearchs.bind(this)
         
     }
     state = { 
@@ -19,7 +21,8 @@ class SearchIQS extends Component {
         keywords_start_size:"",
         max_tweets_per_query: "",
         min_tweet_count:"",
-        search_ids:[]
+        search_ids:[],
+        id:""
 
        }
     async g (){
@@ -27,7 +30,7 @@ class SearchIQS extends Component {
         // this.getSearchUpdates()
         // stopSearchs([search_ids.shift()]);//
         // $("#search_btn").prop('disabled', true);
-        console.log("get stream");
+        console.log("g function");
         // $("#result_container").attr("style", "display: none");
         // $("#tweets_container").empty();
         var data = {'prototype': $('#prototype').val()};
@@ -41,7 +44,7 @@ class SearchIQS extends Component {
        
             // console.log(response.json());
         var search_id = await res.json();
-        console.log(search_id)
+        // console.log(search_id)
         
         
             // console.log(this.state)
@@ -117,12 +120,13 @@ class SearchIQS extends Component {
         , headers: { 'Content-Type': 'application/json' },};
         try{
             const response = await fetch('/search', ophir)
-            await this.addMoreTweets(search_id)
+            await this.setState({id:search_id})
+            // await this.addMoreTweets(search_id)
         //   const response = await axios.post(`/search`, body)
         //   console.log(response)
           if(response.status === 200){
 
-            console.log("search complit")
+            console.log("search complete")
           }
         }
         catch(e){
@@ -143,14 +147,14 @@ class SearchIQS extends Component {
     //     wait_time = 1;
     //     return null;
     // }
-    async addMoreTweets(search_id) {
+    async addMoreTweets() {
         console.log("*****" , "addMoreTweets")
-        console.log(search_id)
+        // console.log(search_id)
         // var $tweetsContainer = $("#tweets_container");
         // console.log($tweetsContainer);
         // let data = "data"
         // var data;
-        var data = {"search_id": search_id}
+        var data = {"search_id": this.state.id}
         var res = await fetch("/load_results", {
             method: "POST",
             body: JSON.stringify(data),
@@ -159,16 +163,20 @@ class SearchIQS extends Component {
         var tweet_htmls = await res.json()
         console.log(tweet_htmls)
         if (tweet_htmls.length > 0) {
-            // tweet_htmls.forEach(getTweetDiv);
+            tweet_htmls.forEach(getTweetDiv);
 
-            // function getTweetDiv(tweet_html) {
-            //     var $div = $("<div>", {"class": "col-md-12"});
-            //     $div.html(tweet_html);
-            //     $tweetsContainer.append($div);
-            // }
+            function getTweetDiv(tweet_html) {
+                var $div = $("<div>", {"class": "col-md-6"});
+                $div.html(tweet_html);
+                $('#tweetsContainer').append($div);
+            }
         } else {
             $("#load_more_btn").hide();
         }
+        console.log("tweet_htmlss")
+        console.log(tweet_htmls)
+        // $("#result_container").style.display = "block"
+        // $("#result_container").attr(style={{display:block}});
         // search_id.then(result => {
         //     return {"search_id": result}}).then((data)=>{
         //         console.log(data)
@@ -204,7 +212,7 @@ class SearchIQS extends Component {
     }
     
     getSearchUpdates = async () =>{
-        // stopSearchs([search_ids.shift()]);//
+        this.stopSearchs();//
         // $("#search_btn").prop('disabled', true);
         console.log("getSearchUpdates");
         // $("#result_container").attr("style", "display: none");
@@ -218,12 +226,8 @@ class SearchIQS extends Component {
             // console.log(response.json());
             return response.json();
         }).then(function (search_id) {
-            console.log(search_id);
-            // console.log(this.state)
-            console.log("*****");
-            
+            console.log(search_id);  
             let temp_search_ids = this.state.search_ids
-            console.log("*****");
             temp_search_ids.push(search_id)
             this.setState({search_ids : temp_search_ids})
             
@@ -239,6 +243,22 @@ class SearchIQS extends Component {
         });
 
     
+    }
+
+    stopSearchs = async()=> {
+        console.log("stopSearchs")
+        this.state.search_ids.shift()
+        var data = {'search_ids': this.state.search_ids};
+        fetch("/close_search", {
+            method: "POST",
+            body: JSON.stringify(data)
+        }).catch(function () {
+            console.log("Booo3");
+            // wait_time = wait_time * 2;
+            setTimeout(this.stopSearchs(), 10 * 1000);
+        });
+        // wait_time = 1;
+        return null;
     }
 
     render() { 
@@ -273,7 +293,7 @@ class SearchIQS extends Component {
         <div class="form-group row justify-content-md-center">
             <label for="iterations" class="col-2 col-form-label">Iterations</label>
             <div class="col-5">
-                <input id="iterations" name="iterations"  type="number" defaultValue={15} class="form-control"
+                <input id="iterations" name="iterations"  type="number" defaultValue={2} class="form-control"
                        required="required"/>
             </div>
         </div>
@@ -311,11 +331,22 @@ class SearchIQS extends Component {
         </div>
         <br/>
         <br/>
-  <Button id="search_btn" variant="primary" type="submit">
+  <Button class="Button" id="search_btn" variant="primary" type="submit" >
     Submit
   </Button>
+  <Button class="Button" id="load" variant="primary" onClick={this.addMoreTweets} >
+    load more
+  </Button>
 </Form>
+<div id="result_container" >
+<div class="row" id="tweetsContainer">
 
+</div>
+</div>
+<div className="App-charts">
+{/* <NivoAreaChart /> */}
+
+</div>
 
 </div>;
     }
