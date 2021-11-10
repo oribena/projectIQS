@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 import {Button,Form, Row} from 'react-bootstrap'
 import $ from 'jquery';
 import { NivoAreaChart } from "../Charts/NivoAreaChart";
+// import {Chart} from "../js/Chart"
+// import Chart from '../Charts/anotherChart';
 // import React, {useState, useEffect } from 'react'
+const util = require("../util")
+// import {Chart} from "../Charts/anotherChart"
+// const chart = require("../Charts/anotherChart")
 
 class SearchIQS extends Component { 
     constructor (){
@@ -11,6 +16,11 @@ class SearchIQS extends Component {
         this.addMoreTweets = this.addMoreTweets.bind(this)
         this.search = this.search.bind(this)
         this.stopSearchs = this.stopSearchs.bind(this)
+        // this.getWMD = this.getWMD.bind(this)
+        this.setSearchUpdatesListener = this.setSearchUpdatesListener.bind(this)
+        this.timeout = this.timeout.bind(this)
+        // this.get_chart_data = this.get_chart_data.bind(this)
+        // this.initGraph = this.initGraph.bind(this)
         
     }
     state = { 
@@ -22,7 +32,8 @@ class SearchIQS extends Component {
         max_tweets_per_query: "",
         min_tweet_count:"",
         search_ids:[],
-        id:""
+        id:"",
+        chart_data :[{id: "mmd",data: [{"x":0,"y":0}]}]
 
        }
     async g (){
@@ -56,8 +67,9 @@ class SearchIQS extends Component {
             // temp_search_ids.push(search_id)
             
             
-            // setSearchUpdatesListener(search_id);
+            this.setSearchUpdatesListener(search_id);
             // runIQS(search_id);
+            await this.timeout(1000)
             // wait_time = 1;
 
         // }).catch(function (err) {
@@ -74,6 +86,9 @@ class SearchIQS extends Component {
         await this.search(search_id, temp_search_ids)
         
 
+    }
+    timeout = (delay)=> {
+        return new Promise( res => setTimeout(res, delay) );
     }
 
 
@@ -121,6 +136,7 @@ class SearchIQS extends Component {
         try{
             const response = await fetch('/search', ophir)
             await this.setState({id:search_id})
+            // await this.getWMD()
             // await this.addMoreTweets(search_id)
         //   const response = await axios.post(`/search`, body)
         //   console.log(response)
@@ -133,27 +149,8 @@ class SearchIQS extends Component {
             console.log(e)
             }
         }
-
-    // stopSearchs(searchs_ids) {
-    //     var data = {'search_ids': searchs_ids};
-    //     fetch("/close_search", {
-    //         method: "POST",
-    //         body: JSON.stringify(data)
-    //     }).catch(function () {
-    //         console.log("Booo3");
-    //         wait_time = wait_time * 2;
-    //         setTimeout(stopSearchs(searchs_ids), wait_time * 1000);
-    //     });
-    //     wait_time = 1;
-    //     return null;
-    // }
     async addMoreTweets() {
         console.log("*****" , "addMoreTweets")
-        // console.log(search_id)
-        // var $tweetsContainer = $("#tweets_container");
-        // console.log($tweetsContainer);
-        // let data = "data"
-        // var data;
         var data = {"search_id": this.state.id}
         var res = await fetch("/load_results", {
             method: "POST",
@@ -175,48 +172,11 @@ class SearchIQS extends Component {
         }
         console.log("tweet_htmlss")
         console.log(tweet_htmls)
-        // $("#result_container").style.display = "block"
-        // $("#result_container").attr(style={{display:block}});
-        // search_id.then(result => {
-        //     return {"search_id": result}}).then((data)=>{
-        //         console.log(data)
-        //         fetch("/load_results", {
-        //         method: "POST",
-        //         body: JSON.stringify(data),
-        //         headers: {'Content-Type': 'application/json' }
-        //     }).then((res)=>{
-        //         return res.json()
-        //     }).then((tweet_htmls)=>{
-        //         console.log("tweet_Html", tweet_htmls)
-        //         if (tweet_htmls.length > 0) {
-        //             // tweet_htmls.forEach(getTweetDiv);
-    
-        //             // function getTweetDiv(tweet_html) {
-        //             //     var $div = $("<div>", {"class": "col-md-12"});
-        //             //     $div.html(tweet_html);
-        //             //     $tweetsContainer.append($div);
-        //             // }
-        //         } else {
-        //             $("#load_more_btn").hide();
-        //         }
-        //     })
-           
- 
-        //     // console.log("inside")
-        //     // console.log(data)
-        // })
-        
-        // // console.log("outside")
-        // // console.log(this.state.data)
-        // // console.log(data)
     }
     
     getSearchUpdates = async () =>{
         this.stopSearchs();//
-        // $("#search_btn").prop('disabled', true);
         console.log("getSearchUpdates");
-        // $("#result_container").attr("style", "display: none");
-        // $("#tweets_container").empty();
         var data = {'prototype': $('#prototype').val()};
         // console.log(data)
         fetch("/get_id", {
@@ -231,9 +191,7 @@ class SearchIQS extends Component {
             temp_search_ids.push(search_id)
             this.setState({search_ids : temp_search_ids})
             
-            // setSearchUpdatesListener(search_id);
-            // runIQS(search_id);
-            // wait_time = 1;
+            // this.setSearchUpdatesListener(search_id);
 
         }).catch(function (err) {
             console.log(err);
@@ -241,8 +199,6 @@ class SearchIQS extends Component {
             // wait_time = wait_time * 2;
             // setTimeout(getSearchUpdates(), wait_time * 1000);
         });
-
-    
     }
 
     stopSearchs = async()=> {
@@ -261,6 +217,176 @@ class SearchIQS extends Component {
         return null;
     }
 
+    // getWMD = async() =>{
+    //     const response = await fetch("/stream?search_id=".concat(this.state.id))
+    //     console.log(response)
+    // }
+
+    // setSearchUpdatesListener=(search_id)=> {
+    //     var total_iterations = $('#search_count').val() * $('#iterations').val();
+    //     var eventSource = new EventSource("/stream?search_id=".concat(search_id));
+        
+    //     var recived_massages = 0;
+    //     var chart = this.initGraph();
+    //     chart.clear();
+    //     eventSource.onmessage = function (e) {
+    //         recived_massages++;
+    //         console.log(e.data);
+    //         if (parseInt(e.data) !== -1) {
+    //             var width = Math.min(100, Math.floor(recived_massages * 100 / total_iterations));
+    //             $('.progress-bar').css('width', width.toString().concat('%')).attr({value: width});
+    //             $("#target_div").html("Current WMD: ".concat(e.data));
+    //             this.addData(chart, recived_massages, e.data);
+    //         } else {
+    //             $("#result_container").attr("style", "display:block");
+    //             $("#search_btn").prop('disabled', false);
+    //             eventSource.close();
+    //         }
+    //     };
+
+    //     eventSource.onopen = function (e) {
+    //         // wait_time = 1;
+    //     };
+
+    //     eventSource.onerror = function (e) {
+    //         // wait_time = wait_time * 2;
+    //         eventSource.close();
+    //         setTimeout(this.setSearchUpdatesListener(search_id), 2 * 1000);
+    //     };
+    // }
+
+
+    setSearchUpdatesListener = async(search_id) => {
+        console.log("******setSearchUpdatesListener")
+        // var self = this;
+        var res = []
+        var total_iterations = $('#search_count').val() * $('#iterations').val();
+        var sum_wmd = 0;
+        var eventSource = new EventSource("/stream?search_id=".concat(search_id));
+        console.log("eventSource   ",eventSource)
+        eventSource.addEventListener("message", e => {
+            this.setState({"chart_data" : [{id: "mmd",data : res}]});
+        });
+        // this.bind(eventSource)
+        var recived_massages = 0;
+        // var chart = this.initGraph();
+        // chart.clear();
+        
+        console.log("this.state.chart_data[0].data", this.state.chart_data[0])
+        // var current_chart_data = this.state.chart_data[0].data
+        // eventSource.onmessage.bind(this)
+        eventSource.onmessage = function (e) {
+            console.log("******eventSource.onmessage ")
+            recived_massages++;
+            console.log("e.data   ", e.data);
+            if (parseInt(e.data) !== -1) {
+                var width = Math.min(100, Math.floor(recived_massages * 100 / total_iterations));
+                $('.progress-bar').css('width', width.toString().concat('%')).attr({value: width});
+                // var ophir = this.get_chart_data(current_chart_data)    
+                var curr = {}
+                sum_wmd = sum_wmd + parseFloat(e.data)
+                // for(var i =0;i<current_chart_data.length;i++){
+                    // sum_wmd = sum_wmd +current_chart_data[i].y;
+                    curr = {
+                        "x":recived_massages,
+                        "y":sum_wmd/recived_massages
+                    }
+                    console.log("res  ", res)
+                    console.log("curr  ", curr)
+                    res.push(curr)
+                // }
+            //    var root = document.getElementById("target_div")
+            //    console.log(root)
+            //    var myElement = React.createElement(NivoAreaChart,{data: [{id: "mmd",data : res}]})
+            //    root.appendChild(myElement)
+                // this.setState({"chart_data" : [{id: "mmd",data : res}]})
+                $("#target_div").html("Current WMD: ".concat(e.data));
+                // this.addData(chart, recived_massages, e.data);
+            } else {
+                $("#result_container").attr("style", "display:block");
+                // $("#search_btn").prop('disabled', false);
+                eventSource.close();
+            }
+        };
+        // eventSource.addEventListener("message", async (e) => {
+        //     this.setState({"chart_data" : [{id: "mmd",data : res}]});
+        // });
+        
+        // console.log("res", res)
+        // eventSource.onmessage = this.eventSource.onmessage.bind(this)
+        
+        eventSource.onopen = function (e) {
+            // this.timeout(1000);
+        };
+
+        eventSource.onerror = function (e) {
+            // this.timeout(2000)
+            // wait_time = wait_time * 2;
+            eventSource.close();
+            setTimeout(this.setSearchUpdatesListener(search_id), 2000);
+        };
+    }
+    // get_chart_data = (data)=>{
+    //     var sum_wmd =0;
+    //     var res = []
+    //     var curr = {}
+    //     for(var i =0;i<data.length;i++){
+    //         sum_wmd = sum_wmd +data[i];
+    //         curr = {
+    //             "x":i,
+    //             "y":data[i]
+    //         }
+    //         res.append(curr)
+    //     }
+    //     console.log("get_chart_data   ",res)
+    //     return res
+        
+    // }
+
+    // initGraph= ()=> {
+    //     const labels = [];
+    //     const data = {
+    //         labels: labels,
+    //         datasets: [
+    //             {
+    //                 label: "Mean Word Mover's Distance (MMD)",
+    //                 data: [],
+    //                 borderColor: 'rgb(255, 205, 86)',
+    //                 // {#backgroundColor: 'rgb(255, 205, 86)',#}
+    //             },
+    //         ]
+    //     };
+
+    //     const config = {
+    //         type: 'line',
+    //         data: data,
+    //         options: {
+    //             responsive: true,
+    //             plugins: {
+    //                 legend: {
+    //                     position: 'top',
+    //                 },
+    //                 title: {
+    //                     display: true,
+    //                     text: 'Chart.js Line Chart'
+    //                 }
+    //             }
+    //         },
+    //     };
+
+    //     var ctx = document.getElementById('myChart');
+    //     return new Chart(ctx, config);
+    // }
+
+    addData = (chart, label, wmd)=> {
+        console.log('add data '.concat(wmd));
+        chart.data.labels.push(label);
+        chart.data.datasets.forEach((dataset) => {
+            dataset.data.push(wmd);
+        });
+        chart.update();
+    }
+
     render() { 
         return <div className='body-container'>
           <link
@@ -272,6 +398,8 @@ class SearchIQS extends Component {
 {/*     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> */}
+     {/* <script src="../js/Chart.js"></script> */}
+    {/* <script src = "https://cdn.jsdelivr.net/npm/chart.js"></script> */}
             <Form onSubmit={this.handleSubmit} >
             <div class="form-group row justify-content-md-center">
             <label for="textarea" class="col-2 col-form-label">Text Area</label>
@@ -293,7 +421,7 @@ class SearchIQS extends Component {
         <div class="form-group row justify-content-md-center">
             <label for="iterations" class="col-2 col-form-label">Iterations</label>
             <div class="col-5">
-                <input id="iterations" name="iterations"  type="number" defaultValue={2} class="form-control"
+                <input id="iterations" name="iterations"  type="number" defaultValue={10} class="form-control"
                        required="required"/>
             </div>
         </div>
@@ -338,15 +466,22 @@ class SearchIQS extends Component {
     load more
   </Button>
 </Form>
+<div id="target_div">Watch this space...</div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="0"
+             aria-valuemin="0" aria-valuemax="100" style={{width: '0%'}}></div>
+    </div>
+    <canvas id="myChart" width="50" height="10"></canvas>
 <div id="result_container" >
+    <h1> Search Reasults</h1>
 <div class="row" id="tweetsContainer">
 
 </div>
 </div>
-<div className="App-charts">
-{/* <NivoAreaChart /> */}
-
-</div>
+{/* <div className="App-charts"> */}
+<NivoAreaChart data={this.state.chart_data}/>
+{/* <Chart></Chart> */}
+{/* </div> */}
 
 </div>;
     }

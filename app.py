@@ -61,15 +61,15 @@ def home_page():
 @app.route('/load_results', methods=['POST'])
 def load_results():
     print("********** load result")
-    print(request)
-    print("request.data",request.data)
+    # print(request)
+    # print("request.data",request.data)
     # search_id = json.loads(request.data)['search_id']
     search_id = request.json["search_id"]
     print("search_id", search_id)
     tweet_gen = tweets_generators.get(search_id)
     try:
         tweet_chunk = next(tweet_gen)
-        print(tweet_chunk,"    ***********tweet_chunk")
+        print(tweet_chunk,"   ***********tweet_chunk")
         tweet_htmls = [get_tweet_html(t) for t in tweet_chunk]
         print(tweet_htmls, "      **********tweet_htmls")
         return jsonify(tweet_htmls)
@@ -115,6 +115,7 @@ def stream():
             time.sleep(0.2)
             if search_id in search_wmd_updates_dict:
                 wmds = search_wmd_updates_dict.get(search_id)
+                print("wmds", wmds)
                 counter = 0
                 for wmd in wmds[i:]:
                     counter += 1
@@ -129,7 +130,7 @@ def stream():
                     yield 'data: {}\n\n'.format(-1)
                     threads_dict.pop(search_id)
                     break
-
+    # print("response from eventStream", flask.Response(eventStream(), mimetype="text/event-stream"))
     return flask.Response(eventStream(), mimetype="text/event-stream")
 
 
@@ -234,8 +235,8 @@ def run_iqs_search(search_id, iterations, keywords_start_size, max_tweets_per_qu
     res = iqs.hill_climbing(prototype_text, search_count=search_count, iterations=iterations,
                             keywords_start_size=keywords_start_size,
                             output_keywords_count=output_keywords_count, search_wmd_updates=search_wmd_updates)
-    print(res)
-    print('*************************************')
+    # print(res)
+    # print('*************************************')
     tweets = []
     for output_query in res:
         tweets.extend(

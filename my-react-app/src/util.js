@@ -34,14 +34,16 @@ export const addOneSec = date => {
 };
 
 export const nivoData = () => {
-  return [
+  var t= [
     {
       id: "catagory-1",
       data: simpleData().map(({ x, y }) => ({ x: x, y }))
     },
-    {
-      id: "catagory-2",
-      data: simpleData().map(({ x, y }) => ({ x: x, y }))
-    }
+    // {
+    //   id: "catagory-2",
+    //   data: simpleData().map(({ x, y }) => ({ x: x, y }))
+    // }
   ];
+  console.log(t)
+  return(t)
 };
