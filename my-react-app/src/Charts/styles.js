@@ -1,14 +1,15 @@
 module.exports = {
     container: {
-      background: "rgb(241, 244, 251)",
-      borderRadius: 4,
+      // background: "#f2f2f2",
+      borderRadius: 4,   
       margin: "16px 0 4px",
       padding: "8px 0 8px",
       height: 400,
-      width: "100%"
+      width: "100%",
+      textAlign: "center"
     },
     title: {
-      margin: 0,
+      // margin: 0,
       textAlign: "center",
       width: "100%",
       fontFamily: "Gill Sans",
@@ -17,13 +18,14 @@ module.exports = {
     tooltip: {
       fontFamily:
         '-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple   Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
-      background: "rgba(69,77,93,.9)",
+      background: "orange",
+      textAlign: "center",
       fontSize: 10,
-      color: "whitesmoke",
+      color: "green",
       padding: 8,
-      borderRadius: 4
+      // borderRadius: 4
     },
-    height: 400,
-    width: 800
+    height: 300,
+    width: 500,
   };
   

@@ -1,5 +1,88 @@
-@import "~react-vis/dist/style";
-.Button{
-    color: blueviolet;
+/* @import "~react-vis/dist/style"; */
+
+.body-container{
+    background-color: rgb(254, 255, 255);
+    color:"#996633";
+    margin-top:30px ;
 
 }
+
+.button{
+    /* color: rgb(57, 53, 46); */
+    margin: 30px;
+    border-radius: 12px;
+    background-color: "#ffb366";
+    border:"none";
+    color:"#996633";
+    width: 150px;
+    height: 50px;
+    box-shadow: 0 9px #999;
+
+}
+.button:active {
+    /* background-color: #3e8e41; */
+    /* box-shadow: 0 5px #666; */
+    transform: translateY(4px);
+  }
+#result_container{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* 
+#inline{
+    display:inline-block;
+} */
+/* .table{
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+} */
+#table {
+    margin-left:25%;
+    margin-right: 25%;
+ 
+    /* padding-left: 30%;
+    padding-right: 30%; */
+    text-align: center;
+    /* width: 80%; */
+    /* table-layout: fixed; */
+}
+
+#td {
+        padding-right: 5px;
+        margin: 0px;
+        /* border: 1px solid black; */
+        /* text-align: center; */
+        /* width: 100%; */
+}
+
+.cellcontainer {
+    width: auto;
+    display: inline-block;
+    text-align: left;
+} */
+.progress{
+    width: 70%;
+    padding-left:20% ;
+    text-align: center;
+    margin-left: 15%;
+}
+#load{
+    margin: 40px;
+}
+#progress-div{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+
+}
+#tweetsContainer{
+    margin: 10%;
+}
+/* #target_div{
+    
+} */
