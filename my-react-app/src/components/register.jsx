@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
-// import '../components/searchIQS.css'
+import React, { Component } from "react";
 import '../components/form.css'
 import {Card} from 'react-bootstrap'
-import register from "../components/register";
 
-class Register extends React.Component {
+class register extends Component {
     render() { 
 
-        return <div className='body-container' style={{color:"#996633"}}>
-                {/* <register></register> */}
-
+        return( <div className='body-container' style={{color:"#996633"}}>
                 <center>
                 <Card style={{ width: '30rem' }}>
                 <Card.Body>
@@ -38,8 +34,9 @@ class Register extends React.Component {
             </Card>
             </center>
 
-        </div>;
+        </div>
+        );
     }
 }
  
-export default Register;
+export default register;

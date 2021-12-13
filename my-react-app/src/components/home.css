@@ -1,0 +1,14 @@
+
+#one {
+    padding-left: 10%;
+    width: 50%;
+    height: 20rem;
+    float:left; /* add this */
+    border: 1px ;
+}
+#two {
+    padding-left: 10%;
+    width: 50%;
+    border: 1px ;
+    float: left;
+}

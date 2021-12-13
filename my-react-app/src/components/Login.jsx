@@ -1,20 +1,17 @@
-import React, { Component } from 'react';
-// import '../components/searchIQS.css'
+import React, { Component } from "react";
 import '../components/form.css'
 import {Card} from 'react-bootstrap'
-import register from "../components/register";
 
-class Register extends React.Component {
-    render() { 
 
-        return <div className='body-container' style={{color:"#996633"}}>
-                {/* <register></register> */}
-
+class Login extends Component {
+    render() {
+        return (
+            <div  className='body-container' style={{color:"#996633"}}>
                 <center>
                 <Card style={{ width: '30rem' }}>
                 <Card.Body>
-            <h1>Register</h1>
-            <form>
+                <h1>Login</h1>
+                <form>
                 <br></br>
                 <center>
                 <div className="form-group">
@@ -30,16 +27,15 @@ class Register extends React.Component {
                 <button class="button" type="submit" >Sign in</button>
                 <br></br>
                 <p className="forgot-password text-right">
-                you are already registered yet? Go to <a href="/LogIn">Log In</a>
+                you are not registered yet? Go to <a href="/Register">Register</a>
                 </p>
                 </center>
-            </form>
-            </Card.Body>
+                </form>
+                </Card.Body>
             </Card>
             </center>
-
-        </div>;
+            </div>
+        );
     }
 }
- 
-export default Register;
+export default Login;

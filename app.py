@@ -69,9 +69,9 @@ def load_results():
     tweet_gen = tweets_generators.get(search_id)
     try:
         tweet_chunk = next(tweet_gen)
-        print(tweet_chunk,"   ***********tweet_chunk")
+        # print(tweet_chunk,"   ***********tweet_chunk")
         tweet_htmls = [get_tweet_html(t) for t in tweet_chunk]
-        print(tweet_htmls, "      **********tweet_htmls")
+        # print(tweet_htmls, "      **********tweet_htmls")
         return jsonify(tweet_htmls)
     except StopIteration as e:
         tweets_generators.pop(search_id)
@@ -115,7 +115,7 @@ def stream():
             time.sleep(0.2)
             if search_id in search_wmd_updates_dict:
                 wmds = search_wmd_updates_dict.get(search_id)
-                print("wmds", wmds)
+                # print("wmds", wmds)
                 counter = 0
                 for wmd in wmds[i:]:
                     counter += 1

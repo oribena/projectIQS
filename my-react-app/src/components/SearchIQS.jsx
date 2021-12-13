@@ -154,14 +154,14 @@ class SearchIQS extends Component {
             method: "POST",
             body: JSON.stringify(data),
             headers: {'Content-Type': 'application/json' }})
-        console.log(res)
+        // console.log(res)
         var tweet_htmls = await res.json()
-        console.log(tweet_htmls)
+        // console.log(tweet_htmls)
         if (tweet_htmls.length > 0) {
             tweet_htmls.forEach(getTweetDiv);
 
             function getTweetDiv(tweet_html) {
-                var $div = $("<div>", {"class": "col-md-6"});
+                var $div = $("<div>", {"class": "col-md-3"});
                 $div.html(tweet_html);
                 $('#tweetsContainer').append($div);
             }
@@ -305,7 +305,7 @@ class SearchIQS extends Component {
 
     render() { 
         return <div className='body-container' style={{color:"#996633"}} >
-                        <h1>Iterative Query Selection </h1>
+                        <h1>Search</h1>
                         
 
           {/* <link */}
@@ -421,24 +421,25 @@ class SearchIQS extends Component {
 
     <div class="progress">
         <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="0"
-             aria-valuemin="0" aria-valuemax="100" ></div>
-
+             aria-valuemin="0" aria-valuemax="100" >
+        </div>
     </div>
     <canvas id="myChart" width="50" height="10"></canvas>
     </div>
 
-
-<h2> MMD Chart</h2>
+<h3>MMD Chart</h3>
     <NivoAreaChart data={this.state.chart_data}/>
    
+        <div class="row" id="tweetsContainer" style={{display: 'none'}}>
+        <h2> Search Reasults</h2>
+        <hr></hr>
+        </div>
+<div>
+<hr></hr>
+</div>
     <button class="button"   id="load" variant="primary"  onClick={this.addMoreTweets} >
     Show Tweets
-  </button>
-    <div class="row" id="tweetsContainer" style={{display: 'none'}}>
-    <h2> Search Reasults</h2>
-
-
-    </div>
+    </button>
 </div>
 {/* <div className="App-charts"> */}
 

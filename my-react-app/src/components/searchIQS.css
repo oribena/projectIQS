@@ -7,19 +7,25 @@
 
 }
 
-.button{
-    /* color: rgb(57, 53, 46); */
-    margin: 30px;
-    border-radius: 12px;
-    background-color: "#ffb366";
-    border:"none";
-    color:"#996633";
-    width: 150px;
-    height: 50px;
-    box-shadow: 0 9px #999;
+  .button{
+	background-color: #996633;
+	border: none;
+	color: white;
+	padding: 8px 16px;
+	text-align: center;
+	font-size: 18px;
+	margin: 6px 4px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 15px;
+  }
+  
+  .button:hover {opacity: 1}
 
-}
-.button:active {
+  .button:active {
     /* background-color: #3e8e41; */
     /* box-shadow: 0 5px #666; */
     transform: translateY(4px);
@@ -81,7 +87,7 @@
 
 }
 #tweetsContainer{
-    margin: 10%;
+    margin: 3%;
 }
 /* #target_div{
     

@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 // import SearchIQS from './components/SearchIQS'
 import { Routes ,Route } from 'react-router-dom';
-import'../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import'my-react-app/node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Register from './pages/RegisterPage';
 
 ReactDOM.render(
