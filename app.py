@@ -253,7 +253,7 @@ def run_iqs_search(search_id, iterations, keywords_start_size, max_tweets_per_qu
     del tweets
     del tweets_wmds
     # tweets_generators[str(search_id)] = chunks(sorted_tweets, 4)
-    tweets_generators[str(search_id)] = read_chunks(tweet_fname, 4)
+    tweets_generators[str(search_id)] = read_chunks(tweet_fname, 10)
     print(tweets_generators[str(search_id)], "tweets generator in searchIQS")
     search_wmd_updates_dict.pop(search_id)
 
