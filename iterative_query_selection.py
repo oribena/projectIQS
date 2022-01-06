@@ -87,14 +87,14 @@ def get_tweet_html(tweet):
 
 
 def clean_content_by_nltk_stopwords(topic_content):
-    print("clean_content_by_nltk_stopwords")
+    # print("clean_content_by_nltk_stopwords")
     stopWords = set(stopwords.words('english'))
     topic_content = ' '.join(clean_words_from_stopwords(stopWords, topic_content.split(' ')))
     return topic_content
 
 
 def clean_text(description, remove_stop_words):
-    print("clean_text")
+    # print("clean_text")
     description = " ".join(description.split())
     description = description.replace('"', '').replace("'", '')
 
@@ -159,7 +159,7 @@ class TwitterCrawler:
         super().__init__()
         self.output_path = Path(output_path)
         self.iter = 1
-
+        self.id_set = set()
         if not os.path.exists(self.output_path):
             os.makedirs(self.output_path)
 
@@ -185,14 +185,24 @@ class TwitterCrawler:
         
 
         load_dotenv()
-        consumer_key = os.environ.get("consumer_key")
-        print(consumer_key)
-        consumer_secret = os.environ.get("consumer_secret")
-        access_token = os.environ.get("access_token")
-        access_token_secret = os.environ.get("access_token_secret")
-        auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-        auth.set_access_token(access_token, access_token_secret)
-        api = tweepy.API(auth, wait_on_rate_limit=True)
+        try:
+            consumer_key = os.environ.get("consumer_key")
+            print(consumer_key)
+            consumer_secret = os.environ.get("consumer_secret")
+            access_token = os.environ.get("access_token")
+            access_token_secret = os.environ.get("access_token_secret")
+            auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+            auth.set_access_token(access_token, access_token_secret)
+            api = tweepy.API(auth, wait_on_rate_limit=True)
+        except:
+            consumer_key = os.environ.get("consumer_key2")
+            print(consumer_key)
+            consumer_secret = os.environ.get("consumer_secret2")
+            access_token = os.environ.get("access_token2")
+            access_token_secret = os.environ.get("access_token_secret2")
+            auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+            auth.set_access_token(access_token, access_token_secret)
+            api = tweepy.API(auth, wait_on_rate_limit=True)
         text_query = query_str
         print("query_str",query_str)
         if not query_str:
@@ -207,12 +217,17 @@ class TwitterCrawler:
             # tweets_list = [{tweet.created_at, tweet.id, tweet.text} for tweet in tweets]
             # for tweet in tweets:
             #     print(tweet)
-
+            # id_tweet_set = set()
             tweets_list = [{'id':tweet.id,'username': tweet.user.screen_name,'tweet': tweet.text} for tweet in tweets]
+            # tweets_list = []
+            # for tweet in tweets:
+            #     if tweet.id not in id_tweet_set:
+            #         tweets_list.append({'id':tweet.id,'username': tweet.user.screen_name,'tweet': tweet.text})
+            #         id_tweet_set.add(tweet.id)
             with open(output_file_name, 'w') as f:
                 json.dump(tweets_list, f)
-            print("tweets_list")
-            print(tweets_list)
+            # print("tweets_list")
+            # print(tweets_list)
             # # Creation of dataframe from tweets list
             # # Add or remove columns as you remove tweet information
             # tweets_df = pd.DataFrame(tweets_list)
@@ -224,7 +239,7 @@ class TwitterCrawler:
             os.remove(output_file_name)
         else:
             tweets = []
-        print(tweets)
+        # print(tweets)
         return tweets
 
         # try:
@@ -259,9 +274,13 @@ class TwitterCrawler:
 
 def save_tweets_to_server(fname, tweets):
     print("save_tweets_to_server")  ##ophir added
+    # print(tweets)
+    # id_set = set()
     with open(fname, 'w') as f:
         for tweet in tweets:
+            # if tweet['id'] not in id_set:
             f.write(f'{json.dumps(tweet)}\n')
+                # id_set.add(tweet['id'])
 
 
 class IterativeQuerySelection:
@@ -344,7 +363,7 @@ class IterativeQuerySelection:
         # self._add_new_keywords('||'.join(final_queries), np.mean(distances), sum(tweet_counts))
 
         end = timeit.default_timer()
-        print('run time: {}'.format((end - start)))
+        # print('run time: {}'.format((end - start)))
         return final_queries
 
     def get_topn_queries(self, output_keywords_count):
@@ -507,4 +526,4 @@ if __name__ == "__main__":
 
     for i in range(5):
         get_tweet_html(sorted_tweets[i])
-        print(sorted_tweets[i]['tweet'])
+        # print(sorted_tweets[i]['tweet'])

@@ -57,7 +57,7 @@ def read_chunks(fname, n):
 def home_page():
     return render_template('home_page.html', search_id='', prototype_text='')
 
-
+tweet_ids = set()
 @app.route('/load_results', methods=['POST'])
 def load_results():
     print("********** load result")
@@ -67,10 +67,19 @@ def load_results():
     search_id = request.json["search_id"]
     print("search_id", search_id)
     tweet_gen = tweets_generators.get(search_id)
+    # print(tweet_gen)
     try:
         tweet_chunk = next(tweet_gen)
+        # print(tweet_chunk)
         # print(tweet_chunk,"   ***********tweet_chunk")
-        tweet_htmls = [get_tweet_html(t) for t in tweet_chunk]
+        # tweet_htmls = [get_tweet_html(t) for t in tweet_chunk]
+        tweet_htmls= []
+        for t in tweet_chunk:
+            if t["id"] not in tweet_ids:
+                tweet_htmls.append(get_tweet_html(t))
+                tweet_ids.add(t["id"])
+
+
         # print(tweet_htmls, "      **********tweet_htmls")
         return jsonify(tweet_htmls)
     except StopIteration as e:
@@ -87,6 +96,7 @@ def safe_remove_key_from_dict(key, dictionary):
 @app.route('/close_search', methods=['POST'])
 def close_search():
     print(request.data)
+    # tweet_ids = set()
     search_ids = json.loads(request.data)['search_ids']
     for search_id in search_ids:
         safe_remove_key_from_dict(search_id, tweets_generators)
@@ -115,7 +125,7 @@ def stream():
             time.sleep(0.2)
             if search_id in search_wmd_updates_dict:
                 wmds = search_wmd_updates_dict.get(search_id)
-                # print("wmds", wmds)
+                print("wmds", wmds)
                 counter = 0
                 for wmd in wmds[i:]:
                     counter += 1
@@ -241,9 +251,9 @@ def run_iqs_search(search_id, iterations, keywords_start_size, max_tweets_per_qu
     for output_query in res:
         tweets.extend(
             twitter_crawler.retrieve_tweets(output_query, max_num_tweets=max_tweets_per_query, hide_output=True))
-    print('Eval relevance')
+    # print('Eval relevance')
     tweets_wmds = relevance_evaluator.eval_claim_tweets(prototype_text, tweets, use_mean=False)
-    print('embed tweet into HTML tags')
+    # print('embed tweet into HTML tags')
     sorted_tweets = [x for _, x in sorted(zip(tweets_wmds, tweets), key=lambda pair: pair[0])]
 
     tweet_fname = f'output/tweets_{search_id}.json'
@@ -253,8 +263,8 @@ def run_iqs_search(search_id, iterations, keywords_start_size, max_tweets_per_qu
     del tweets
     del tweets_wmds
     # tweets_generators[str(search_id)] = chunks(sorted_tweets, 4)
-    tweets_generators[str(search_id)] = read_chunks(tweet_fname, 10)
-    print(tweets_generators[str(search_id)], "tweets generator in searchIQS")
+    tweets_generators[str(search_id)] = read_chunks(tweet_fname, 12)
+    # print(tweets_generators[str(search_id)], "tweets generator in searchIQS")
     search_wmd_updates_dict.pop(search_id)
 
 
