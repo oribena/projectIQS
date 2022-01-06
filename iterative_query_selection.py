@@ -185,24 +185,24 @@ class TwitterCrawler:
         
 
         load_dotenv()
-        try:
-            consumer_key = os.environ.get("consumer_key")
-            print(consumer_key)
-            consumer_secret = os.environ.get("consumer_secret")
-            access_token = os.environ.get("access_token")
-            access_token_secret = os.environ.get("access_token_secret")
-            auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-            auth.set_access_token(access_token, access_token_secret)
-            api = tweepy.API(auth, wait_on_rate_limit=True)
-        except:
-            consumer_key = os.environ.get("consumer_key2")
-            print(consumer_key)
-            consumer_secret = os.environ.get("consumer_secret2")
-            access_token = os.environ.get("access_token2")
-            access_token_secret = os.environ.get("access_token_secret2")
-            auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-            auth.set_access_token(access_token, access_token_secret)
-            api = tweepy.API(auth, wait_on_rate_limit=True)
+
+        consumer_key = os.environ.get("consumer_key")
+        print(consumer_key)
+        consumer_secret = os.environ.get("consumer_secret")
+        access_token = os.environ.get("access_token")
+        access_token_secret = os.environ.get("access_token_secret")
+        auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+        auth.set_access_token(access_token, access_token_secret)
+        api = tweepy.API(auth, wait_on_rate_limit=True)
+
+        # consumer_key = os.environ.get("consumer_key2")
+        # print(consumer_key)
+        # consumer_secret = os.environ.get("consumer_secret2")
+        # access_token = os.environ.get("access_token2")
+        # access_token_secret = os.environ.get("access_token_secret2")
+        # auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+        # auth.set_access_token(access_token, access_token_secret)
+        # api = tweepy.API(auth, wait_on_rate_limit=True)
         text_query = query_str
         print("query_str",query_str)
         if not query_str:
