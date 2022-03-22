@@ -186,22 +186,22 @@ class TwitterCrawler:
         load_dotenv()
 
         consumer_key = os.environ.get("consumer_key")
-        # print(consumer_key)
-        # consumer_secret = os.environ.get("consumer_secret")
-        # access_token = os.environ.get("access_token")
-        # access_token_secret = os.environ.get("access_token_secret")
-        # auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-        # auth.set_access_token(access_token, access_token_secret)
-        # api = tweepy.API(auth, wait_on_rate_limit=True)
-
-        consumer_key = os.environ.get("consumer_key2")
         print(consumer_key)
-        consumer_secret = os.environ.get("consumer_secret2")
-        access_token = os.environ.get("access_token2")
-        access_token_secret = os.environ.get("access_token_secret2")
+        consumer_secret = os.environ.get("consumer_secret")
+        access_token = os.environ.get("access_token")
+        access_token_secret = os.environ.get("access_token_secret")
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
         api = tweepy.API(auth, wait_on_rate_limit=True)
+
+        # consumer_key = os.environ.get("consumer_key2")
+        # print(consumer_key)
+        # consumer_secret = os.environ.get("consumer_secret2")
+        # access_token = os.environ.get("access_token2")
+        # access_token_secret = os.environ.get("access_token_secret2")
+        # auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+        # auth.set_access_token(access_token, access_token_secret)
+        # api = tweepy.API(auth, wait_on_rate_limit=True)
 
         text_query = query_str
         print("query_str",query_str)
@@ -370,10 +370,10 @@ class IterativeQuerySelection:
         print("get_topn_queries")  ##ophir added
         queries = []
         best_distances = []
-        if len(self._walked_keywords) > 0:
-            queries, best_distances = list(zip(*self._walked_keywords.most_common(output_keywords_count)))
-            queries = list(queries)
-            best_distances = list(best_distances)
+        # if len(self._walked_keywords) > 0:
+        #     queries, best_distances = list(zip(*self._walked_keywords.most_common(output_keywords_count)))
+        #     queries = list(queries)
+        #     best_distances = list(best_distances)     
         if output_keywords_count - len(queries) > 0:
             # all_keywords = self._keywords_score_dict.keys()
             queries_temp, evals = list(zip(*sorted(self._keywords_score_dict.items(), key=lambda q: q[1][0])[
@@ -425,9 +425,9 @@ class IterativeQuerySelection:
         keywords_str = ' '.join(curr_keywords)
         if evaluation['tweet_num'] >= self._min_tweet_count:
             self._walked_keywords[keywords_str] = -1.0 * evaluation['distance']
-        if evaluation['distance'] < self._last_distance and evaluation['tweet_num'] >= self._min_tweet_count:
-            self._last_distance = evaluation['distance']
-            return True
+            if evaluation['distance'] < self._last_distance:
+                self._last_distance = evaluation['distance']
+                return True
         return False
 
     def _get_next_keywords(self, claim_description_words, current_keywords, prune_set):
