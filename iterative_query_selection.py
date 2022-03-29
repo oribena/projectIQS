@@ -185,7 +185,7 @@ class TwitterCrawler:
         
         load_dotenv()
 
-        consumer_key = os.environ.get("consumer_key")
+        # consumer_key = os.environ.get("consumer_key")
         # print(consumer_key)
         # consumer_secret = os.environ.get("consumer_secret")
         # access_token = os.environ.get("access_token")

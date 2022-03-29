@@ -1,4 +1,4 @@
-import os
+import os, ssl
 import time
 import uuid
 import json
@@ -7,7 +7,8 @@ from concurrent.futures import ThreadPoolExecutor
 
 import flask
 import threading
-from flask import Flask, url_for, render_template, request, jsonify, send_from_directory
+from flask import Flask, url_for, render_template, request, jsonify, send_from_directory, abort
+from flask_cors import CORS
 # import os, psutil
 from iterative_query_selection import TwitterCrawler, RelevanceEvaluator, IterativeQuerySelection, get_tweet_html, \
     save_tweets_to_server
@@ -268,5 +269,79 @@ def run_iqs_search(search_id, iterations, keywords_start_size, max_tweets_per_qu
     search_wmd_updates_dict.pop(search_id)
 
 
-if __name__ == '__main__':
-    app.run()
+def create_app():
+    app = Flask(
+        __name__,
+        static_url_path="",
+        static_folder="client\\build",
+    )
+
+    # Configure the flask app instance
+    ENV = os.getenv("FLASK_ENV", default="production")
+    config_type = "config.DevelopmentConfig" if ENV == "development" else "config.ProductionConfig"
+    app.config.from_object(config_type)
+
+    setup_certification(app)
+
+    configure_logging(app)
+
+    # TODO: Check what this is doing
+    CORS(app, resources={r"/*": {"origins": "*"}})
+
+
+def configure_logging(app):
+    import logging
+    from flask.logging import default_handler
+    from logging.handlers import RotatingFileHandler
+
+    if not os.path.exists("logs"):
+        os.mkdir("logs")
+
+    # Deactivate the default flask logger so that log messages don't get duplicated
+    app.logger.removeHandler(default_handler)
+
+    # Create a file handler object
+    file_handler = RotatingFileHandler(
+        "logs/karmalegoweb.log", maxBytes=16384, backupCount=20, delay=True
+    )
+
+    # Set the logging level of the file handler object so that it logs INFO and up
+    file_handler.setLevel(logging.DEBUG)
+    app.logger.setLevel(logging.DEBUG)
+
+    # Create a file formatter object
+    file_formatter = logging.Formatter(
+        "%(asctime)s %(levelname)s [in %(filename)s %(lineno)d]: %(message)s"
+    )
+
+    # Apply the file formatter object to the file handler object
+    file_handler.setFormatter(file_formatter)
+
+    # Add file handler object to the logger
+    app.logger.addHandler(file_handler)
+
+
+def setup_certification(app):
+    context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
+    certfile = os.path.join(app.config["ROOT_PATH"], "server.crt")
+    keyfile = os.path.join(app.config["ROOT_PATH"], "server.key")
+    context.load_cert_chain(certfile, keyfile)
+
+
+def register_error_handlers(app, db):
+    @app.errorhandler(500)
+    def server_error(e):
+        db.session.rollback()
+        app.log_exception(e)
+        return (
+            jsonify(
+                {
+                    "message": "Oops, you encountered a server error, try again later or call for technical help"
+                }
+            ),
+            500,
+        )
+
+
+# if __name__ == '__main__':
+#     app.run()
