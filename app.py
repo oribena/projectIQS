@@ -156,11 +156,8 @@ def get_search_id():
 @app.route('/get_experiment_tweets', methods=['POST'])
 def get_tweets():
     prototype = json.loads(request.data)['claim_id']
-    print(prototype)
     ALMIK_html_list = getURL_ALMIK(prototype)
     IQS_html_list = getURL_IQS(prototype)
-    print(ALMIK_html_list)
-    print(IQS_html_list)
     print("IQSl_list")
 
     result_json = { "ALMIK":ALMIK_html_list , "IQS":IQS_html_list}

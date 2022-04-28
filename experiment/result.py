@@ -18,11 +18,10 @@ def getURL_ALMIK(claim_id):
     sorted_df = df.sort_values(by=["2"], ascending=True)
     sorted_df.to_csv (r'experiment/output/ALMIK_ranker_iter5_label20_active_iter3/res3.csv', index=None)
     #Get top 10 post ID 
-    df = pd.read_csv('experiment/output/ALMIK_ranker_iter5_label20_active_iter3/res3.csv', nrows=11, header=None) 
+    df = pd.read_csv('experiment/output/ALMIK_ranker_iter5_label20_active_iter3/res3.csv', nrows=20, header=None) 
     df_list = df[1].tolist()[1:]
-    # print(df_list)
     res = load_source(df_list)
-    return res
+    return res[:10]
 
 def getURL_IQS(claim_id):
     claim_id = int(claim_id)
@@ -37,11 +36,10 @@ def getURL_IQS(claim_id):
     sorted_df = df.sort_values(by=["2"], ascending=True)
     sorted_df.to_csv (r'experiment/IQS_res/res3.csv', index=None)
     #Get top 10 post ID 
-    df = pd.read_csv('experiment/IQS_res/res3.csv', nrows=11, header=None) 
+    df = pd.read_csv('experiment/IQS_res/res3.csv', nrows=20, header=None) 
     df_list = df[1].tolist()[1:]
-    # print(df_list)
     res = load_source(df_list)
-    return res
+    return res[:10]
 
 
 def load_source (list):
@@ -53,10 +51,11 @@ def load_source (list):
         # print(df)
         # print(df["url"].values)
         url = df["url"].values[0]
-        URL.append(url)
-        html = get_tweet_html(url)
-        if html is not None: 
-            HTML.append(html)
+        if url is not None:
+            URL.append(url)
+            html = get_tweet_html(url)
+            if html is not None: 
+                HTML.append(html)
     # print(URL)
     # print(HTML)
 
@@ -76,15 +75,19 @@ def get_tweet_html(url):
     headers = {
         'Accept-Encoding': 'json'
     }
-    json_res = requests.get(embed_api, params=params, headers=headers).json()
-    y = json.dumps(json_res)
-    check_json = json.loads(y)
-    if "html" in check_json:
-        res = json_res['html']
-    else:
-        res = None
-    # print(res)
-    return res
+    try:
+        json_res = requests.get(embed_api, params=params, headers=headers).json()
+        y = json.dumps(json_res)
+        check_json = json.loads(y)
+        if "html" in check_json:
+            res = json_res['html']
+        else:
+            res = None
+        # print(res)
+        return res
+    except:
+        return None
+
 
 # getURL_ALMIK(51)
 # getURL_IQS(51)
