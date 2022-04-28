@@ -4,7 +4,9 @@ import uuid
 import json
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
-
+from experiment.result import getURL_ALMIK 
+from experiment.result import getURL_IQS 
+from experiment.result import get_claims 
 import flask
 import threading
 from flask import Flask, url_for, render_template, request, jsonify, send_from_directory
@@ -149,6 +151,25 @@ def get_search_id():
     prototype = json.loads(request.data)['prototype']
     search_id = get_uuid_for_prototype(prototype)
     return jsonify(search_id)
+
+
+@app.route('/get_experiment_tweets', methods=['POST'])
+def get_tweets():
+    prototype = json.loads(request.data)['claim_id']
+    print(prototype)
+    ALMIK_html_list = getURL_ALMIK(prototype)
+    IQS_html_list = getURL_IQS(prototype)
+    print(ALMIK_html_list)
+    print(IQS_html_list)
+    print("IQSl_list")
+
+    result_json = { "ALMIK":ALMIK_html_list , "IQS":IQS_html_list}
+    return jsonify(result_json)
+
+@app.route('/get_claimes', methods=['GET'])
+def get_experiment_claimes():
+    all_claims = get_claims()
+    return jsonify(all_claims)
 
 
 def get_uuid_for_prototype(prototype):
