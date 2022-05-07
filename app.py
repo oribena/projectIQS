@@ -206,6 +206,29 @@ def login():
     print("userId", googleId)
     print("token", token)
     return "h"
+
+@app.route('/getHistory', methods=['POST'])
+def getHistory():
+    print("getHistory")
+    googleId = json.loads(request.data)["accountId"]
+    print("userId", googleId)
+
+    token = json.loads(request.data)["token"]
+    # GoogleUsers.getUserHistory("123")
+    # GoogleUsers.addUser(googleId, token)
+    print("token", token)
+    return jsonify(GoogleUsers.getUserHistory("123"))
+
+@app.route('/postHistory', methods=['POST'])
+def postHistory():
+    googleId = json.loads(request.data)["accountId"]
+    token = json.loads(request.data)["token"]
+    GoogleUsers.addUserHistory("123", "documentush")
+    # GoogleUsers.addUser(googleId, token)
+    # print("userId", googleId)
+    # print("token", token)
+    # return GoogleUsers.getUserHistory("123")
+    return ""
     
 
 
