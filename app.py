@@ -9,6 +9,7 @@ from experiment.result import getURL_IQS
 from experiment.result import get_claims 
 import flask
 import threading
+import GoogleUsers
 from flask import Flask, url_for, render_template, request, jsonify, send_from_directory
 # import os, psutil
 from iterative_query_selection import TwitterCrawler, RelevanceEvaluator, IterativeQuerySelection, get_tweet_html, \
@@ -212,6 +213,40 @@ def search():
         return 'Done'
     else:
         return 'failed'
+
+@app.route('/login', methods=['POST'])
+def login():
+    googleId = json.loads(request.data)["accountId"]
+    token = json.loads(request.data)["token"]
+    GoogleUsers.addUser(googleId, token)
+    print("userId", googleId)
+    print("token", token)
+    return "h"
+
+@app.route('/getHistory', methods=['POST'])
+def getHistory():
+    print("getHistory")
+    googleId = json.loads(request.data)["accountId"]
+    print("userId", googleId)
+
+    token = json.loads(request.data)["token"]
+    # GoogleUsers.getUserHistory("123")
+    # GoogleUsers.addUser(googleId, token)
+    print("token", token)
+    return jsonify(GoogleUsers.getUserHistory("123"))
+
+@app.route('/postHistory', methods=['POST'])
+def postHistory():
+    googleId = json.loads(request.data)["accountId"]
+    token = json.loads(request.data)["token"]
+    GoogleUsers.addUserHistory("123", "documentush")
+    # GoogleUsers.addUser(googleId, token)
+    # print("userId", googleId)
+    # print("token", token)
+    # return GoogleUsers.getUserHistory("123")
+    return ""
+    
+
 
 
 # @app.route('/search', methods=['POST'])
