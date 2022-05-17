@@ -185,23 +185,23 @@ class TwitterCrawler:
         
         load_dotenv()
 
-        consumer_key = os.environ.get("consumer_key")
-        print(consumer_key)
-        consumer_secret = os.environ.get("consumer_secret")
-        access_token = os.environ.get("access_token")
-        access_token_secret = os.environ.get("access_token_secret")
-        auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-        auth.set_access_token(access_token, access_token_secret)
-        api = tweepy.API(auth, wait_on_rate_limit=True)
-
-        # consumer_key = os.environ.get("consumer_key2")
+        # consumer_key = os.environ.get("consumer_key")
         # print(consumer_key)
-        # consumer_secret = os.environ.get("consumer_secret2")
-        # access_token = os.environ.get("access_token2")
-        # access_token_secret = os.environ.get("access_token_secret2")
+        # consumer_secret = os.environ.get("consumer_secret")
+        # access_token = os.environ.get("access_token")
+        # access_token_secret = os.environ.get("access_token_secret")
         # auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         # auth.set_access_token(access_token, access_token_secret)
         # api = tweepy.API(auth, wait_on_rate_limit=True)
+
+        consumer_key = os.environ.get("consumer_key2")
+        print(consumer_key)
+        consumer_secret = os.environ.get("consumer_secret2")
+        access_token = os.environ.get("access_token2")
+        access_token_secret = os.environ.get("access_token_secret2")
+        auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+        auth.set_access_token(access_token, access_token_secret)
+        api = tweepy.API(auth, wait_on_rate_limit=True)
 
         text_query = query_str
         print("query_str",query_str)
@@ -272,15 +272,18 @@ class TwitterCrawler:
         return tweets[0]
 
 
-def save_tweets_to_server(fname, tweets):
+def save_tweets_to_server(fname, tweets, wmds):
     print("save_tweets_to_server")  ##ophir added
     # print(tweets)
     # id_set = set()
-    with open(fname, 'w') as f:
+    with open(fname+'.json', 'w') as f:
         for tweet in tweets:
             # if tweet['id'] not in id_set:
             f.write(f'{json.dumps(tweet)}\n')
                 # id_set.add(tweet['id'])
+    with open(f'{fname}_wmd.json', 'w') as wmd_file:
+        wmd_file.write(json.dumps({'wmds': wmds }))
+
 
 
 class IterativeQuerySelection:

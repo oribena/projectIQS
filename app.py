@@ -212,18 +212,28 @@ def getHistory():
     print("getHistory")
     googleId = json.loads(request.data)["accountId"]
     print("userId", googleId)
-
     token = json.loads(request.data)["token"]
+    history = GoogleUsers.getUserHistory(googleId)
+    retreve_history = []
+    for his in history:
+        with open(f'output/tweets_{his["search_id"]}_wmd.json', 'r') as f:
+            data = json.load(f)
+            his.update(data)
+            retreve_history.append(his)
+
     # GoogleUsers.getUserHistory("123")
     # GoogleUsers.addUser(googleId, token)
     print("token", token)
-    return jsonify(GoogleUsers.getUserHistory("123"))
+    return jsonify(retreve_history)
 
 @app.route('/postHistory', methods=['POST'])
 def postHistory():
     googleId = json.loads(request.data)["accountId"]
     token = json.loads(request.data)["token"]
-    GoogleUsers.addUserHistory("123", "documentush")
+    document = json.loads(request.data)["document"]
+    search_id = json.loads(request.data)["search_id"]
+    # authenticate
+    GoogleUsers.addUserHistory(googleId, document, search_id)
     # GoogleUsers.addUser(googleId, token)
     # print("userId", googleId)
     # print("token", token)
@@ -291,8 +301,8 @@ def run_iqs_search(search_id, iterations, keywords_start_size, max_tweets_per_qu
     # print('embed tweet into HTML tags')
     sorted_tweets = [x for _, x in sorted(zip(tweets_wmds, tweets), key=lambda pair: pair[0])]
 
-    tweet_fname = f'output/tweets_{search_id}.json'
-    save_tweets_to_server(tweet_fname, sorted_tweets)
+    tweet_fname = f'output/tweets_{search_id}'
+    save_tweets_to_server(tweet_fname, sorted_tweets, search_wmd_updates_dict.get(search_id))
     del iqs
     del sorted_tweets
     del tweets

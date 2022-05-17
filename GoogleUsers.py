@@ -18,7 +18,7 @@ history_collection = db['UsersHistory']
 def removeUsersCollection():
     users_collection.delete_many({})
 # removeUsersCollection()
-
+# history_collection.delete_many({})
 
 def addUser(googleId, token):
     if isExistUser(googleId):
@@ -48,7 +48,7 @@ def getUserHistory(googleId):
     history = history_collection.find({'id': googleId})
     historyList = [d for d in history]
     # print([ d for d in history])
-    result = [{'text': historyList[d]['text'], 'index':d,'time':  getDatetimeString(historyList[d]['time'])} for d in range(len(historyList))]
+    result = [{'text': historyList[d]['text'], 'index':d,'time':  getDatetimeString(historyList[d]['time']), 'search_id': historyList[d]['search_id']} for d in range(len(historyList))]
     # times = [dict(d)['time'] for d in history]
     # [{'text': text, 'time':time} for text, time in [result,times]]
     return result
@@ -62,13 +62,13 @@ def isWatched(googleId, document):
 
 from datetime import datetime
 
-def addUserHistory(googleId, document):
-    if isWatched(googleId, document):
-        history_collection.delete_one({'id': googleId, 'text': document})
-    history_collection.insert_one({'id': googleId, 'text': document, 'time': datetime.now()})
+def addUserHistory(googleId, document, search_id):
+    # if isWatched(googleId, document):
+    #     history_collection.delete_one({'id': googleId, 'text': document})
+    history_collection.insert_one({'id': googleId, 'text': document, 'time': datetime.now().timestamp(), 'search_id': search_id})
     
 
-# addUserHistory("123", "heyyyophir")
+# addUserHistory("123", "heyyyophir", '951debec-d1da-11ec-836e-d07e35c972db')
 # print(getUserHistory("123"))
 # from google.oauth2 import id_token
 # from google.auth.transport import requests
