@@ -158,8 +158,6 @@ def get_tweets():
     prototype = json.loads(request.data)['claim_id']
     ALMIK_html_list = getURL_ALMIK(prototype)
     IQS_html_list = getURL_IQS(prototype)
-    print("IQSl_list")
-
     result_json = { "ALMIK":ALMIK_html_list , "IQS":IQS_html_list}
     return jsonify(result_json)
 
