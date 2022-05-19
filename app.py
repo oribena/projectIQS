@@ -14,6 +14,7 @@ from flask import Flask, url_for, render_template, request, jsonify, send_from_d
 # import os, psutil
 from iterative_query_selection import TwitterCrawler, RelevanceEvaluator, IterativeQuerySelection, get_tweet_html, \
     save_tweets_to_server
+import requests
 
 app = Flask(__name__)
 
@@ -218,9 +219,9 @@ def search():
 def login():
     googleId = json.loads(request.data)["accountId"]
     token = json.loads(request.data)["token"]
-    GoogleUsers.addUser(googleId, token)
-    print("userId", googleId)
-    print("token", token)
+    print("googleId ", googleId)
+    print("token ", token)
+    # GoogleUsers.addUser(googleId, token)
     return "h"
 
 @app.route('/getHistory', methods=['POST'])
@@ -229,18 +230,25 @@ def getHistory():
     googleId = json.loads(request.data)["accountId"]
     print("userId", googleId)
     token = json.loads(request.data)["token"]
-    history = GoogleUsers.getUserHistory(googleId)
-    retreve_history = []
-    for his in history:
-        with open(f'output/tweets_{his["search_id"]}_wmd.json', 'r') as f:
-            data = json.load(f)
-            his.update(data)
-            retreve_history.append(his)
+    tokenValidation = requests.get('https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=' + token )
+    if (tokenValidation.ok):
+        history = GoogleUsers.getUserHistory(googleId)
+        retreve_history = []
+        for his in history:
+            with open(f'output/tweets_{his["search_id"]}_wmd.json', 'r') as f:
+                data = json.load(f)
+                his.update(data)
+                retreve_history.append(his)
 
-    # GoogleUsers.getUserHistory("123")
-    # GoogleUsers.addUser(googleId, token)
-    print("token", token)
-    return jsonify(retreve_history)
+        # GoogleUsers.getUserHistory("123")
+        # GoogleUsers.addUser(googleId, token)
+        reversed_list = retreve_history[::-1]
+        print("list  ", reversed_list)
+
+        return jsonify(reversed_list)
+    response = jsonify({'message':'unauthorized'})
+    return response, 401
+
 
 @app.route('/postHistory', methods=['POST'])
 def postHistory():
@@ -249,12 +257,18 @@ def postHistory():
     document = json.loads(request.data)["document"]
     search_id = json.loads(request.data)["search_id"]
     # authenticate
-    GoogleUsers.addUserHistory(googleId, document, search_id)
+    token = json.loads(request.data)["token"]
+    tokenValidation = requests.get('https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=' + token )
+    if (tokenValidation.ok):
+         response, status = GoogleUsers.addUserHistory(googleId, document, search_id), 200
+    else:
+        response, status = jsonify({'message':'unauthorized'}), 401
     # GoogleUsers.addUser(googleId, token)
     # print("userId", googleId)
     # print("token", token)
     # return GoogleUsers.getUserHistory("123")
-    return ""
+    
+    return response, status
     
 
 

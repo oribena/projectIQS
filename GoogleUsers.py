@@ -8,7 +8,9 @@ load_dotenv()
 connection_string = os.environ.get("connection_string")
 
 def getMongoClient():
-    return MongoClient(connection_string)
+    return MongoClient(connection_string, connect=False)
+
+    return MongoClient(connection_string, connect=False, serverSelectionTimeoutMS=1)
 
 mongo_client = getMongoClient()
 db = mongo_client.Users
