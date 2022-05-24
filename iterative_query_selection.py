@@ -174,7 +174,7 @@ class TwitterCrawler:
     def retrieve_tweets(self, query_str, max_num_tweets=20, hide_output=True):
         print("in retrieve_tweets")
         search_id = uuid.uuid3(uuid.NAMESPACE_DNS, query_str)
-        output_file_name = str(self.output_path / f"tweets_{search_id}.json")
+        output_file_name = str(self.output_path / f"tweets_{search_id}")
         # c = twint.Config()
         # c.Search = query_str
         # c.Limit = max_num_tweets

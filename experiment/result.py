@@ -21,7 +21,7 @@ def getURL_ALMIK(claim_id):
     df = pd.read_csv('experiment/output/ALMIK_ranker_iter5_label20_active_iter3/res3.csv', nrows=20, header=None) 
     df_list = df[1].tolist()[1:]
     res = load_source(df_list)
-    return res[:10]
+    return res[:12]
 
 def getURL_IQS(claim_id):
     claim_id = int(claim_id)
@@ -39,7 +39,7 @@ def getURL_IQS(claim_id):
     df = pd.read_csv('experiment/IQS_res/res3.csv', nrows=20, header=None) 
     df_list = df[1].tolist()[1:]
     res = load_source(df_list)
-    return res[:10]
+    return res[:12]
 
 
 def load_source (list):

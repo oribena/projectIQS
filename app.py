@@ -48,7 +48,7 @@ def chunks(lst, n):
 def read_chunks(fname, n):
     """Yield successive n-sized chunks from lst."""
     tweets = []
-    with open(fname, encoding="utf8") as f:
+    with open(fname+'.json', encoding="utf8") as f:
         for line in f:
             tweets.append(json.loads(line))
             if len(tweets) >= n:
@@ -71,6 +71,7 @@ def load_results():
     search_id = request.json["search_id"]
     print("search_id", search_id)
     tweet_gen = tweets_generators.get(search_id)
+    print(tweet_gen)
     # print(tweet_gen)
     try:
         tweet_chunk = next(tweet_gen)
@@ -88,7 +89,7 @@ def load_results():
         return jsonify(tweet_htmls)
     except StopIteration as e:
         tweets_generators.pop(search_id)
-        os.remove(f'output/tweets_{search_id}.json')
+        os.remove(f'output/tweets_{search_id}')
         return jsonify([])
 
 
@@ -246,8 +247,7 @@ def getHistory():
         print("list  ", reversed_list)
 
         return jsonify(reversed_list)
-    response = jsonify({'message':'unauthorized'})
-    return response, 401
+    return ""
 
 
 @app.route('/postHistory', methods=['POST'])
@@ -260,15 +260,14 @@ def postHistory():
     token = json.loads(request.data)["token"]
     tokenValidation = requests.get('https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=' + token )
     if (tokenValidation.ok):
-         response, status = GoogleUsers.addUserHistory(googleId, document, search_id), 200
-    else:
-        response, status = jsonify({'message':'unauthorized'}), 401
+         response = GoogleUsers.addUserHistory(googleId, document, search_id)
+
     # GoogleUsers.addUser(googleId, token)
     # print("userId", googleId)
     # print("token", token)
     # return GoogleUsers.getUserHistory("123")
     
-    return response, status
+    return ""
     
 
 
