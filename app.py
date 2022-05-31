@@ -239,7 +239,18 @@ def getHistory():
             with open(f'output/tweets_{his["search_id"]}_wmd.json', 'r') as f:
                 data = json.load(f)
                 his.update(data)
-                retreve_history.append(his)
+            with open(f'output/tweets_{his["search_id"]}.json', encoding="utf8") as f:
+                tweets = []
+                for line in f:
+                    if (len(tweets) < 12):
+                        html = get_tweet_html(json.loads(line))
+                        if (html is not None):
+                            tweets.append(html)
+                    else:
+                        break
+                json_object = {"tweets": tweets}
+                his.update(json_object)
+            retreve_history.append(his)
 
         # GoogleUsers.getUserHistory("123")
         # GoogleUsers.addUser(googleId, token)

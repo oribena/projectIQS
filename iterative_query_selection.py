@@ -69,21 +69,26 @@ def clean_words_from_stopwords(stopwords, words):
 
 
 def get_tweet_html(tweet):
-    print("get_tweet_html")
-    embed_api = 'https://publish.twitter.com/oembed'
-    params = {
-        'url': f'https://twitter.com/{tweet["username"]}/status/{tweet["id"]}',
-        'partner': '',
-        'hide_thread': False,
-        'maxheight': 200,
-        'limit': 1,
-        'cards': 'hidden',
-    }
-    headers = {
-        'Accept-Encoding': 'json'
-    }
-    json_res = requests.get(embed_api, params=params, headers=headers).json()
-    return json_res['html']
+    try:
+        print("get_tweet_html")
+        print(tweet)
+        embed_api = 'https://publish.twitter.com/oembed'
+        params = {
+            'url': f'https://twitter.com/{tweet["username"]}/status/{tweet["id"]}',
+            'partner': '',
+            'hide_thread': False,
+            'maxheight': 200,
+            'limit': 1,
+            'cards': 'hidden',
+        }
+        headers = {
+            'Accept-Encoding': 'json'
+        }
+        json_res = requests.get(embed_api, params=params, headers=headers).json()
+        print(json_res)
+        return json_res['html']
+    except:
+        pass
 
 
 def clean_content_by_nltk_stopwords(topic_content):
