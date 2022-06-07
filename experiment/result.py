@@ -13,12 +13,12 @@ def getURL_ALMIK(claim_id):
     #Filter by claim_id
     Blast = pd.read_csv('experiment/output/ALMIK_ranker_iter5_label20_active_iter3/res.csv')
     df = Blast.loc[Blast["0"] == claim_id]
-    df.to_csv (r'experiment/output/ALMIK_ranker_iter5_label20_active_iter3/res2.csv', index=None)
+    df.to_csv (r'experiment/output/ALMIK_ranker_iter5_label20_active_iter3/res.csv', index=None)
     #Sort the csv
     sorted_df = df.sort_values(by=["2"], ascending=True)
-    sorted_df.to_csv (r'experiment/output/ALMIK_ranker_iter5_label20_active_iter3/res3.csv', index=None)
+    sorted_df.to_csv (r'experiment/output/ALMIK_ranker_iter5_label20_active_iter3/res.csv', index=None)
     #Get top 10 post ID 
-    df = pd.read_csv('experiment/output/ALMIK_ranker_iter5_label20_active_iter3/res3.csv', nrows=20, header=None) 
+    df = pd.read_csv('experiment/output/ALMIK_ranker_iter5_label20_active_iter3/res.csv', nrows=20, header=None) 
     df_list = df[1].tolist()[1:]
     res = load_source(df_list)
     return res[:12]
@@ -31,12 +31,12 @@ def getURL_IQS(claim_id):
     #Filter by claim_id
     Blast = pd.read_csv('experiment/IQS_res/res.csv')
     df = Blast.loc[Blast["0"] == claim_id]
-    df.to_csv (r'experiment/IQS_res/res2.csv', index=None)
+    df.to_csv (r'experiment/IQS_res/res.csv', index=None)
     #Sort the csv
     sorted_df = df.sort_values(by=["2"], ascending=True)
-    sorted_df.to_csv (r'experiment/IQS_res/res3.csv', index=None)
+    sorted_df.to_csv (r'experiment/IQS_res/res.csv', index=None)
     #Get top 10 post ID 
-    df = pd.read_csv('experiment/IQS_res/res3.csv', nrows=20, header=None) 
+    df = pd.read_csv('experiment/IQS_res/res.csv', nrows=20, header=None) 
     df_list = df[1].tolist()[1:]
     res = load_source(df_list)
     return res[:12]
