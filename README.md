@@ -33,3 +33,5 @@ In order to use the package add `from IQS_algorithm import IQS` to your code.
 * Modify the quality of the search results from Twitter by setting different parameters. 
 * Designed for users with technical background.
 * Download the package using pip install IQS-algorithm
+
+We are Ophir Porat, Ori Ben-Artzy and Mor Zweig, students in the department of Software and Information Systems Engineering at Ben Gurion University of the Negev. These platforms are our final project under the guidance of Dr. Aviad Elishar and Mr. Maor Reuven IQS algorithm's creators.
