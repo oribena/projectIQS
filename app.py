@@ -109,6 +109,8 @@ def close_search():
         safe_remove_key_from_dict(search_id, threads_dict)
         if os.path.exists(f'output/tweets_{search_id}.json'):
             os.remove(f'output/tweets_{search_id}.json')
+        if os.path.exists(f'output/tweets_{search_id}_wmd.json'):
+            os.remove(f'output/tweets_{search_id}_wmd.json')
     return jsonify('stop_search')
 
 
