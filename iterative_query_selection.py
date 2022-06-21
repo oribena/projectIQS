@@ -1,4 +1,5 @@
 import os
+os.chdir("C:/Users/user/Desktop/projectIQS")
 import random
 import re
 import string
@@ -7,6 +8,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 import nltk
 import tweepy
+from pathlib import Path
 from dotenv import load_dotenv
 # nltk.download('averaged_perceptron_tagger')
 # nltk.download('wordnet')
@@ -162,7 +164,7 @@ class RelevanceEvaluator:
 class TwitterCrawler:
     def __init__(self, output_path='output/') -> None:
         super().__init__()
-        self.output_path = Path(output_path)
+        self.output_path = output_path
         self.iter = 1
         self.id_set = set()
         if not os.path.exists(self.output_path):
@@ -179,7 +181,8 @@ class TwitterCrawler:
     def retrieve_tweets(self, query_str, max_num_tweets=20, hide_output=True):
         print("in retrieve_tweets")
         search_id = uuid.uuid3(uuid.NAMESPACE_DNS, query_str)
-        output_file_name = str(self.output_path / f"tweets_{search_id}")
+        # os.chdir("C:/Users/user/Desktop/projectIQS")
+        output_file_name = f"{self.output_path}tweets_{search_id}"
         # c = twint.Config()
         # c.Search = query_str
         # c.Limit = max_num_tweets
@@ -199,14 +202,18 @@ class TwitterCrawler:
         # auth.set_access_token(access_token, access_token_secret)
         # api = tweepy.API(auth, wait_on_rate_limit=True)
 
-        consumer_key = os.environ.get("consumer_key2")
-        print(consumer_key)
-        consumer_secret = os.environ.get("consumer_secret2")
-        access_token = os.environ.get("access_token2")
-        access_token_secret = os.environ.get("access_token_secret2")
+        # consumer_key = os.environ.get("consumer_key2")
+        # print(consumer_key)
+        # consumer_secret = os.environ.get("consumer_secret2")
+        # access_token = os.environ.get("access_token2")
+        # access_token_secret = os.environ.get("access_token_secret2")
+        consumer_key = 'MboKL6geNSdnrGsy2RMMf7H1B'
+        consumer_secret = 'kSlrcK9yTEakQsRyzKBXmqJPqkzEwx9djOp4FCfgQicbP1EtAk'
+        access_token = '1455145653370343424-trv2DpN5WPLxEQsVesQBqU1NCzt1T7'
+        access_token_secret = 'ru7fO76F8075QsRmbC2nSxMjnZnpFHVYg3wx5s9FcX9jv'
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
-        api = tweepy.API(auth, wait_on_rate_limit=True)
+        api = tweepy.API(auth)
 
         text_query = query_str
         print("query_str",query_str)

@@ -15,3 +15,5 @@ __pycache__/iterative_query_selection.cpython-39.pyc
 package-lock.json
 my-react-app/package-lock.json
 my-react-app/package.json
+/my-react-app
+/client

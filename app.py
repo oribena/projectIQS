@@ -1,4 +1,4 @@
-import os
+import os, ssl
 import time
 import uuid
 import json
@@ -11,12 +11,19 @@ import flask
 import threading
 import GoogleUsers
 from flask import Flask, url_for, render_template, request, jsonify, send_from_directory
+from flask_cors import CORS
 # import os, psutil
 from iterative_query_selection import TwitterCrawler, RelevanceEvaluator, IterativeQuerySelection, get_tweet_html, \
     save_tweets_to_server
 import requests
+os.chdir("C:/Users/user/Desktop/projectIQS")
 
-app = Flask(__name__)
+context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
+certfile = "C:/Users/user/Desktop/projectIQS/fullchain.pem"
+keyfile = "C:/Users/user/Desktop/projectIQS/privkey.pem"
+context.load_cert_chain(certfile, keyfile)
+
+app = Flask(__name__,static_url_path='/',static_folder='client/build')
 
 tweets_generators = {}
 search_wmd_updates_dict = defaultdict(list)
@@ -56,10 +63,12 @@ def read_chunks(fname, n):
                 tweets = []
         yield tweets
 
+cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
-@app.route('/')
-def home_page():
-    return render_template('home_page.html', search_id='', prototype_text='')
+@app.route('/', defaults={'path': ''})
+def home_page(path):
+    # return render_template('home_page.html', search_id='', prototype_text='')
+    return send_from_directory(app.static_folder,'index.html')
 
 tweet_ids = set()
 @app.route('/load_results', methods=['POST'])
@@ -183,7 +192,7 @@ def send_js():
 def search():
     global relevance_evaluator
     global twitter_crawler
-
+ 
     # print(request.form)
     # print(request.data)
     prototype_text = request.json["form"]['text']
@@ -340,7 +349,6 @@ def run_iqs_search(search_id, iterations, keywords_start_size, max_tweets_per_qu
     tweets_wmds = relevance_evaluator.eval_claim_tweets(prototype_text, tweets, use_mean=False)
     # print('embed tweet into HTML tags')
     sorted_tweets = [x for _, x in sorted(zip(tweets_wmds, tweets), key=lambda pair: pair[0])]
-
     tweet_fname = f'output/tweets_{search_id}'
     save_tweets_to_server(tweet_fname, sorted_tweets, search_wmd_updates_dict.get(search_id))
     del iqs
@@ -353,5 +361,5 @@ def run_iqs_search(search_id, iterations, keywords_start_size, max_tweets_per_qu
     search_wmd_updates_dict.pop(search_id)
 
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
