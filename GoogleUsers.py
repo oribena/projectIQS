@@ -8,9 +8,9 @@ load_dotenv()
 connection_string = os.environ.get("connection_string")
 
 def getMongoClient():
-    return MongoClient(connection_string, connect=False)
-
-    return MongoClient(connection_string, connect=False, serverSelectionTimeoutMS=1)
+    # certfile = "C:/Users/user/Desktop/projectIQS/fullchain.pem"
+    # return MongoClient(connection_string, connect=False, tls=True, tlsCRLFile=certfile)
+    return MongoClient(connection_string)
 
 mongo_client = getMongoClient()
 db = mongo_client.Users
@@ -69,7 +69,13 @@ def addUserHistory(googleId, document, search_id):
     #     history_collection.delete_one({'id': googleId, 'text': document})
     history_collection.insert_one({'id': googleId, 'text': document, 'time': datetime.now().timestamp(), 'search_id': search_id})
     
+def getSearchIds():
+    historyList = [d for d in history_collection.find({})]
+    print("1")
+    return [i['search_id'] for i in historyList]
 
+# getSearchIds()
+    
 # addUserHistory("123", "heyyyophir", '951debec-d1da-11ec-836e-d07e35c972db')
 # print(getUserHistory("123"))
 # from google.oauth2 import id_token

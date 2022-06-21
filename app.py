@@ -274,22 +274,22 @@ def getHistory():
 
 @app.route('/postHistory', methods=['POST'])
 def postHistory():
-    googleId = json.loads(request.data)["accountId"]
-    token = json.loads(request.data)["token"]
-    document = json.loads(request.data)["document"]
-    search_id = json.loads(request.data)["search_id"]
-    # authenticate
-    token = json.loads(request.data)["token"]
-    tokenValidation = requests.get('https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=' + token )
-    if (tokenValidation.ok):
-         response = GoogleUsers.addUserHistory(googleId, document, search_id)
+    try:
+        googleId = json.loads(request.data)["accountId"]
+        token = json.loads(request.data)["token"]
+        document = json.loads(request.data)["document"]
+        search_id = json.loads(request.data)["search_id"]
+        # authenticate
+        token = json.loads(request.data)["token"]
+        tokenValidation = requests.get('https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=' + token )
+        if (tokenValidation.ok):
+            response = GoogleUsers.addUserHistory(googleId, document, search_id)
+            return ""
+    except Exception as e:
+        print(e)
 
-    # GoogleUsers.addUser(googleId, token)
-    # print("userId", googleId)
-    # print("token", token)
-    # return GoogleUsers.getUserHistory("123")
     
-    return ""
+    
     
 
 
@@ -332,6 +332,16 @@ def postHistory():
 
 # json["form"]['min_tweet_count']
 
+
+
+# def clearDataFiles():
+#   threading.Timer(10, clearDataFiles).start()
+#   search_ids = GoogleUsers.getSearchIds()
+#   print(search_ids)
+#   for fname in os.listdir("output"):
+#       print(fname.replace("tweets_", "").replace("_wmd", ""))
+
+# clearDataFiles()
 
 def run_iqs_search(search_id, iterations, keywords_start_size, max_tweets_per_query, min_tweet_count,
                    output_keywords_count, prototype_text, search_count, twitter_crawler, relevance_evaluator):
