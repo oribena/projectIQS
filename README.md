@@ -34,4 +34,25 @@ In order to use the package add `from IQS_algorithm import IQS` to your code.
 * Designed for users with technical background.
 * Download the package using pip install IQS-algorithm
 
+## citation
+
+IQS algorithm's creators: Dr. Aviad Elishar, Mr. Maor Reuven and Dr. Rami Puzis
+
+To cite Iterative Query Selection [article](https://www.sciencedirect.com/science/article/abs/pii/S0957417422004432), please use the following bibtex reference:
+
+```
+@article{Reuben2022Iterative,
+title = {Iterative query selection for opaque search engines with pseudo relevance feedback},
+journal = {Expert Systems with Applications},
+volume = {201},
+pages = {117027},
+year = {2022},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2022.117027},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417422004432},
+author = {Maor Reuben and Aviad Elyashar and Rami Puzis},
+keywords = {Query selection, Opaque search engine, Pseudo relevance feedback, Fake news},
+}
+```
+
 We are Ophir Porat, Ori Ben-Artzy and Mor Zweig, students in the department of Software and Information Systems Engineering at Ben Gurion University of the Negev. These platforms are our final project under the guidance of Dr. Aviad Elishar and Mr. Maor Reuven IQS algorithm's creators.
