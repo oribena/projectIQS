@@ -238,24 +238,25 @@ def getHistory():
         history = GoogleUsers.getUserHistory(googleId)
         retreve_history = []
         for his in history:
-            with open(f'output/tweets_{his["search_id"]}_wmd.json', 'r') as f:
-                data = json.load(f)
-                his.update(data)
-            with open(f'output/tweets_{his["search_id"]}.json', encoding="utf8") as f:
-                tweets = []
-                for line in f:
-                    if (len(tweets) < 12):
-                        html = get_tweet_html(json.loads(line))
-                        if (html is not None):
-                            tweets.append(html)
-                    else:
-                        break
-                json_object = {"tweets": tweets}
-                his.update(json_object)
-            retreve_history.append(his)
+            try:
+                with open(f'output/tweets_{his["search_id"]}_wmd.json', 'r') as f:
+                    data = json.load(f)
+                    his.update(data)
+                with open(f'output/tweets_{his["search_id"]}.json', encoding="utf8") as f:
+                    tweets = []
+                    for line in f:
+                        if (len(tweets) < 12):
+                            html = get_tweet_html(json.loads(line))
+                            if (html is not None):
+                                tweets.append(html)
+                        else:
+                            break
+                    json_object = {"tweets": tweets}
+                    his.update(json_object)
+                retreve_history.append(his)
+            except:
+                pass
 
-        # GoogleUsers.getUserHistory("123")
-        # GoogleUsers.addUser(googleId, token)
         reversed_list = retreve_history[::-1]
         print("list  ", reversed_list)
 
