@@ -153,7 +153,7 @@ class RelevanceEvaluator:
         try:
             return np.mean(cdist(post_words_vectors, claim_words_vectors, metric='cosine').min(axis=1))
         except Exception as e:
-            return -1
+            return 2
 
     def _get_words_vectors(self, words):
         return np.array([self._word_vector_dict[word] for word in words if word in self._word_vector_dict])
@@ -190,23 +190,23 @@ class TwitterCrawler:
         
         load_dotenv()
 
-        # consumer_key = os.environ.get("consumer_key")
-        # print(consumer_key)
-        # consumer_secret = os.environ.get("consumer_secret")
-        # access_token = os.environ.get("access_token")
-        # access_token_secret = os.environ.get("access_token_secret")
-        # auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-        # auth.set_access_token(access_token, access_token_secret)
-        # api = tweepy.API(auth, wait_on_rate_limit=True)
-
-        consumer_key = os.environ.get("consumer_key2")
+        consumer_key = os.environ.get("consumer_key")
         print(consumer_key)
-        consumer_secret = os.environ.get("consumer_secret2")
-        access_token = os.environ.get("access_token2")
-        access_token_secret = os.environ.get("access_token_secret2")
+        consumer_secret = os.environ.get("consumer_secret")
+        access_token = os.environ.get("access_token")
+        access_token_secret = os.environ.get("access_token_secret")
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
         api = tweepy.API(auth, wait_on_rate_limit=True)
+
+        # consumer_key = os.environ.get("consumer_key2")
+        # print(consumer_key)
+        # consumer_secret = os.environ.get("consumer_secret2")
+        # access_token = os.environ.get("access_token2")
+        # access_token_secret = os.environ.get("access_token_secret2")
+        # auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+        # auth.set_access_token(access_token, access_token_secret)
+        # api = tweepy.API(auth, wait_on_rate_limit=True)
 
         text_query = query_str
         print("query_str",query_str)
