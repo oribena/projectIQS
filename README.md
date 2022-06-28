@@ -7,6 +7,9 @@ Given a document, the algorithm extracts the optimal short keyword queries thus 
 
 Visit the [IQS web platform](https://iqs.cs.bgu.ac.il/) at the following URL: https://iqs.cs.bgu.ac.il/.
 
+To watch the IQS promotional video click on the link below: https://www.youtube.com/watch?v=-GWxibc36wY
+
+
 ## Web Platform Overveiw
 
 * Search and retrieve data from Twitter's website using the IQS algorithm.
